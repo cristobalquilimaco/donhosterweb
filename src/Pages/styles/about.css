@@ -6,7 +6,41 @@
     position: relative;
 }
 
+/**** titulos y subtitulos ***/
+.about__title{
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+}
+.about__subtitle {
+    position: absolute;
+    top: 150px;
+    z-index: 2;
+    font-size: 10;
+}
+.about__p{
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/**** img banner*****/
+.about__banner{
+    width: 100%;
+}
+.about__banner img{
+    opacity: 0.4;
+    height: 300px;
+
+}
+
+/*** parrafo***/
 .about__txt{
-    text-align: justify;
-    width: 1000PX;
+    width: 1050px;
+    line-height: 1.6rem;
+}
+.about__span{
+    font-weight:bold
 }
