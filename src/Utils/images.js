@@ -7,6 +7,7 @@ import hostsmall from "../assets/img/host-small.png"
 import security from "../assets/img/security.png"
 import world from "../assets/img/world.png"
 import logo from "../assets/img/logo.png"
+import bannerabout from "../assets/img/banner-about.jpg"
 
 
 const images = {
@@ -18,7 +19,8 @@ const images = {
     hostsmall,
     security,
     world,
-    logo
+    logo,
+    bannerabout
 };
 
 export default images
