@@ -1,0 +1,59 @@
+.footer-section{
+    color: var(--color-letter-btn);
+}
+
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.rowg-5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.col-xl{
+    font-size: 18px;
+    
+}
+
+.footer-social{
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-bottom-link{
+    display: flex;
+    gap: 1rem;
+}
+
+.list_footer_menu {
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    overflow: hidden; /* Asegura que el pseudo-elemento no sea visible hasta que se active el hover */
+  }
+  
+  .list_footer_menu::after {
+    content: ''; 
+    display: block; 
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 0; 
+    border-bottom: 1px solid rgb(143, 143, 143); 
+    transition: width 0.3s ease; 
+  }
+  
+  .list_footer_menu:hover::after {
+    width: 200px; 
+  }

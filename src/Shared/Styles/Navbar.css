@@ -1,0 +1,48 @@
+:root{
+    --color-btn: purple;
+    --color-letter-btn: white;
+    --color-line: rgba(128, 128, 128, 0.445);
+    --color-hosting: rgba(128, 128, 128, 0.219);
+}
+
+.navbar{
+    background-color: transparent;
+    width: 100%;
+}
+
+.logo{
+    width: 240px;
+}
+
+
+.container-fluid{
+    width: 1000px;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn_double{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-outline{
+    border-color: var(--color-btn);
+    color: var(--color-btn);
+}
+
+.btn-outline:hover{
+    background-color: var(--color-btn);
+    color: var(--color-letter-btn);
+}
+
+@media (width <= 767px) {
+    .container-fluid{
+        border-bottom: none
+    }
+  }

@@ -1,0 +1,31 @@
+.container{
+    margin-top: 120px;
+    display: flex;
+}
+
+.principal_title{
+    color: var(--color-letter-btn);
+}
+
+.principal_description{
+    margin-top: 1rem;
+    color: var(--color-letter-btn);
+}
+
+.img_banner{
+    width: 700px;
+}
+
+.banner-thumb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (width <= 767px) {
+    .img_banner{
+        width: 400px;
+        margin-top: 3rem;
+    }
+    
+  }

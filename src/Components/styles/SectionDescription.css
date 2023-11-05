@@ -1,0 +1,61 @@
+.hosting-section{
+    width: 100%;
+    background-color: var(--color-hosting);
+}
+
+.container{
+    padding: 1rem;
+}
+
+.hosting-thumb {
+    position: relative; 
+  }
+  
+  .img_host_big {
+    width: 100%;
+    display: block; 
+  }
+  
+  .small-host {
+    position: absolute;
+    top: 70%; 
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(10deg); 
+    animation: spin 3s linear infinite; 
+  }
+  .section-title{
+    font-weight: bold;
+  }
+
+  .btn_learn_more{
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--color-letter-btn);
+    background-color: var(--color-btn);
+    margin-top: 20px;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    30%{
+      transform: translate(-50%, -50%) rotate(20deg);
+    }
+    60% {
+        transform: translate(-50%, -50%) rotate(-20deg);
+      }
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+  }
+
+  @media (width <= 767px) {
+    .small-host {
+        display: none;
+      }
+    
+  }
+

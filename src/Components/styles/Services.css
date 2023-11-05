@@ -1,0 +1,70 @@
+
+.col-xl-3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pricing-header{
+    margin-bottom: 1rem;
+}
+
+.pricing-items {
+    background: var(--color-choose);
+    width: 400px;
+    padding: 32px 25px;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.4s;
+    border: 1px solid gray;
+  }
+  
+  .pricing-items:hover {
+    transform: scale(1.05);
+  }
+
+.iconcheck{
+width: 15px;
+}
+
+.choice_plan-btn {
+    background-color: var(--color-btn);
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-letter-btn);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .choice_plan-btn:hover {
+    background-color: var(--color-btn-hover); 
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); 
+  }
+
+.title_plan{
+    font-size: 30px;
+    color: var(--color-letter-btn);
+}
+
+.plan_description{
+    color: var(--color-letter-btn);
+}
+
+.plan_price{
+    font-size: 35px;
+    color: var(--color-letter-btn);
+    font-weight: bold;
+}
+
+.pricing-list{
+    color: var(--color-letter-btn);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
