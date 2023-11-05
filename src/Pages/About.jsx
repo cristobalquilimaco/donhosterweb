@@ -18,7 +18,6 @@ const About = () => {
     </div>
         <p>About <span className="about__span">DonHoster C.A,</span></p>
         <br/>
-        <br/>
       
     <section className="about__txt">
         <p>It is a company focused on the Internet technology industry. Operating
