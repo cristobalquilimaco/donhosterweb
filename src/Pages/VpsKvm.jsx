@@ -1,27 +1,25 @@
 import vpsKvm from "../Utils/vpsKvm"
 import icons from "../Utils/icons"
+import images from "../Utils/images"
 
 const VpsKvm = () => {
   return (
     <div>
-        <section className="banner_section">
-        </section>
-        <section className="pricing-section pt-120 pb-120">
-      <div className="choose-bg">
-  
+            <div className="about__box">
+        <h1 className="about__title">VPS - KVM</h1>
+            <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
+    <div className="about__p">
+        <i className="bx bx-check" /> VPS Proxmox Control Panel  &nbsp;
+        <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
+        <i className="bx bx-check" /> S.O Windows & Linux
       </div>
+
+    <div className="about__banner">
+        <img src={images.bannerabout} alt="" />
+    </div>
+    </div>
+        <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="section-header section-center">
-          <h1 className="section-title">
-            VPS - KVM
-          </h1>
-          <p>
-          Designed to meet and exceed your performance expectations.
-          </p>
-          <p>
-          VPS Proxmox Control Panel  99.9% Availability Guarantee  S.O Windows & Linux
-          </p>
-        </div>
         <div className="row g-4 justify-content-center">
           {vpsKvm.map(vps => (
             <div key={vps.id} className="col-xl-3">

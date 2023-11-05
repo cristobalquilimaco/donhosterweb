@@ -1,24 +1,25 @@
 import dedicatedServer from "../Utils/dedicatedServer"
 import icons from "../Utils/icons"
+import images from "../Utils/images"
 
 const DedicatedSever = () => {
   return (
     <div>
-        <section className="banner_section">
-        </section>
-        <section className="pricing-section pt-120 pb-120">
-      <div className="choose-bg">
-  
+            <div className="about__box">
+        <h1 className="about__title">Dedicated servers</h1>
+            <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>
+    <div className="about__p">
+        <i className="bx bx-check" /> Total Control  &nbsp;
+        <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
+        <i className="bx bx-check" /> S.O Windows & Linux
       </div>
+
+    <div className="about__banner">
+        <img src={images.bannerabout} alt="" />
+    </div>
+    </div>
+        <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="section-header section-center">
-          <h1 className="section-title">
-            Dedicated servers
-          </h1>
-          <p>
-            Listed below our awesome hosting packages. You can select any dedicated server services below!
-          </p>
-        </div>
         <div className="row g-4 justify-content-center">
           {dedicatedServer.map(server => (
             <div key={server.id} className="col-xl-3">

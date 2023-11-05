@@ -8,6 +8,7 @@ import security from "../assets/img/security.png"
 import world from "../assets/img/world.png"
 import logo from "../assets/img/logo.png"
 import bannerabout from "../assets/img/banner-about.jpg"
+import bannerserver from "../assets/img/bannerserver.jpg"
 
 
 const images = {
@@ -20,7 +21,8 @@ const images = {
     security,
     world,
     logo,
-    bannerabout
+    bannerabout,
+    bannerserver
 };
 
 export default images

@@ -25,6 +25,9 @@
     font-size: 22px;
     font-weight: bold;
 }
+.about__don{
+    font-size: 25px;
+}
 
 /**** img banner*****/
 .about__banner{
@@ -43,4 +46,22 @@
 }
 .about__span{
     font-weight:bold
+}
+
+@media (width <= 767px) {
+
+    .about__subtitle{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about__p{
+        top: 220px;
+        font-size: 20px;
+    }
+
+    .about__txt{
+        width: 400px;
+}
 }
