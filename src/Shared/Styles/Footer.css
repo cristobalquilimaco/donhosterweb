@@ -1,5 +1,6 @@
 .footer-section{
     color: var(--color-letter-btn);
+    background-color: var(--color-hosting);
 }
 
 .footer-top{
@@ -39,8 +40,8 @@
 }
 
 .list_footer_menu {
-    position: relative; /* Necesario para posicionar el pseudo-elemento */
-    overflow: hidden; /* Asegura que el pseudo-elemento no sea visible hasta que se active el hover */
+    position: relative; 
+    overflow: hidden; 
   }
   
   .list_footer_menu::after {
