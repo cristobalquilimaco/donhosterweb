@@ -13,29 +13,29 @@ const DedicatedSever = () => {
       <div className="container">
         <div className="section-header section-center">
           <h1 className="section-title">
-            Our Plans
+            Dedicated servers
           </h1>
           <p>
             Listed below our awesome hosting packages. You can select any dedicated server services below!
           </p>
         </div>
         <div className="row g-4 justify-content-center">
-          {dedicatedServer.map(plan => (
-            <div key={plan.id} className="col-xl-3">
+          {dedicatedServer.map(server => (
+            <div key={server.id} className="col-xl-3">
               <div className="pricing-items">
                 <div className="pricing-header">
                   <h5 className="title_plan">
-                    {plan.name}
+                    {server.name}
                   </h5>
                   <p className='plan_description'>
-                    {plan.description}
+                    {server.description}
                   </p>
                 </div>
                 <div className="price">
-                  <h3 className='plan_price'>{plan.price} <span>/mo</span></h3>
+                  <h3 className='plan_price'>{server.price} <span>/mo</span></h3>
                 </div>
                 <ul className="pricing-list">
-                  {plan.features.map((feature, index) => (
+                  {server.features.map((feature, index) => (
                     <li key={index}>
                       <img className="iconcheck" src={icons.check} alt="pricing-img" /> {feature}
                     </li>

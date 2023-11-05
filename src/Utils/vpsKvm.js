@@ -1,4 +1,4 @@
-const dedicatedServer = [
+const vpsKvm = [
     {
       id: 1,
       name: 'VPS in Miami, FL - Small',
@@ -9,7 +9,7 @@ const dedicatedServer = [
       features: ['3.3 Ghz Xeon E3-1230 CPU x1 Processor', '1 GB Memory RAM', '20 Hard Drive', '1 (IPv4) IP addresses', 'Unlimited Bandwidth', '24/7 Support',],
     },
     {
-      id: 1,
+      id: 2,
       name: 'VPS in Miami, FL - Medium',
       description: 'More information',
       price: '$20 USD',
@@ -18,7 +18,7 @@ const dedicatedServer = [
       features: ['3.3 Ghz Xeon E3-1230 CPU x2 Processor', '2 GB Memory RAM', '50 Hard Drive', '1 (IPv4) IP addresses', 'Unlimited Bandwidth', '24/7 Support'],
     },
     {
-      id: 1,
+      id: 3,
       name: 'VPS in Miami, FL - Large',
       description: 'More information',
       price: '$27 USD',
@@ -27,7 +27,7 @@ const dedicatedServer = [
       features: ['3.3 Ghz Xeon E3-1230 CPU x3 Processor', '3 GB Memory RAM', '100 Hard Drive', '1 (IPv4) IP addresses', 'Unlimited Bandwidth', '24/7 Support'],
     },
     {
-      id: 1,
+      id: 4,
       name: 'VPS in Miami, FL - Extra Large',
       description: 'More information',
       price: '$$35 USD',
@@ -38,4 +38,4 @@ const dedicatedServer = [
 
   ];
 
-  export default dedicatedServer
+  export default vpsKvm
