@@ -16,7 +16,8 @@ const About = () => {
     <div className="about__banner">
         <img src={images.bannerabout} alt="" />
     </div>
-        <p>About <span className="about__span">DonHoster C.A,</span></p>
+
+        <p className="about__pp">About <span className="about__span">DonHoster C.A,</span></p>
         <br/>
       
     <section className="about__txt">
