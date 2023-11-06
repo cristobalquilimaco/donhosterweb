@@ -1,6 +1,7 @@
 import dedicatedServer from "../Utils/dedicatedServer"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
+import "../Pages/styles/about.css"
 
 const DedicatedSever = () => {
   return (
@@ -28,9 +29,6 @@ const DedicatedSever = () => {
                   <h5 className="title_plan">
                     {server.name}
                   </h5>
-                  <p className='plan_description'>
-                    {server.description}
-                  </p>
                 </div>
                 <div className="price">
                   <h3 className='plan_price'>{server.price} <span>/mo</span></h3>

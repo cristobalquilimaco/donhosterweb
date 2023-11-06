@@ -29,9 +29,6 @@ const Cloud = () => {
                   <h5 className="title_plan">
                     {cloud.name}
                   </h5>
-                  <p className='plan_description'>
-                    {cloud.description}
-                  </p>
                 </div>
                 <div className="price">
                   <h3 className='plan_price'>{cloud.price} <span>/mo</span></h3>

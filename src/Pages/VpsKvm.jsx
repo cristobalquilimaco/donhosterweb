@@ -29,9 +29,6 @@ const VpsKvm = () => {
                   <h5 className="title_plan">
                     {vps.name}
                   </h5>
-                  <p className='plan_description'>
-                    {vps.description}
-                  </p>
                 </div>
                 <div className="price">
                   <h3 className='plan_price'>{vps.price} <span>/mo</span></h3>

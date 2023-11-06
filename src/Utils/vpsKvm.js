@@ -30,7 +30,7 @@ const vpsKvm = [
       id: 4,
       name: 'VPS in Miami, FL - Extra Large',
       description: 'More information',
-      price: '$$35 USD',
+      price: '$35 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
       features: ['3.3 Ghz Xeon E3-1230 CPU x4 Processor', '4 GB Memory RAM', '250 Hard Drive', '1 (IPv4) IP addresses', 'Unlimited Bandwidth', '24/7 Support',],
