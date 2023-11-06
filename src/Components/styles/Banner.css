@@ -5,6 +5,15 @@
 
 .principal_title{
     color: var(--color-letter-btn);
+    font-size: 50px;
+}
+
+.text-base{
+    color: var(--color-line);
+}
+
+.btn__to__server{
+    font-size: 20px;
 }
 
 .principal_description{

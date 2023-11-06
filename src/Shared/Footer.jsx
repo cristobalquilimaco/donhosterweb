@@ -41,7 +41,7 @@ const Footer = () => {
                       </div>
                       <i className='bx bxs-envelope' ></i>
                       <a href="mailto:example@example.com">
-                        example@example.com
+                        admin@donhoster.com
                       </a>
                     </li>
                     <li>

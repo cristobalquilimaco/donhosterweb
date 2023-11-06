@@ -2,6 +2,8 @@
 .shared_icons {
     overflow: hidden;
     display: flex;
+    background-color: var(--color-line);
+    margin-top: 1rem;
   }
   
   .principal_icons {
@@ -19,16 +21,16 @@
   
   .client_icon {
     display: block;
-    width: 350px;
-    max-width: 350px;
+    width: 250px;
+    max-width: 250px;
     height: auto;
   }
   
  
   @media (max-width: 768px) {
     .client_icon {
-      max-width: 300px;
-      width: 300px; 
+      max-width: 250px;
+      width: 250px; 
     }
   }
   

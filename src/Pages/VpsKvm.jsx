@@ -1,10 +1,11 @@
 import vpsKvm from "../Utils/vpsKvm"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
+import "../Pages/styles/VpsKvm.css"
 
 const VpsKvm = () => {
   return (
-    <div>
+    <div className="principal__vps">
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>
             <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
@@ -49,6 +50,31 @@ const VpsKvm = () => {
             </div>
           ))}
         </div>
+        <section className="section__skill">
+            <p className="features">The Best Features At The Best Price!</p>
+            <div className="description_feat">
+                <p className="title_feat">Start quickly and easily</p>
+                <p>Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
+                <p>VPS services are the perfect alternative between a shared hosting service and a dedicated server. With a VPS you have control over a section of a dedicated server to install software and applications according to your needs. Choose NetbyHost. As your semi-dedicated service provider, our specialists will help you select the right configuration according to your requirements.</p>
+            </div>
+            <div className="features__skill">
+                <ul className="list__skill">
+                    <li><i className='skill__icon bx bxs-rocket' ></i></li>
+                    <li>Power full and Reliable</li>
+                    <li>Our VPS are equipped with enterprise-grade hardware.</li>
+                </ul>
+                <ul className="list__skill">
+                <li><i className='skill__icon bx bx-shuffle'></i></li>
+                <li>Flexibility</li>
+                <li>Ability to adapt easily to various circumstances.</li>
+                </ul>
+                <ul className="list__skill">
+                <li><i className='skill__icon bx bxs-server'></i></li>
+                <li>Fast Service</li>
+                <li>High speed local bandwidth flat rate.</li>
+                </ul>
+            </div>
+        </section>
       </div>
     </section>
     </div>

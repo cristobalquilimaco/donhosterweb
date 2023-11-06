@@ -7,6 +7,7 @@ import DedicatedSever from './Pages/DedicatedSever'
 import About from './Pages/About'
 import VpsKvm from './Pages/VpsKvm'
 import IconsSkill from './Shared/IconsSkill'
+import Cloud from './Pages/Cloud'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/dedicatedserver' element={<DedicatedSever />} />
           <Route path='/about' element={<About />} />
           <Route path='/vpskvm' element={<VpsKvm />} />
+          <Route path='/cloud' element={<Cloud />} />
         </Routes>
         <IconsSkill/>
       <Footer/>

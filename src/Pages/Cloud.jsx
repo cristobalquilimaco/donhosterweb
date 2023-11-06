@@ -1,15 +1,16 @@
-import dedicatedServer from "../Utils/dedicatedServer"
+import cloudServer from "../Utils/cloudServer"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
+import "../Pages/styles/Cloud.css"
 
-const DedicatedSever = () => {
+const Cloud = () => {
   return (
     <div>
             <div className="about__box">
-        <h1 className="about__title">Dedicated servers</h1>
-            <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>
+        <h1 className="about__title">Cloud hosting</h1>
+            <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
     <div className="about__p">
-        <i className="bx bx-check" /> Total Control  &nbsp;
+        <i className="bx bx-check" /> VPS Proxmox Control Panel  &nbsp;
         <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
         <i className="bx bx-check" /> S.O Windows & Linux
       </div>
@@ -20,23 +21,23 @@ const DedicatedSever = () => {
     </div>
         <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="row g-4 justify-content-center">
-          {dedicatedServer.map(server => (
-            <div key={server.id} className="col-xl-3">
+        <div className="row g-4 justify-content-center card_clud">
+          {cloudServer.map(cloud => (
+            <div key={cloud.id} className="col-xl-3 card_clud">
               <div className="pricing-items">
                 <div className="pricing-header">
                   <h5 className="title_plan">
-                    {server.name}
+                    {cloud.name}
                   </h5>
                   <p className='plan_description'>
-                    {server.description}
+                    {cloud.description}
                   </p>
                 </div>
                 <div className="price">
-                  <h3 className='plan_price'>{server.price} <span>/mo</span></h3>
+                  <h3 className='plan_price'>{cloud.price} <span>/mo</span></h3>
                 </div>
                 <ul className="pricing-list">
-                  {server.features.map((feature, index) => (
+                  {cloud.features.map((feature, index) => (
                     <li key={index}>
                       <img className="iconcheck" src={icons.check} alt="pricing-img" /> {feature}
                     </li>
@@ -80,4 +81,4 @@ const DedicatedSever = () => {
   )
 }
 
-export default DedicatedSever
+export default Cloud

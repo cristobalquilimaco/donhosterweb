@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 :root{
     --color-btn: purple;
     --color-letter-btn: white;
@@ -8,7 +10,40 @@
 .navbar{
     background-color: transparent;
     width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    font-family: 'Rubik', sans-serif;
 }
+
+.nav-link{
+    color: var(--color-btn);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block; /* o 'block' si tus enlaces son de bloque */
+    text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+    /* tus estilos adicionales aquí */
+  }
+  
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px; /* Altura de la línea */
+    background: purple; /* Color de la línea */
+    transition: width 0.3s; /* Velocidad de la animación */
+    position: absolute;
+    bottom: -5px; /* Ajusta la distancia desde la parte inferior del enlace */
+    left: 0;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%; /* La línea se expandirá de izquierda a derecha */
+  }
 
 .logo{
     width: 240px;

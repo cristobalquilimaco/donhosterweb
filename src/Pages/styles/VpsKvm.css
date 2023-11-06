@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.principal__vps{
+    width: 100%;
+}
+
+.section__skill{
+    font-family: 'Rubik', sans-serif;
+    color: var(--color-letter-btn);
+}
+
+.features {
+    width: 100%;
+    text-align: center;
+    background-color: var(--color-btn);
+    padding: 1rem;
+    position: relative; 
+    font-size: 22px;
+  }
+  
+  .features::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 20px solid transparent; 
+    border-right: 20px solid transparent; 
+    border-top: 20px solid var(--color-btn); 
+  }
+
+.description_feat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    gap: 0.5rem;
+}
+
+.title_feat{
+    font-size: 18px;
+}
+
+.features__skill{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.list__skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill__icon{
+    font-size:60px;
+}
+
+.skill__icon:hover{
+    color: var(--color-btn);
+}

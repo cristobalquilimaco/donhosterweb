@@ -14,23 +14,23 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+            <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/dedicatedserver">Dedicated Server</Link>
+              <Link className="nav-link" aria-current="page" to="/dedicatedserver">Dedicated Server</Link>
             </li>
             <li className="nav-item">
-               <Link to="/vpskvm" className="nav-link active" aria-current="page" >VPS</Link>
+                <Link to="/vpskvm" className="nav-link" aria-current="page" >VPS</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#0">Cloud</a>
+                <Link to="/cloud" className="nav-link" aria-current="page" >Cloud</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="#0" to="/about">About</Link>
+              <Link className="nav-link" aria-current="page" href="#0" to="/about">About</Link>
             </li>
           </ul>
           <div className="btn_double">
-            <button className="btn btn-outline" type="submit">Sign In</button>
+            <a href="https://www.donhoster.com/customer/index.php/login"><button className="btn btn-outline" type="submit">Sign In</button></a>
             <button className="btn btn-outline" type="submit">Sign Up</button>
           </div>
         </div>
