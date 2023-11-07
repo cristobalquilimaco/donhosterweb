@@ -2,6 +2,7 @@ import "../Pages/styles/about.css";
 import "../assets/img/banner-about.jpg";
 import images from "../Utils/images";
 import "../Pages/styles/TermOfServices.css"
+import { Link } from "react-router-dom";
 
 const TermOfServices = () => {
   return (
@@ -53,7 +54,7 @@ Likewise, the client agrees not to execute any voluntary or involuntary action t
 <p>It is known to the client that the registration as well as the use of a domain can be canceled, suspended, limited or transferred, if our company, the domain provider or even if ICANN, the government or any other relevant entity, so consider, whether for reasons of dispute resolution, protection of your security, claims for infringement of intellectual property, among others.</p>
 
 <p><strong>7. User Identification</strong></p>
-<p>The client claims to be a legally responsible person, to be over 18 years of age or to have the authorization of their representative, the latter being legally responsible for the use given to this product and the information uploaded there. On the other hand, it also ensures that the information you provide us, email, name, telephone number or other data that is necessary, is true and that you will keep it updated. Finally, the client through this document also accepts the policies of treatment of their data, as well as the publication of information in the WHOIS database and its use by the company, service providers or government entities that require, <a href="https://www.donhoster.com/privacy-policy/">Privacy Policies</a>.</p>
+<p>The client claims to be a legally responsible person, to be over 18 years of age or to have the authorization of their representative, the latter being legally responsible for the use given to this product and the information uploaded there. On the other hand, it also ensures that the information you provide us, email, name, telephone number or other data that is necessary, is true and that you will keep it updated. Finally, the client through this document also accepts the policies of treatment of their data, as well as the publication of information in the WHOIS database and its use by the company, service providers or government entities that require, <Link to="/privacy-policy/">Privacy Policies</Link>.</p>
 
 <p><strong>8. Legality of the Registry</strong></p>
 <p>The client understands that the acceptance of the registration request, the registration and even the beginning of the provision of the service, are not indicative that we or any other entity, including the government, consider its registration or use legal. None of the aforementioned actions are a sufficient basis to validate that it is legal, that it is not infringing a rule or regulation. Therefore, the client must commit that the use of the domain(s) provided does not violate any regulation of the company or international entity, and that it will not be used for malicious, harmful or fraudulent purposes.</p>

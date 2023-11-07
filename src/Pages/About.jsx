@@ -21,50 +21,25 @@ const About = () => {
         <br/>
       
     <section className="about__txt">
-        <p>It is a company focused on the Internet technology industry. Operating
-        since 2015, DonHoster Technology and Innovation in professional
-        dedicated servers tailored to your needs, is a provider of web hosting
-        services, domain registration, VPS, dedicated servers, colocation, SSL
-        certificate; always providing the best customer service and with a quick
-        response time for each application. It is a 100% committed company, with
-        the vision of being able to offer web hosting services to the digital
-        market with the highest quality standards and at the best price.</p>
-        <br/>
+    <p><strong>DonHoster</strong> is a company created in 2017, as a provider of telecommunications, Data Center service and IT consulting, in Portland, Oregon.</p>
 
-        <p><span className="about__span">Founded</span> on December, 2017, it has grown from a Miami Hosting company, an
-        initiative of a group of young professionals with the desire to provide
-        companies and people in Latin America , the United States and now the
-        rest of the world, solutions to have an Internet presence. This company
-        is not only interested in offering you a product and selling it, but
-        also in advising and helping you succeed in the global Internet market.
-        It is a company specialized in business virtualization technologies and
-        the provision of Internet services accessible to individuals and
-        professionals, companies, associations and public entities. Currently,
-        its servers are located in a data center in the United States, Miami,
-        Florida, which not only has the best connectivity and hardware of the
-        highest technology, but is also supervised by our group of security
-        experts , which position it among the few hosting companies in Latin
-        America and the United States to provide a comprehensive security and
-        data protection service to our customers</p>
-        <br/>
+<p><strong>Foundation</strong></p>
+<p>It was born in March 2016, as an idea to provide telecommunications services to a community in Portland, Oregon, to local businesses seeking to expand their profits, without imagining the growth that this would achieve later; and that is why for the year 2017, based on the growth and the demands for services that we obtained, we are forced to move to Miami Florida, associating ourselves with a Data Center; thus emerging in May 2017 officially and online Don Hoster.</p>
 
-        <p><span className="about__span">Mission</span>
-        <br/>• Offer the best services and the most competitive rates to be a leader in the international community. 
-        <br/>• Maintain the necessary operational structure and minimize our costs to guarantee our customers better rates, quality and the best service. </p>
-        All this oriented to the search of appropriate technologies that guarantee our competitiveness to establish long-term working relationships with our clients. 
-        <br/>
-        <span className="about__span">Objective</span> Being a company of excellence, to provide customers with the best service in systems,servers, web designs, networks and computers in general, providing security and guarantee of our work. 
-        <br/>
-        <br/>
+<p><strong>Mission</strong></p>
+<p>Provide IT consulting, Internet services and networks.</p>
+<p>Provide colocation services and dedicated servers.</p>
+<p>Provide services in the cloud, with the best standards of quality and speed.</p>
 
-        <span className="about__span">Values that do not characterize:</span> Ethics, Responsibility, Commitment and Respect for our clients.
-        <br/>
-        <br/>
+<p>For companies, corporations, medium and small businesses, and ordinary people.</p>
 
-        <span className="about__span">DonHoster C.A.</span> offers its customers innovative products and services
-        designed to complement their business whether professional, independent
-        or individual. Come and become the number 1 web hosting operator in the
-        World, while maintaining high quality with our services.
+<p><strong>Objectives</strong></p>
+<p>Our objectives, more than business, are always focused on and by customers, always giving the maximum so that they are surprised and satisfied with our products and the attention provided, that these are of the best quality, safe and fast, with the best equipment. quality.</p>
+
+<p><strong>values</strong></p>
+<p>Ethics, Respect, responsibility, commitment and always being at the forefront with services and the best range in Technology.</p>
+
+<p><strong>Don Hoster</strong>, the telecommunications company that thinks about its customers; because they are valuable, we strive to innovate and meet all your expectations and more.</p>
     </section>
     </div>
 );

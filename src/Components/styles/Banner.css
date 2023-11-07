@@ -33,8 +33,14 @@
 
 @media (width <= 767px) {
     .img_banner{
-        width: 400px;
+        width: 380px;
         margin-top: 3rem;
+    }
+
+    .principal_title{
+        max-width: 380px;
+        font-size: 2.5rem;
+        overflow: hidden;
     }
     
   }

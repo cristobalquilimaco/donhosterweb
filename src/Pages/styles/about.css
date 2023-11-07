@@ -45,9 +45,14 @@
 
 /*** parrafo***/
 .about__txt{
-    width: 1050px;
+    max-width: 1200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     line-height: 1.6rem;
 }
+
+
 .about__span{
     font-weight:bold
 }
