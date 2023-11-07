@@ -40,7 +40,7 @@ const VpsKvm = () => {
                     </li>
                   ))}
                 </ul>
-                <a href="#0" className="cmn--btn">
+                <a href={vps.url} className="cmn--btn">
                   <button className='choice_plan-btn'>Choice Plan</button>
                 </a>
               </div>

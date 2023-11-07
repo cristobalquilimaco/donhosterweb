@@ -2,7 +2,7 @@ const plans = [
     {
       id: 1,
       name: 'Dedicated Servers in Miami, FL - Small',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=7',
       price: '$60 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -11,7 +11,7 @@ const plans = [
     {
       id: 2,
       name: 'VPS in Miami, FL - Medium',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=4',
       price: '$20 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -20,7 +20,7 @@ const plans = [
     {
       id: 3,
       name: 'VPS in Miami, FL - Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=5',
       price: '$27 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -29,7 +29,7 @@ const plans = [
     {
       id: 4,
       name: 'VPS in Miami, FL - Extra Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=6',
       price: '$$35 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',

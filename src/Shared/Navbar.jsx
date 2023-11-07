@@ -26,12 +26,13 @@ const Navbar = () => {
                 <Link to="/cloud" className="nav-link" aria-current="page" >Cloud</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href="#0" to="/about">About</Link>
+              <Link className="nav-link" aria-current="page" to="/about">About</Link>
             </li>
           </ul>
           <div className="btn_double">
             <a href="https://www.donhoster.com/customer/index.php/login"><button className="btn btn-outline" type="submit">Sign In</button></a>
-            <button className="btn btn-outline" type="submit">Sign Up</button>
+            <a href="https://www.donhoster.com/customer/register.php"><button className="btn btn-outline" type="submit">Sign Up</button></a>
+            
           </div>
         </div>
       </div>

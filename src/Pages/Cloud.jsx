@@ -40,7 +40,7 @@ const Cloud = () => {
                     </li>
                   ))}
                 </ul>
-                <a href="#0" className="cmn--btn">
+                <a href={cloud.url} className="cmn--btn">
                   <button className='choice_plan-btn'>Choice Plan</button>
                 </a>
               </div>

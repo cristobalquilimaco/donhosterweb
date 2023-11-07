@@ -41,7 +41,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <a href="#0" className="cmn--btn">
+                <a href={plan.url} className="cmn--btn">
                   <button className='choice_plan-btn'>Choice Plan</button>
                 </a>
               </div>

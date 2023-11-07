@@ -39,10 +39,7 @@ const DedicatedSever = () => {
                       <img className="iconcheck" src={icons.check} alt="pricing-img" /> {feature}
                     </li>
                   ))}
-                </ul>
-                <a href="#0" className="cmn--btn">
-                  <button className='choice_plan-btn'>Choice Plan</button>
-                </a>
+                </ul><a href={server.url}><button className='choice_plan-btn'>Choice Plan</button></a>
               </div>
             </div>
           ))}

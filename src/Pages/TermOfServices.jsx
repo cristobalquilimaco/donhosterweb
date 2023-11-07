@@ -2,7 +2,7 @@ import "../Pages/styles/about.css";
 import "../assets/img/banner-about.jpg";
 import images from "../Utils/images";
 
-const About = () => {
+const TermOfServices = () => {
   return (
     <div className="about__box">
         <h1 className="about__title">THE COMPANY</h1>
@@ -70,4 +70,4 @@ const About = () => {
 );
 };
 
-export default About;
+export default TermOfServices;

@@ -1,5 +1,6 @@
  import images from "../Utils/images";
  import "../Shared/Styles/Footer.css"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,9 +11,9 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
               <div className="widget-items">
                 <div className="footer-head">
-                  <a href="#0" className="footer-logo">
+                  <Link to="/" className="footer-logo">
                     <img className="logo" src={images.logo} alt="logo-img" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content-area">
                   <p>
@@ -65,34 +66,34 @@ const Footer = () => {
                 <div className="content-area">
                   <ul className="quick-link">
                     <li className="list_footer_menu">
-                      <a href="index.html">
+                      <Link to="/">
                         Home
-                      </a>
+                      </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <a href="about.html">
+                      <Link to="/about">
                         About us
-                      </a>
+                      </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <a href="domainname.html">
+                      <Link to="Dedicated Servers">
                         Dedicated server
-                      </a>
+                      </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <a href="#0">
+                      <Link to="vpskvm">
                         VPS KVM
-                      </a>
+                      </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <a href="hosting.html">
+                      <Link to="/cloud">
                         Cloud server
-                      </a>
+                      </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <a href="contact.html">
+                      <Link to="https://www.donhoster.com/customer/contact.php">
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -117,24 +118,24 @@ const Footer = () => {
                 <div className="content-area">
                   <ul className="footer-social">
                     <li>
-                      <a href="#0">
+                      <Link to="https://www.facebook.com/Datacenter.Donhoster">
                       <i className='bx bxl-facebook-square'></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#0">
+                      <Link to="https://www.instagram.com/Don_hoster/">
                       <i className='bx bxl-instagram-alt' ></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#0">
+                      <Link to="https://twitter.com/Donhoster">
                       <i className='bx bxl-twitter' ></i>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#0">
+                      <Link to="#0">
                       <i className='bx bxl-vimeo' ></i>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -143,22 +144,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>Copyright ©2023 <a href="#0" className="text-base">DonHoster</a> All Rights Reserved </p>
+          <p>Copyright ©2023 <Link to="/" className="text-base">DonHoster</Link> All Rights Reserved </p>
           <ul className="footer-bottom-link">
             <li>
-              <a href="#0">
-                Support
-              </a>
+              <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="#0">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#0">
-                Terms & Conditions
-              </a>
+              <Link to="/term-of-services">Terms & Conditions</Link>
             </li>
           </ul>
         </div>

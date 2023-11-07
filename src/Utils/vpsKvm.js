@@ -2,7 +2,7 @@ const vpsKvm = [
     {
       id: 1,
       name: 'VPS in Miami, FL - Small',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=3',
       price: '$14 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -11,7 +11,7 @@ const vpsKvm = [
     {
       id: 2,
       name: 'VPS in Miami, FL - Medium',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=4',
       price: '$20 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -20,7 +20,7 @@ const vpsKvm = [
     {
       id: 3,
       name: 'VPS in Miami, FL - Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=5',
       price: '$27 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -29,7 +29,7 @@ const vpsKvm = [
     {
       id: 4,
       name: 'VPS in Miami, FL - Extra Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=6',
       price: '$35 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',

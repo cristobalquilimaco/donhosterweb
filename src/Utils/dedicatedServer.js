@@ -2,7 +2,7 @@ const dedicatedServer = [
     {
       id: 1,
       name: 'Dedicated Servers in Miami, FL - Small',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=7',
       price: '$60 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -11,7 +11,7 @@ const dedicatedServer = [
     {
       id: 2,
       name: 'Dedicated Servers in Miami, FL - Medium',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=8',
       price: '$82 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -20,7 +20,7 @@ const dedicatedServer = [
     {
       id: 3,
       name: 'Dedicated Servers in Miami, FL - Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=9',
       price: '$120 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
@@ -29,7 +29,7 @@ const dedicatedServer = [
     {
       id: 4,
       name: 'Dedicated Servers in Miami, FL - Large',
-      description: 'More information',
+      url: 'https://www.donhoster.com/customer/cart.php?a=add&pid=10',
       price: '$220 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',

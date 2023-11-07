@@ -8,6 +8,8 @@ import About from './Pages/About'
 import VpsKvm from './Pages/VpsKvm'
 import IconsSkill from './Shared/IconsSkill'
 import Cloud from './Pages/Cloud'
+import PrivacyPolicy from './Pages/PrivacyPolicy'
+import TermOfServices from './Pages/TermOfServices'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/vpskvm' element={<VpsKvm />} />
           <Route path='/cloud' element={<Cloud />} />
+          <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+          <Route path='/term-of-services' element={<TermOfServices />} />
         </Routes>
         <IconsSkill/>
       <Footer/>
