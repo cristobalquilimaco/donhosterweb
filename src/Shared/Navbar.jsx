@@ -30,8 +30,8 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="btn_double">
-            <a href="https://www.donhoster.com/customer/index.php/login"><button className="btn btn-outline" type="submit">Sign In</button></a>
-            <a href="https://www.donhoster.com/customer/register.php"><button className="btn btn-outline" type="submit">Sign Up</button></a>
+            <a href="https://my.donhoster.com/index.php?rp=/login"><button className="btn btn-outline" type="submit">Sign In</button></a>
+            <a href="https://my.donhoster.com/register.php"><button className="btn btn-outline" type="submit">Sign Up</button></a>
             
           </div>
         </div>

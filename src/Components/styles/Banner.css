@@ -23,12 +23,17 @@
 
 .img_banner{
     width: 700px;
+    animation: scaleBanner 1s ease-in-out;
 }
 
 .banner-thumb{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.banner-content{
+    animation: moveBanner 1s ease-in;
 }
 
 @media (width <= 767px) {
@@ -44,3 +49,21 @@
     }
     
   }
+
+@keyframes moveBanner {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes scaleBanner {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
