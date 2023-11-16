@@ -76,12 +76,12 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <Link to="Dedicated Servers">
+                      <Link to="/dedicated-server">
                         Dedicated server
                       </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <Link to="vpskvm">
+                      <Link to="/vps">
                         VPS KVM
                       </Link>
                     </li>

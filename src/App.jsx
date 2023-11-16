@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom';
 import './App.css'
 import Home from './Pages/Home'
 import Navbar from './Shared/Navbar'
@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/dedicatedserver' element={<DedicatedSever />} />
+          <Route path='/dedicated-server' element={<DedicatedSever />} />
           <Route path='/about' element={<About />} />
           <Route path='/vpskvm' element={<VpsKvm />} />
           <Route path='/cloud' element={<Cloud />} />
