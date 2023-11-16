@@ -1,6 +1,7 @@
 .hosting-section{
     width: 100%;
     background-color: var(--color-hosting);
+    
 }
 
 .container{
@@ -14,6 +15,29 @@
   .img_host_big {
     width: 100%;
     display: block; 
+
+  }
+
+  .img_host_big{
+    opacity: 0; 
+    transform: translateX(-40px); 
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+  }
+  .hosting-content {
+    opacity: 0; 
+    transform: translateX(40px); 
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+  }
+  
+  .img_host_big.animate-scroll{
+    opacity: 1; 
+    transform: translateX(0); 
+ 
+  }
+  .hosting-contet.animate-scroll {
+    opacity: 1; 
+    transform: translateX(0); 
+
   }
   
   .small-host {
