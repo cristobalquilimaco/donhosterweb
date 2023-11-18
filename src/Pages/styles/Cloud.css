@@ -1,3 +1,4 @@
 .card_clud{
     width: 400px;
+    animation: moveBanner 1s ease-in-out;
 }

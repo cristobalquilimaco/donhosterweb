@@ -1,6 +1,6 @@
 import "./Styles/Navbar.css";
 import images from "../Utils/images";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Navbar = () => {
   return (

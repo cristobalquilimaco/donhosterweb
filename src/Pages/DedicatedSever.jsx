@@ -2,8 +2,12 @@ import dedicatedServer from "../Utils/dedicatedServer"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/about.css"
+import useScrollEffect from "../hooks/useScrollEffect"
 
 const DedicatedSever = () => {
+  useScrollEffect(['.animatin'], 0.95)
+
+
   return (
     <div>
             <div className="about__box">
@@ -21,7 +25,7 @@ const DedicatedSever = () => {
     </div>
         <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="row g-4 justify-content-center">
+        <div className=" row g-4 justify-content-center">
           {dedicatedServer.map(server => (
             <div key={server.id} className="col-xl-3">
               <div className="pricing-items">
@@ -51,7 +55,7 @@ const DedicatedSever = () => {
                 <p>Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
                 <p>VPS services are the perfect alternative between a shared hosting service and a dedicated server. With a VPS you have control over a section of a dedicated server to install software and applications according to your needs. Choose NetbyHost. As your semi-dedicated service provider, our specialists will help you select the right configuration according to your requirements.</p>
             </div>
-            <div className="features__skill">
+            <div className="animatin features__skill">
                 <ul className="list__skill">
                     <li><i className='skill__icon bx bxs-rocket' ></i></li>
                     <li>Power full and Reliable</li>

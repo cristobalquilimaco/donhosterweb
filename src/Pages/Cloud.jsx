@@ -3,6 +3,7 @@ import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/Cloud.css"
 
+
 const Cloud = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Cloud = () => {
     </div>
         <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="row g-4 justify-content-center card_clud">
+        <div className=" row g-4 justify-content-center card_clud">
           {cloudServer.map(cloud => (
             <div key={cloud.id} className="col-xl-3 card_clud">
               <div className="pricing-items">

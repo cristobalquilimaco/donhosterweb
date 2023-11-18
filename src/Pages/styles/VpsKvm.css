@@ -2,11 +2,13 @@
 
 .principal__vps{
     width: 100%;
+    
 }
 
 .section__skill{
     font-family: 'Rubik', sans-serif;
     color: var(--color-letter-btn);
+    
 }
 
 .features {
