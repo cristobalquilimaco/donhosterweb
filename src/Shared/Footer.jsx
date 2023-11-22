@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="widget-items">
                 <div className="footer-head">
                   <Link to="/" className="footer-logo">
-                    <img className="logo" src={images.logo} alt="logo-img" />
+                    <img className="logo" src={images.logo} alt="dedicated server donhoster" />
                   </Link>
                 </div>
                 <div className="content-area">
@@ -81,7 +81,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <Link to="/vps">
+                      <Link to="/vpskvm">
                         VPS KVM
                       </Link>
                     </li>
@@ -91,7 +91,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <Link to="https://www.donhoster.com/customer/contact.php">
+                      <Link to="https://my.donhoster.com/contact.php">
                         Contact
                       </Link>
                     </li>

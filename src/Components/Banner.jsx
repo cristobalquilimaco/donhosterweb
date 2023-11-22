@@ -21,7 +21,7 @@ Connectivity at 99% uptimice, Integrated DDoS protection
         </div>
         <div className="col-xl-6 col-lg-6">
           <div className="banner-thumb wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
-            <img className="img_banner" src={images.he} alt="" />
+            <img className="img_banner" src={images.he} alt="vpmkvm miami" />
           </div>
         </div>
       </div>

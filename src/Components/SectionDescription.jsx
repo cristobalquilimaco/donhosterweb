@@ -16,9 +16,9 @@ const SectionDescription = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="hosting-thumb">
-              <img className="img_host_big" src={images.hostbig} alt="host-img" />
+              <img className="img_host_big" src={images.hostbig} alt="dedicated server in miami" />
               <div className="small-host">
-                <img className="img_host_small" src={images.hostsmall} alt="s-img" />
+                <img className="img_host_small" src={images.hostsmall} alt="dedicated servers" />
               </div>
             </div>
           </div>
@@ -31,11 +31,11 @@ const SectionDescription = () => {
                 <p>
                 Whether you are in search of a dedicated server for your personal projects or you require a robust solution for your business needs, our dedicated server services are the perfect choice. We offer powerful and exclusively assigned servers that will not only boost the performance and efficiency of your web applications but will also give you the peace of mind of having a secure and high-performing infrastructure. With our dedicated servers, you ll gain complete control, security, and the capacity your business needs to expand without limitations
                 </p>
-                <Link to="/dedicatedserver" className="cmn--btn">
-                  <button className="btn_learn_more">
-                    Learn More
-                  </button>
-                </Link>
+                <Link to="/dedicated-server" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
+  <button className="btn_learn_more">
+    Dedicated Server 
+  </button>
+</Link>
               </div>
             </div>
           </div>
