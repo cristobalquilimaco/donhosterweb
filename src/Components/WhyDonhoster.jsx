@@ -20,7 +20,7 @@ const WhyDonhoster = () => {
             <article className="info__why__donhoster animatin_reverse">
                 <img className="icon__info_why" src={icons.automation} alt="" />
                 <p className="title__info__why">AUTOMATION WHEN YOU WANT IT</p>
-                <p className="info__description">At Colohouse, we believe that you should be in control of your products and services. That’s why we put you in the driver’s seat and let you decide how much control you want.</p>
+                <p className="info__description">At DonHoster, we believe that you should be in control of your products and services. That’s why we put you in the driver’s seat and let you decide how much control you want.</p>
             </article>
             <article className="info__why__donhoster animatin">
                 <img className="icon__info_why" src={icons.customized} alt="" />
