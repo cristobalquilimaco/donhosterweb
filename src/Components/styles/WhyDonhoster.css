@@ -21,7 +21,12 @@
     border-radius: 50%;
 }
 
-
+.info__why__donhoster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .icon__info_why{
     width: 60px;
