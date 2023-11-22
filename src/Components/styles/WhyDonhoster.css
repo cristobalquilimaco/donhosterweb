@@ -21,6 +21,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .icon__whydondonhoster{
@@ -49,4 +50,125 @@
     text-align: center;
     margin-top: 0.4em;
     color: var(--color-letter-btn);
+}
+
+.icon__banner__desktop{
+    display: none;
+}
+
+@media (width >= 700px) {
+
+    .title__why{
+        font-size: 40px;
+        margin-bottom: 1em;
+    }
+
+    .principal__info_why{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .first__section__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+    }
+
+    .info__why__donhoster{
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .info__why__reverse{
+        flex-direction: row;
+    }
+
+    .icon__banner__desktop{
+        display: block;
+        border: 1px solid var(--color-btn);
+        border-radius: 50%;
+    }
+
+    .info__description{
+        width: 400px;
+    }
+
+    .info__description{
+        text-align: end;
+    }
+
+    .text__info__reverse{
+        text-align: start;
+    }
+
+    .icon__border__info{
+        border: 1px solid var(--color-btn);
+        border-radius: 50%;
+        padding: 1.5rem;
+        animation: shine 2s infinite;
+    }
+
+    .line__border4::before {
+        content: '';
+        position: absolute;
+        top: -16%;
+        left: -3%;
+        width: 3px;
+        height: 51%;
+        background-color: var(--color-btn);
+        animation: shine 2s linear infinite;
+        transform: translateX(-10%) rotate(125deg);
+      }
+
+      .line__border3::before {
+        content: '';
+        position: absolute;
+        top: 65%;
+        left: -3%;
+        width: 3px;
+        height: 51%;
+        background-color: var(--color-btn);
+        animation: shine 2s linear infinite;
+        transform: translateX(-10%) rotate(-125deg);
+      }
+
+      .line__border2::before {
+        content: '';
+        position: absolute;
+        top: -21%;
+        left: 102%;
+        width: 3px;
+        height: 51%;
+        background-color: var(--color-btn);
+        animation: shine 2s linear infinite;
+        transform: translateX(-10%) rotate(-125deg)
+      }
+      .line__border1::before {
+        content: '';
+        position: absolute;
+        top: 70%;
+        left: 102%;
+        width: 3px;
+        height: 51%;
+        background-color: var(--color-btn);
+        animation: shine 2s linear infinite;
+        transform: translateX(-10%) rotate(125deg);
+      }
+
+    @keyframes shine {
+        0% {
+          box-shadow: 0 0 10px transparent; /* Cambia la sombra inicial */
+        }
+        50% {
+          box-shadow: 0 0 20px var(--color-btn); /* Aumenta la sombra para simular el brillo */
+        }
+        100% {
+          box-shadow: 0 0 10px transparent; /* Vuelve a la sombra inicial */
+        }
+      }
+
 }
