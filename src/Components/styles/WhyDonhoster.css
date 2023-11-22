@@ -1,0 +1,28 @@
+.principal__whydonhoster{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title__why{
+    color: var(--color-letter-btn);
+    font-size: 23px;
+}
+
+.color__why{
+    color: var(--color-btn);
+}
+
+.icon__whydondonhoster{
+    background-color: var(--color-blur-icon);
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+
+.icon__info_why{
+    width: 60px;
+}

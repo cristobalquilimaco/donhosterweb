@@ -9,6 +9,12 @@ import chooseemail from "../assets/icons/chooseemail.png"
 import chooseicon from "../assets/icons/chooseicon.png"
 import chooselocation from "../assets/icons/chooselocation.png"
 import choosephon from "../assets/icons/choosephon.png"
+import iconbanner from "../assets/icons/iconbanner.svg"
+import automation from "../assets/icons/automation.png"
+import customized from "../assets/icons/customized.png"
+import internetglobal from "../assets/icons/internetglobal.png"
+import worldSuport from "../assets/icons/World-Class-Support.png"
+
 
 
 
@@ -25,6 +31,11 @@ const icons = {
     chooseicon,
     chooselocation,
     choosephon,
+    iconbanner,
+    automation,
+    customized,
+    internetglobal,
+    worldSuport,
 }
 
 export default icons 

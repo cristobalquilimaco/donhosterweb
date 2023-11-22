@@ -3,6 +3,7 @@
 :root{
     --color-btn: purple;
     --color-letter-btn: white;
+    --color-blur-icon: rgba(255, 255, 255, 0.849);
     --color-line: rgba(128, 128, 128, 0.445);
     --color-hosting: rgba(128, 128, 128, 0.219);
 }
