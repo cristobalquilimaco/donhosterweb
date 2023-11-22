@@ -2,6 +2,7 @@ import icons from "../Utils/icons"
 import "../Components/styles/WhyDonhoster.css"
 import useScrollEffect from "../hooks/useScrollEffect"
 import "../Components/styles/Services.css"
+import { Link } from "react-router-dom"
 
 const WhyDonhoster = () => {
 
@@ -55,8 +56,12 @@ const WhyDonhoster = () => {
                 </div>
             </article>
             </div>
-            
         </section>
+        <Link to="/dedicated-server" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
+  <button className="btn_learn_more">
+    About Us 
+  </button>
+</Link>
     </div>
   )
 }
