@@ -2,6 +2,7 @@ import Banner from "../Components/Banner"
 import ChooseUs from "../Components/ChooseUs"
 import SectionDescription from "../Components/SectionDescription"
 import Services from "../Components/Services"
+import USAOutlineMap from "../Components/USAOutlineMap"
 import WhyDonhoster from "../Components/WhyDonhoster"
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
         <Services/>
         <SectionDescription/>
         <WhyDonhoster/>
+        <USAOutlineMap/>
     </div>
   )
 }
