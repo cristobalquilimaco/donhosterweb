@@ -9,10 +9,18 @@
 .title__why{
     color: var(--color-letter-btn);
     font-size: 23px;
+    margin-top: 1em;
 }
 
 .color__why{
     color: var(--color-btn);
+}
+
+.principal__info_why{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2em;
 }
 
 .icon__whydondonhoster{
@@ -29,5 +37,16 @@
 }
 
 .icon__info_why{
-    width: 60px;
+    width: 80px;
+}
+
+.title__info__why{
+    color: var(--color-blur-icon);
+}
+
+
+.info__description{
+    text-align: center;
+    margin-top: 0.4em;
+    color: var(--color-letter-btn);
 }

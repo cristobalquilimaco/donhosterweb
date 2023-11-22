@@ -14,6 +14,13 @@
   transition: opacity 0.5s ease, transform 0.5s ease; /* Transiciones suaves */
 }
 
+.animatin_reverse{
+    /* Estilos predeterminados del contenedor */
+    opacity: 0; /* Inicialmente, el contenedor es invisible */
+    transform: translateX(-20px); /* Empieza ligeramente desplazado hacia abajo */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transiciones suaves */
+}
+
 .animate-scroll {
   opacity: 1; /* Hacer visible al contenedor */
   transform: translateX(0); /* Regresar a su posición original */
