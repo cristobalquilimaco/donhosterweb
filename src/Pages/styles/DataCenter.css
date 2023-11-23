@@ -6,10 +6,35 @@
 
 }
 
-.img__usa__map{
+.first__section__data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
+.img__usa__map{
+ width: 350px;
 }
 
 .section__info__data{
-    
+    color: var(--color-letter-btn);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.icon__iso__with__des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.icon__iso{
+    width: 80px;
+}
+
+.icon__iso__with__des>p{
+    font-size: 22px;
 }

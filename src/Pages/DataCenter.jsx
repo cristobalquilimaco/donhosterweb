@@ -19,6 +19,7 @@ const DataCenter = () => {
     </div>
 
     <section className="principal__data__center">
+        <div className="first__section__data">
         <img className="img__usa__map" src={images.usamap} alt="" />
         <div className="section__info__data">
             <p>Miami FL, USA</p>
@@ -27,12 +28,13 @@ const DataCenter = () => {
 NetcroHosting is committed to meeting the demand of IT. And you offer fast and secure connections with 24/7 availability
 
 Miami Data Center, United States se componer de Surface area 21,000 m² y una Network Capacity 100Gbps+ scalable network capacity, location in downtown Miami, South Florida 36 NE 2nd St #400, Miami, FL 33132.</p>
-            <div>
-            <img src={icons} alt="" /> 
+            <div className="icon__iso__with__des" >
+            <img className="icon__iso" src={icons.iconiso} alt="" /> 
             <p>Certified to global standards</p>
             </div>
-            
         </div>
+        </div>
+
     </section>
 
     </div>
