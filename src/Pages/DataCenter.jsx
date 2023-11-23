@@ -20,7 +20,7 @@ const DataCenter = () => {
 
     <section className="principal__data__center">
         <img className="img__usa__map" src={images.usamap} alt="" />
-        <div>
+        <div className="section__info__data">
             <p>Miami FL, USA</p>
             <p>Our Miami data centers are at the heart of one of the world's largest Internet exchanges interconnecting Latin America, the Northeast US and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple centers of data.
 
