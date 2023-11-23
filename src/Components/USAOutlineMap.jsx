@@ -16,7 +16,7 @@ const USAOutlineMap = () => {
     <i className='bx bxs-location-plus location__icon__btn'></i>
         <img src={usaOutline} alt="USA Outline" className="usa-outline" />
     </div>
-    <Link to="/dedicated-server" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
+    <Link to="/data-center" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
   <button className="btn_learn_more">
     Our Data Center 
   </button>

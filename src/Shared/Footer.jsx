@@ -95,6 +95,11 @@ const Footer = () => {
                         Contact
                       </Link>
                     </li>
+                    <li className="list_footer_menu">
+                      <Link to="/data-center">
+                        Data Center
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

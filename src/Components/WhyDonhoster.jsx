@@ -57,7 +57,7 @@ const WhyDonhoster = () => {
             </article>
             </div>
         </section>
-        <Link to="/dedicated-server" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
+        <Link to="/about" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
   <button className="btn_learn_more">
     About Us 
   </button>
