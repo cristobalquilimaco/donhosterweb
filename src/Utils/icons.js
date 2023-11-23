@@ -14,6 +14,7 @@ import automation from "../assets/icons/automation.png"
 import customized from "../assets/icons/customized.png"
 import internetglobal from "../assets/icons/internetglobal.png"
 import worldSuport from "../assets/icons/World-Class-Support.png"
+import iconiso from "../assets/icons/ISO_27001_Final Logo.png"
 
 
 
@@ -36,6 +37,7 @@ const icons = {
     customized,
     internetglobal,
     worldSuport,
+    iconiso
 }
 
 export default icons 
