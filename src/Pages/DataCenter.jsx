@@ -17,13 +17,13 @@ const DataCenter = () => {
         <img src={images.bannerserver} alt="" />
     </div>
     </div>
-
+    <div className="line__purple_sub"></div>
     <section className="principal__data__center">
         <div className="first__section__data">
         <img className="img__usa__map" src={images.usamap} alt="" />
         <div className="section__info__data">
-            <p>Miami FL, USA</p>
-            <p>Our Miami data centers are at the heart of one of the world's largest Internet exchanges interconnecting Latin America, the Northeast US and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple centers of data.
+            <p className="title__info__miami">Miami FL, USA</p>
+            <p className="text__info__data__center">Our Miami data centers are at the heart of one of the worlds largest Internet exchanges interconnecting Latin America, the Northeast US and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple centers of data.
 
 NetcroHosting is committed to meeting the demand of IT. And you offer fast and secure connections with 24/7 availability
 
@@ -33,6 +33,24 @@ Miami Data Center, United States se componer de Surface area 21,000 m² y una Ne
             <p>Certified to global standards</p>
             </div>
         </div>
+        </div>
+        <div className="list__info__data">
+        <div className="check__mas__info">
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Carrier-Neutral data center (Tier1 available).</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Metro Ethernetd services (e.g. MPLS).</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Over 2.000 square meters of data center space.</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p> 2N+1 Power & Cooling infrastructure.</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>1/4-1/2-1/1 secured racks</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>320Gbps+ scalable network capacity available</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Dedicated Servers</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Cloud Hosting / Virtual Servers</p></div>
+            <div className="img__icon__des__title"><img className="icon__img__check1" src={icons.check} alt="" /><p>Multi 100Mbit/1Gbit/10Gbit connectivity options</p></div>
+        </div>
+
+            <div>
+                <img className="image__managed" src={images.managed} alt="" />
+            </div>
+
         </div>
 
     </section>

@@ -11,6 +11,7 @@ import bannerabout from "../assets/img/banner-about.jpg"
 import bannerserver from "../assets/img/bannerserver.jpg"
 import mapdatacenter from "../assets/img/map-dark.svg"
 import usamap from "../assets/img/USA-Map-PNG.png"
+import managed from "../assets/img/managed.png"
 
 
 const images = {
@@ -26,7 +27,8 @@ const images = {
     bannerabout,
     bannerserver,
     mapdatacenter,
-    usamap
+    usamap,
+    managed
 };
 
 export default images
