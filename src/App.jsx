@@ -14,6 +14,7 @@ import ErrorMessage from './Components/ErrorMessage';
 import Error403 from './Pages/Error403';
 import Error500 from './Pages/Error500';
 import Error503 from './Pages/Error503';
+import DataCenter from './Pages/DataCenter';
 
 
 function NotFound() {
@@ -56,12 +57,13 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/dedicated-server' element={<DedicatedSever />} />
+        <Route path='/dedicated-servers' element={<DedicatedSever />} />
         <Route path='/about' element={<About />} />
-        <Route path='/vpskvm' element={<VpsKvm />} />
+        <Route path='/vps' element={<VpsKvm />} />
         <Route path='/cloud' element={<Cloud />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/term-of-services' element={<TermOfServices />} />
+        <Route path='/data-center' element={<DataCenter />} />
         <Route path='/error-403' element={<Error403 />} />
         <Route path='/error-500' element={<Error500 />} />
         <Route path='/error-503' element={<Error503 />} />

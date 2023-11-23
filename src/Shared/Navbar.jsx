@@ -16,10 +16,10 @@ const Navbar = () => {
             <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/dedicated-server">Dedicated Server</Link>
+              <Link className="nav-link" aria-current="page" to="/dedicated-servers">Dedicated Server</Link>
             </li>
             <li className="nav-item">
-                <Link to="/vpskvm" className="nav-link" aria-current="page" >VPS</Link>
+                <Link to="/vps" className="nav-link" aria-current="page" >VPS</Link>
             </li>
             <li className="nav-item">
                 <Link to="/cloud" className="nav-link" aria-current="page" >Cloud</Link>
