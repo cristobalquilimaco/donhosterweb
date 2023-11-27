@@ -11,7 +11,7 @@ const USAOutlineMap = () => {
   return (
     <div className="principal__USAOutlineMap">
         <p className="location_title animatin"><span className="color__location">Location</span> Matters</p>
-        <p className="info__location animatin">Our Miami data centers are at the heart of one of the worlds largest Internet exchanges interconnecting Latin America, the Northeast US and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple centers of data.</p>
+        <p className="info__location animatin">Our Miami data center serves as a pivotal hub within one of the worlds largest Internet exchanges, linking Latin America, the Northeast US. It offers cutting-edge hosting solutions, boasting top-tier infrastructure and connectivity. Our innovative, automated technology caters to businesses of all sizes, providing cloud-based services with assured quality, availability, and the best hardware spread across multiple data centers.</p>
     <div className="usa-map-container animatin">
     <i className='bx bxs-location-plus location__icon__btn'></i>
         <img src={usaOutline} alt="USA Outline" className="usa-outline" />

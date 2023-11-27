@@ -3,13 +3,18 @@ import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/about.css"
 import useScrollEffect from "../hooks/useScrollEffect"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 
 const DedicatedSever = () => {
   useScrollEffect(['.animatin'], 0.95)
 
 
   return (
+    <HelmetProvider>
     <div>
+        <Helmet>
+        <title>Hosted Dedicated Servers - Bare Metal Servers</title>
+        </Helmet>
             <div className="about__box">
         <h1 className="about__title">Dedicated servers</h1>
             <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>
@@ -76,6 +81,7 @@ const DedicatedSever = () => {
       </div>
     </section>
     </div>
+    </HelmetProvider>
   )
 }
 

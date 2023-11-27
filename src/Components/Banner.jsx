@@ -16,7 +16,7 @@ const Banner = () => {
             Our network of data centers in , USA, Miami.
 Connectivity at 99% uptimice, Integrated DDoS protection
             </p>
-            <Link to="/dedicatedserver"><button className="btn__to__server">see characteristics of our plans</button></Link>
+            <Link to="/dedicated-servers"><button className="btn__to__server">see characteristics of our plans</button></Link>
           </div>
         </div>
         <div className="col-xl-6 col-lg-6">

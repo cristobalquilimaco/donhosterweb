@@ -2,10 +2,15 @@ import vpsKvm from "../Utils/vpsKvm"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/VpsKvm.css"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 
 const VpsKvm = () => {
   return (
-    <div className="principal__vps">
+    <HelmetProvider>
+          <div className="principal__vps">
+          <Helmet>
+        <title>Cheap KVM Linux VPS & Windows VPS</title>
+        </Helmet>
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>
             <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
@@ -75,6 +80,8 @@ const VpsKvm = () => {
       </div>
     </section>
     </div>
+    </HelmetProvider>
+
   )
 }
 
