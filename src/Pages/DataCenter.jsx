@@ -1,10 +1,16 @@
 import "./styles/DataCenter.css"
 import images from "../Utils/images"
 import icons from "../Utils/icons"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 
 const DataCenter = () => {
   return (
-    <div>
+    <HelmetProvider>
+        <div>
+        <Helmet>
+            <title>Datacenter in Miami, FL. Infrastructure</title>
+              <meta name="description" content="Data Centers. 24/7Hrs monitoring of all critical infrastructure assets. The maximum of technology; Disaster recovery solutions; Miami FL connectivity." />
+            </Helmet>
 <div className="about__box">
         <h1 className="about__title">DATA CENTERS</h1>
             <h3 className="about__subtitle">Always available, also during disasters.</h3>
@@ -56,6 +62,8 @@ Miami Data Center, United States se componer de Surface area 21,000 m² y una Ne
     </section>
 
     </div>
+    </HelmetProvider>
+    
   )
 }
 

@@ -2,13 +2,17 @@ import cloudServer from "../Utils/cloudServer"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/Cloud.css"
-import { HelmetProvider } from "react-helmet-async"
+import { Helmet, HelmetProvider } from "react-helmet-async"
 
 
 const Cloud = () => {
   return (
     <HelmetProvider>
           <div>
+            <Helmet>
+            <title>Cloud hosting</title>
+              <meta name="description" content="KVM Based Cloud Server in Miami · Includes industry leading server control panel · Intel Xeon processor   families · Up to 32GB memory support · Up to 2TB SAN storage." />
+            </Helmet>
             <div className="about__box">
         <h1 className="about__title">Cloud hosting</h1>
             <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
@@ -79,7 +83,6 @@ const Cloud = () => {
     </section>
     </div>
     </HelmetProvider>
-
   )
 }
 
