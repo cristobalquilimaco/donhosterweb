@@ -10,6 +10,7 @@ const VpsKvm = () => {
           <div className="principal__vps">
           <Helmet>
         <title>Cheap KVM Linux VPS & Windows VPS</title>
+        <meta name="description" content="VPS KVM. Fast and stable KVM VPS servers with Proxmox control panel. 99.9% availability guarantee. Support for Windows and Linux operating systems."/>
         </Helmet>
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>

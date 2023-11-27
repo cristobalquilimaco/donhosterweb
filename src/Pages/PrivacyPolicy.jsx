@@ -2,10 +2,16 @@ import "../Pages/styles/about.css";
 import "../assets/img/banner-about.jpg";
 import images from "../Utils/images";
 import "../Pages/styles/TermOfServices.css"
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="about__box">
+    <HelmetProvider>
+          <div className="about__box">
+            <Helmet>
+            <title>Privacy Policy | DonHoster</title>
+              <meta name="description" content="Learn about DonHoster privacy policy, its general practices, procedures (DonHoster dba) to handle your information and more." />
+            </Helmet>
       <h1 className="about__title">THE COMPANY</h1>
       <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
       <div className="about__p">
@@ -68,6 +74,8 @@ const PrivacyPolicy = () => {
       </div>
     </div>
      </div>
+    </HelmetProvider>
+
   );
 };
 

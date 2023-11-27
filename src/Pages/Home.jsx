@@ -12,7 +12,7 @@ const Home = () => {
           <div>
             <Helmet>
               <title>DonHoster - Dedicated Server in Miami - Server Hosting</title>
-              <meta name="description" content="A brief description of what your page offers or its content. Highlight unique selling points or key features." />
+              <meta name="description" content="Discover the best dedicated servers in Miami for your web project with DonHoster. Reliable performance and expert support for your hosting needs." />
             </Helmet>
         <Banner/>
         <ChooseUs/>

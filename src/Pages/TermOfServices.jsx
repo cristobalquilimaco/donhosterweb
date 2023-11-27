@@ -3,10 +3,16 @@ import "../assets/img/banner-about.jpg";
 import images from "../Utils/images";
 import "../Pages/styles/TermOfServices.css"
 import { Link } from "react-router-dom";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const TermOfServices = () => {
   return (
-    <div className="about__box">
+    <HelmetProvider>
+      <div className="about__box">
+                  <Helmet>
+            <title>Term of services | DonHoster</title>
+              <meta name="description" content="What every customer should know before purchasing our products. Terms of Service of DonHoster, the general use of its products, its rules and more." />
+            </Helmet>
       <h1 className="about__title">THE COMPANY</h1>
       <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
       <div className="about__p">
@@ -73,6 +79,8 @@ Likewise, the client has the commitment and agrees to notify our company in adva
       <p><strong>Last revision: March 2022</strong></p>
       </div>
     </div>
+    </HelmetProvider>
+    
   );
 };
 
