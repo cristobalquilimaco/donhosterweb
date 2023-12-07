@@ -5,6 +5,7 @@ import images from "../Utils/images";
 const Banner = () => {
   return (
     <div className="container">
+      <img className="img__banner__data" src={images.bannerdata} alt="" />
       <div className="row align-items-center">
         <div className="col-xl-6 col-lg-6 wow fadeInDown" data-wow-delay="0.1s" style={{ visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInDown' }}>
           <div className="banner-content">
@@ -21,7 +22,7 @@ Connectivity at 99% uptimice, Integrated DDoS protection
         </div>
         <div className="col-xl-6 col-lg-6">
           <div className="banner-thumb wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
-            <img className="img_banner" src={images.he} alt="vpmkvm miami" />
+            <img className="img_banner" src={images.server1} alt="vpmkvm miami" />
           </div>
         </div>
       </div>

@@ -53,7 +53,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='app'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />

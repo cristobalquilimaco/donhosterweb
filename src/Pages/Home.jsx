@@ -5,11 +5,12 @@ import SectionDescription from "../Components/SectionDescription"
 import Services from "../Components/Services"
 import USAOutlineMap from "../Components/USAOutlineMap"
 import WhyDonhoster from "../Components/WhyDonhoster"
+import "../App.css"
 
 const Home = () => {
   return (
     <HelmetProvider>
-          <div>
+          <div className="container__home">
             <Helmet>
               <title>DonHoster - Dedicated Server in Miami - Server Hosting</title>
               <meta name="description" content="Discover the best dedicated servers in Miami for your web project with DonHoster. Reliable performance and expert support for your hosting needs." />

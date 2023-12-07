@@ -31,7 +31,7 @@ const DataCenter = () => {
             <p className="title__info__miami">Miami FL, USA</p>
             <p className="text__info__data__center">Our Miami data centers are at the heart of one of the worlds largest Internet exchanges interconnecting Latin America, the Northeast US and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple centers of data.
 
-NetcroHosting is committed to meeting the demand of IT. And you offer fast and secure connections with 24/7 availability
+DonHoster is committed to meeting the demand of IT. And you offer fast and secure connections with 24/7 availability
 
 Miami Data Center, United States se componer de Surface area 21,000 m² y una Network Capacity 100Gbps+ scalable network capacity, location in downtown Miami, South Florida 36 NE 2nd St #400, Miami, FL 33132.</p>
             <div className="icon__iso__with__des" >

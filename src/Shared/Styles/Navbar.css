@@ -8,14 +8,7 @@
     --color-hosting: rgba(128, 128, 128, 0.219);
 }
 
-.navbar{
-    background-color: transparent;
-    width: 100%;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    font-family: 'Rubik', sans-serif;
-}
+
 
 .nav-link{
     color: var(--color-btn);
@@ -25,9 +18,8 @@
 
 .nav-link {
     position: relative;
-    display: inline-block; /* o 'block' si tus enlaces son de bloque */
-    text-decoration: none; /* Opcional: elimina el subrayado del enlace */
-    /* tus estilos adicionales aquí */
+    display: inline-block; 
+    text-decoration: none; 
   }
   
   .nav-link::after {
@@ -56,6 +48,7 @@
     width: 1120px;
     display: flex;
     gap: 1rem;
+    
 }
 
 .navbar-nav{
@@ -80,6 +73,15 @@
 
 @media (width <= 767px) {
     .container-fluid{
-        border-bottom: none
+        border-bottom: none;
     }
+
+    .navbar{
+        width: 100%;
+        z-index: 9999;
+        top: 0;
+        font-family: 'Rubik', sans-serif;
+    }
+
+
   }

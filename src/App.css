@@ -1,4 +1,11 @@
 body{
   background: rgb(26,7,40);
   background: linear-gradient(90deg, rgba(26,7,40,1) 0%, rgba(40,8,31,1) 35%, rgba(37,2,37,1) 100%);
+  width: 100%;
 }
+
+.app{
+  width: 100%;
+  overflow: hidden;
+}
+
