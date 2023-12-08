@@ -92,12 +92,12 @@
         z-index: 1;
         height: 87%;
         opacity: 0.1;
-        width: auto;
+     
     }
 
     .container__banner1{
         height: auto;
-        width: 100%;
+
     }
 
   }
