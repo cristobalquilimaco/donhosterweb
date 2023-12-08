@@ -75,7 +75,7 @@ const hosting = [
     },
     {
       id: 4,
-      name: 'Hosting Cpanel Extra- Large',
+      name: 'Hosting Cpanel Extra',
       url: 'https://my.donhoster.com/cart.php?a=add&pid=10',
       price: '$220 USD',
       savePrice: '$9.99',
