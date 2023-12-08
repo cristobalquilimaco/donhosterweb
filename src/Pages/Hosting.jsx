@@ -14,8 +14,9 @@ const Hosting = () => {
   useScrollEffect(['.animatin'], 0.95) 
 
   return (
+    <>
     <HelmetProvider>
-    <div>
+    <div className="principal__hosting__infor">
         <Helmet>
         <title>Web Hosting Cpanel - DonHoster</title>
         <meta name="description" content="Dedicated servers in Miami | Dedicated servers give you the advantage of having a physical computer for yourself without sharing it with any other user" />
@@ -33,11 +34,11 @@ const Hosting = () => {
         <img src={images.bannerabout} alt="" />
     </div>
     </div>
-        <section className="pricing-section pt-120 pb-120">
-      <div className="container">
+        <section className="pricing-section  pt-120 pb-120">
+      <div className="container_hosting_plan">
         <div className=" row g-4 justify-content-center">
           {hosting.map(server => (
-            <div key={server.id} className="col-xl-3">
+            <div key={server.id} className="col__hosting">
               <div className="pricing-items">
                 <div className="pricing-header">
                   <h5 className="title_plan">
@@ -58,7 +59,7 @@ const Hosting = () => {
             </div>
           ))}
         </div>
-          <section className="tools__hosting__description">
+          <section className="tools__hosting__description choose-section pt-120 pb-120">
             <p className="hosting__title__info">Tools for your projects</p>
             <section className="section__hosting__info">
             <div className="images__wp__hosting">
@@ -113,6 +114,8 @@ const Hosting = () => {
     </section>
     </div>
     </HelmetProvider>
+    </>
+    
   )
 }
 

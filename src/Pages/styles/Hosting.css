@@ -1,6 +1,37 @@
+.principal__hosting__infor{
+    width: 100%;
+}
+
 .tools__hosting__description{
     color: var(--color-letter-btn);
 }
+
+.container__hosting {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.justify-content-center1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-items{
+    display: flex;
+}
+
+.col__hosting{
+    width: 350px;
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
 
 .section__hosting__info{
     display: flex;
@@ -45,8 +76,14 @@
         display: block;
         display: flex;
         flex-direction: row-reverse;
-
         gap: 5rem;
+    }
+
+    .col__hosting{
+        width: 350px;
+        display: flex;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
 
     .hosting__title__info{
