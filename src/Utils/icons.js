@@ -15,10 +15,8 @@ import customized from "../assets/icons/customized.png"
 import internetglobal from "../assets/icons/internetglobal.png"
 import worldSuport from "../assets/icons/World-Class-Support.png"
 import iconiso from "../assets/icons/ISO_27001_Final Logo.png"
-
-
-
-
+import correologo from "../assets/icons/correologo.png"
+import wplogo from "../assets/icons/wplogo.png"
 
 const icons = {
     i1,
@@ -37,7 +35,9 @@ const icons = {
     customized,
     internetglobal,
     worldSuport,
-    iconiso
+    iconiso,
+    correologo,
+    wplogo,
 }
 
 export default icons 

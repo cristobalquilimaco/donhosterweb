@@ -14,6 +14,9 @@ import usamap from "../assets/img/USA-Map-PNG.png"
 import managed from "../assets/img/managed.png"
 import bannerdata from "../assets/img/bannerdata.jpg"
 import server1 from "../assets/img/server1.png"
+import wordpresshosting from "../assets/img/worpresshosting.jpg"
+
+
 
 
 const images = {
@@ -32,7 +35,9 @@ const images = {
     usamap,
     managed,
     bannerdata,
-    server1
+    server1,
+    wordpresshosting,
+
 };
 
 export default images

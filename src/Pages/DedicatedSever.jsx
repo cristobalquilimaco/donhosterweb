@@ -84,6 +84,6 @@ const DedicatedSever = () => {
     </div>
     </HelmetProvider>
   )
-}
+}   
 
 export default DedicatedSever

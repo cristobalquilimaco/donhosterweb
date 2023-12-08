@@ -3,9 +3,15 @@ import images from "../Utils/images"
 import icons from "../Utils/icons"
 import hosting from "../Utils/hosting"
 import "../Components/styles/Services.css"
+import useScrollEffect from "../hooks/useScrollEffect"
+import "../Pages/styles/Hosting.css"
+
 
 
 const Hosting = () => {
+
+  useScrollEffect(['.animatin'], 0.95) 
+
   return (
     <HelmetProvider>
     <div>
@@ -17,9 +23,9 @@ const Hosting = () => {
         <h1 className="about__title">Web Hosting Cpanel</h1>
             <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>
     <div className="about__p">
-        <i className="bx bx-check" /> Total Control  &nbsp;
+        <i className="bx bx-check" /> Cutting-edge hosting  &nbsp;
         <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
-        <i className="bx bx-check" /> S.O Windows & Linux
+        <i className="bx bx-check" /> Money back guarantee
       </div>
 
     <div className="about__banner">
@@ -51,6 +57,16 @@ const Hosting = () => {
             </div>
           ))}
         </div>
+          <section className="tools__hosting__description">
+            <p>Tools for your projects</p>
+            <div>
+                  <img className="logo__host__info" src={icons.wplogo} alt="" />
+                <p>WordPress, tienda online y más</p>
+            </div>
+            <div>
+              <img className="logo__host__info" src={icons.correologo} alt="" />
+            </div>
+          </section>
         <section className="section__skill">
             <p className="features">The Best Features At The Best Price!</p>
             <div className="description_feat">
