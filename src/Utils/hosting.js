@@ -6,7 +6,21 @@ const hosting = [
       price: '$60 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
-      features: ['Disc Space: 1GB', 'Traffic: Unlimited', 'Control Panel: cPanel', 'Mail Accounts: 20', 'Databases MySQL: 5', 'FTP Accounts: 5', 'Subdomains: 15', 'Permitted domains: 1', 'Additional Domains: 3', 'Domain Aliases: 3', 'Includes SSL Certificate Free', 'Idera Servers by V8-925 ®', 'DDoS Protection: Integrated', 'Backup: Automatic', 'Money back guarantee 30 days', 'Technical Support 24/7', 'Datacenters: Miami FL.'
+      features: ['Disc Space: 1GB',
+      'Traffic: Unlimited',
+      'Control Panel: cPanel',
+      'Mail Accounts: 20', 'Databases MySQL: 5',
+      'FTP Accounts: 5', 'Subdomains: 15',
+      'Permitted domains: 1',
+      'Additional Domains: 3',
+      'Domain Aliases: 3',
+      'Includes SSL Certificate Free',
+      'Idera Servers by V8-925 ®',
+      'DDoS Protection: Integrated',
+      'Backup: Automatic',
+      'Money back guarantee 30 days',
+      'Technical Support 24/7', 
+      'Datacenters: Miami FL.'
  , ],
     },
     {
