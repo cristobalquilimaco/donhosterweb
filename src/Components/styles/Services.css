@@ -33,7 +33,8 @@
 .pricing-items {
     background: var(--color-choose);
     width: 350px;
-    height: 500px;
+    min-height: 500px;
+    max-height: auto;
     padding: 32px 25px;
     position: relative;
     border-radius: 10px;

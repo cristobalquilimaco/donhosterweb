@@ -101,4 +101,4 @@ const hosting = [
 
   ];
 
-  export default hosting
+  export default hosting;
