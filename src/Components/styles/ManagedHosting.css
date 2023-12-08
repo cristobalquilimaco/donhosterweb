@@ -4,6 +4,16 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.title__text__hosting{
+    font-size: 30px;
+}
+
+.p__tt{
+    text-align: center;
 }
 
 .title__managed__hosting{
@@ -11,6 +21,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
+}
+
+.description__hosting__skill{
+    max-width: 1200px;
+    margin-bottom: 2em;
+}
+
+.info__tt{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.monitorin__img{
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--color-hosting);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+
+.desc__pp__tt{
+    padding: 1rem;
 }
 
 .cards__monitorings{
@@ -18,16 +54,16 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    padding: 1rem;
 }
 
 .card__monitoring{
-    width: 380px;
+    max-width: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     border: 1px solid var(--color-btn);
-    padding: 1rem;
     border-radius: 10px;
 }
 
