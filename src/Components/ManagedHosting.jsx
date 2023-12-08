@@ -4,7 +4,7 @@ import images from "../Utils/images"
 const ManagedHosting = () => {
   return (
     <div className="principal__managed__hosting">
-        <div>
+        <div className="title__managed__hosting">
             <p>Servers managed by our technicians</p>
             <p>Our team of system administrators is in charge of monitoring and updating the servers located in Spain so that your website and email are always available. Forget about technical details and focus on your project.</p>
         </div>
