@@ -15,6 +15,7 @@ import Error403 from './Pages/Error403';
 import Error500 from './Pages/Error500';
 import Error503 from './Pages/Error503';
 import DataCenter from './Pages/DataCenter';
+import Hosting from './Pages/Hosting';
 
 
 function NotFound() {
@@ -61,6 +62,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/vps' element={<VpsKvm />} />
         <Route path='/cloud' element={<Cloud />} />
+        <Route path='/hosting' element={<Hosting />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
         <Route path='/term-of-services' element={<TermOfServices />} />
         <Route path='/data-center' element={<DataCenter />} />

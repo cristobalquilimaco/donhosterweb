@@ -17,7 +17,6 @@ const ChooseUs = () => {
             Listed below our awesome hosting packages. You can select any web hosting services below!
           </p>
         </div>
-        {/* Replace the following div with your chosen React carousel component */}
         <div className="tweet-slider">
           <div className="choose-item">
             <div className="choose-inner">

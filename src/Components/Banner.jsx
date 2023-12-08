@@ -4,7 +4,7 @@ import images from "../Utils/images";
 
 const Banner = () => {
   return (
-    <div className="container">
+    <div className="container container__banner1">
       <img className="img__banner__data" src={images.bannerdata} alt="" />
       <div className="row align-items-center">
         <div className="col-xl-6 col-lg-6 wow fadeInDown" data-wow-delay="0.1s" style={{ visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInDown' }}>
