@@ -15,7 +15,8 @@ import managed from "../assets/img/managed.png"
 import bannerdata from "../assets/img/bannerdata.jpg"
 import server1 from "../assets/img/server1.png"
 import wordpresshosting from "../assets/img/worpresshosting.jpg"
-
+import monitoring from "../assets/img/monitoring.png"
+import backup from "../assets/img/backup.png"
 
 
 
@@ -37,6 +38,8 @@ const images = {
     bannerdata,
     server1,
     wordpresshosting,
+    monitoring,
+    backup,
 
 };
 

@@ -5,6 +5,7 @@ import hosting from "../Utils/hosting"
 import "../Components/styles/Services.css"
 import useScrollEffect from "../hooks/useScrollEffect"
 import "../Pages/styles/Hosting.css"
+import ManagedHosting from "../Components/ManagedHosting"
 
 
 
@@ -82,6 +83,7 @@ const Hosting = () => {
             </section>
           </section>
           {/* -----------------NEW SECTION----------- */}
+          <ManagedHosting/>
         <section className="section__skill">
             <p className="features">The Best Features At The Best Price!</p>
             <div className="description_feat">
