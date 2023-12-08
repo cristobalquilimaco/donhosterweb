@@ -58,15 +58,30 @@ const Hosting = () => {
           ))}
         </div>
           <section className="tools__hosting__description">
-            <p>Tools for your projects</p>
-            <div>
+            <p className="hosting__title__info">Tools for your projects</p>
+            <section className="section__hosting__info">
+            <div className="images__wp__hosting">
+              <img className="img__project_hosting" src={images.wordpresshosting} alt="" />
+            </div>
+            <div className="desc__tools">
+            <div className="logo__hosting__des">
                   <img className="logo__host__info" src={icons.wplogo} alt="" />
-                <p>WordPress, tienda online y más</p>
+                  <div className="desc__hosting__text">
+                  <p className="title__tool__host">WordPress, online store and more</p>
+                  <p>Install a wide variety of applications such as Wordpress, Joomla or Prestashop in 1 click so you can create your website or online store easily. In a few minutes you can have your new project configured and ready to use.</p>
+                  </div>
             </div>
-            <div>
+            <div className="logo__hosting__des">
               <img className="logo__host__info" src={icons.correologo} alt="" />
+              <div className="desc__hosting__text">
+                  <p className="title__tool__host">Professional email</p>
+                  <p>Create personalized email accounts @yourname.com that you can configure in any email application. We also include a powerful web application that you can access from any browser.</p>
+                  </div>
             </div>
+            </div>
+            </section>
           </section>
+          {/* -----------------NEW SECTION----------- */}
         <section className="section__skill">
             <p className="features">The Best Features At The Best Price!</p>
             <div className="description_feat">

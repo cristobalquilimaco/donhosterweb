@@ -2,6 +2,75 @@
     color: var(--color-letter-btn);
 }
 
+.section__hosting__info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hosting__title__info{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 .logo__host__info{
     width: 50px;
+    height: 50px;
+}
+
+.desc__hosting__text{
+    width: 320px;
+}
+.img__project_hosting{
+    width: 300px;
+}
+
+.logo__hosting__des{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1em;
+}
+
+.title__tool__host{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-btn);
+}
+
+@media (width >= 700px) {
+
+    .section__hosting__info{
+        display: block;
+        display: flex;
+        flex-direction: row-reverse;
+
+        gap: 5rem;
+    }
+
+    .hosting__title__info{
+        font-size: 30px;
+    }
+
+    .logo__host__info{
+        width: 100px;
+        height: 100px;
+    }
+
+    .title__tool__host{
+        font-size: 25px;
+    }
+
+    .img__project_hosting{
+        width: 400px;
+    }
+    .desc__tools{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .desc__hosting__text{
+        width: 650px;
+    }
 }
