@@ -2,7 +2,7 @@ const dedicatedServer = [
     {
       id: 1,
       name: 'Dedicated Servers in Miami, FL - Small',
-      url: 'https://my.donhoster.com/cart.php?a=add&pid=7',
+      url: 'https://my.donhoster.com/cart.php?a=add&pid=2',
       price: '$60 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',

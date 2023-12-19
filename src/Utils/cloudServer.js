@@ -2,7 +2,7 @@ const cloudServer = [
     {
       id: 1,
       name: 'Cloud VM',
-      url: 'https://my.donhoster.com/cart.php?a=add&pid=6',
+      url: 'https://my.donhoster.com/cart.php?a=add&pid=7',
       price: '$20.05 USD',
       savePrice: '$9.99',
       savePercentage: 'Save 90%',
