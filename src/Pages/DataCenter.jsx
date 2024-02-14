@@ -8,9 +8,10 @@ const DataCenter = () => {
     <HelmetProvider>
         <div>
         <Helmet>
-            <title>Datacenter in Miami, FL. Infrastructure</title>
-              <meta name="description" content="Data Centers. 24/7Hrs monitoring of all critical infrastructure assets. The maximum of technology; Disaster recovery solutions; Miami FL connectivity." />
-            </Helmet>
+                  <title>Datacenter in Miami, FL. Infrastructure</title>
+                    <meta name="description" content="Data Centers. 24/7 monitoring of all critical infrastructure assets. The maximum of technology; Disaster recovery solutions; Miami FL connectivity." />
+                    <meta name="keywords" content="data center, infrastructure, Miami data center, disaster recovery, connectivity" />
+                </Helmet>
 <div className="about__box">
         <h1 className="about__title">DATA CENTERS</h1>
             <h3 className="about__subtitle">Always available, also during disasters.</h3>

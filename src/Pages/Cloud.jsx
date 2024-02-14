@@ -9,10 +9,11 @@ const Cloud = () => {
   return (
     <HelmetProvider>
           <div>
-            <Helmet>
-            <title>Cloud hosting</title>
-              <meta name="description" content="KVM Based Cloud Server in Miami · Includes industry leading server control panel · Intel Xeon processor   families · Up to 32GB memory support · Up to 2TB SAN storage." />
-            </Helmet>
+          <Helmet>
+                    <title>Cloud Hosting - KVM Based Cloud Server in Miami</title>
+                    <meta name="description" content="Experience the flexibility of Cloud technology with KVM Based Cloud Server in Miami. Our cloud hosting includes Proxmox Control Panel, 99.9% Availability Guarantee, and support for Windows & Linux." />
+                    <meta name="keywords" content="Cloud hosting, KVM, Proxmox, Miami, Windows, Linux, VPS, Server Control Panel" />
+                </Helmet>
             <div className="about__box">
         <h1 className="about__title">Cloud hosting</h1>
             <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
@@ -23,7 +24,7 @@ const Cloud = () => {
       </div>
 
     <div className="about__banner">
-        <img src={images.bannerabout} alt="" />
+    <img src={images.bannerabout} alt="Cloud Hosting Banner" />
     </div>
     </div>
         <section className="pricing-section pt-120 pb-120">

@@ -15,6 +15,7 @@ const DedicatedSever = () => {
         <Helmet>
         <title>Hosted Dedicated Servers - Bare Metal Servers</title>
         <meta name="description" content="Dedicated servers in Miami | Dedicated servers give you the advantage of having a physical computer for yourself without sharing it with any other user" />
+        <meta name="keywords" content="dedicated servers, cheap dedicated server, Miami data center, disaster recovery, connectivity" />
         </Helmet>
             <div className="about__box">
         <h1 className="about__title">Dedicated servers</h1>

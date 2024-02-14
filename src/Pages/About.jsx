@@ -8,21 +8,36 @@ const About = () => {
         <HelmetProvider>
             <div className="about__box">
                 <Helmet>
-            <title>Learn more about the company | DonHoster</title>
-              <meta name="description" content="At DonHoster we believe that with our talented team, smart technology and committed users we can solve some of the Internet's biggest problems." />
-            </Helmet>
-        <h1 className="about__title">THE COMPANY</h1>
-        <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
-        <div className="about__p">
-        <i className="bx bx-check" /> Ethics &nbsp;
-        <i className="bx bx-check" /> Responsibility &nbsp;
-        <i className="bx bx-check" /> Respect
-        </div>
-            <div className="about__banner">
-        <img src={images.bannerabout} alt="" />
-        </div>
-        <p className="about__pp">About <span className="about__span">DonHoster LLC,</span></p>
-        <br />      
+                    <title>Discover the Story of DonHoster | About Us - DonHoster LLC</title>
+                    <meta name="description" content="Learn more about DonHoster LLC, a telecommunications and IT consulting company based in Portland, Oregon. Explore our values, mission, and objectives." />
+                    <meta name="keywords" content="DonHoster, telecommunications, IT consulting, Data Center services, Portland, Oregon, cloud services, colocation services" />
+                    <script type="application/ld+json">
+                        {`
+                        {
+                            "@context": "http://schema.org",
+                            "@type": "Organization",
+                            "name": "DonHoster LLC",
+                            "description": "Telecommunications and IT consulting company in Portland, Oregon",
+                            "url": "https://www.donhoster.com",
+                        }
+                        `}
+                    </script>
+                </Helmet>
+
+                <h1 className="about__title">THE COMPANY</h1>
+                <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
+                <div className="about__p">
+                    <i className="bx bx-check" /> Ethics &nbsp;
+                    <i className="bx bx-check" /> Responsibility &nbsp;
+                    <i className="bx bx-check" /> Respect
+                </div>
+
+                <div className="about__banner">
+                    <img src={images.bannerabout} alt="DonHoster - Providing Telecommunications and IT Consulting Services" />
+                </div>
+
+                <p className="about__pp">About <span className="about__span">DonHoster LLC,</span></p>
+                <br />      
         <section className="about__txt">
         <p><strong>DonHoster</strong> is a company created in 2017, as a provider of telecommunications, Data Center service and IT consulting, in Portland, Oregon.</p>
         <p><strong className="title_fund">Foundation</strong></p>
