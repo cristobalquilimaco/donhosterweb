@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Link to="/cloud" className="nav-link" aria-current="page" >Cloud</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/about">About</Link>
+              <Link className="nav-link" aria-current="page" to="/about-donhoster">About</Link>
             </li>
           </ul>
           <div className="btn_double">
