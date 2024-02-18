@@ -71,7 +71,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li className="list_footer_menu">
-                      <Link to="/about">
+                      <Link to="/about-donhoster">
                         About us
                       </Link>
                     </li>
@@ -155,7 +155,7 @@ const Footer = () => {
               <Link to="/privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <Link to="/term-of-services">Terms & Conditions</Link>
+              <Link to="/terms-of-services">Terms & Conditions</Link>
             </li>
           </ul>
         </div>
