@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/dedicated-servers">Dedicated Server</Link>
+              <Link className="nav-link" aria-current="page" to="/dedicated-servers">Dedicated Servers</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/hosting">Web Hosting</Link>

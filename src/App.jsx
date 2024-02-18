@@ -59,12 +59,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/dedicated-servers' element={<DedicatedSever />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/about-donhoster' element={<About />} />
         <Route path='/vps' element={<VpsKvm />} />
         <Route path='/cloud' element={<Cloud />} />
         <Route path='/hosting' element={<Hosting />} />
         <Route path='/privacy-policy' element={<PrivacyPolicy />} />
-        <Route path='/term-of-services' element={<TermOfServices />} />
+        <Route path='/terms-of-services' element={<TermOfServices />} />
         <Route path='/data-center' element={<DataCenter />} />
         <Route path='/error-403' element={<Error403 />} />
         <Route path='/error-500' element={<Error500 />} />
