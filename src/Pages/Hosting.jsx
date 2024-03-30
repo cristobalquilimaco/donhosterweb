@@ -90,7 +90,7 @@ const Hosting = () => {
             <div className="description_feat">
                 <p className="title_feat">Start quickly and easily</p>
                 <p className="pp__text__footer">Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
-                <p className="pp__text__footer">VPS services are the perfect alternative between a shared hosting service and a dedicated server. With a VPS you have control over a section of a dedicated server to install software and applications according to your needs. Choose NetbyHost. As your semi-dedicated service provider, our specialists will help you select the right configuration according to your requirements.</p>
+                <p className="pp__text__footer">VPS hosting stands as a versatile solution nestled between traditional shared hosting and dedicated servers, offering a tailored balance of control and affordability. With a VPS, you command a dedicated portion of server resources, granting you the autonomy to install and configure software and applications to match your unique requirements. Entrust your web hosting needs to DonHoster. As your semi-dedicated service provider, our adept specialists will collaborate closely with you to identify the optimal hosting configuration, ensuring it aligns seamlessly with your website´s demands for performance, security, and scalability.</p>
             </div>
             <div className="animatin features__skill">
                 <ul className="list__skill">

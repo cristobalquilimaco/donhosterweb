@@ -58,7 +58,7 @@ const VpsKvm = () => {
             <div className="description_feat">
                 <p className="title_feat">Start quickly and easily</p>
                 <p>Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
-                <p>VPS services are the perfect alternative between a shared hosting service and a dedicated server. With a VPS you have control over a section of a dedicated server to install software and applications according to your needs. Choose NetbyHost. As your semi-dedicated service provider, our specialists will help you select the right configuration according to your requirements.</p>
+                <p>VPS hosting offers a balanced solution between shared hosting and dedicated servers, providing users with a dedicated portion of server resources. With a VPS, you gain full control over your virtual environment, allowing you to install and configure software and applications to suit your specific needs. Choose DonHoster as your VPS hosting provider. Our team of experts will guide you in selecting the optimal configuration tailored to your requirements, ensuring high performance and reliability for your online projects.</p>
             </div>
             <div className="features__skill">
                 <ul className="list__skill">

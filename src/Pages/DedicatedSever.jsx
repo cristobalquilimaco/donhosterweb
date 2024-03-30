@@ -60,7 +60,7 @@ const DedicatedSever = () => {
             <div className="description_feat">
                 <p className="title_feat">Start quickly and easily</p>
                 <p>Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
-                <p>VPS services are the perfect alternative between a shared hosting service and a dedicated server. With a VPS, you have control over a section of a dedicated server to install software and applications according to your needs. Choose DonHoster as your semi-dedicated service provider, our specialists will help you select the right configuration according to your requirements.</p>
+                <p>Dedicated server hosting provides unparalleled control and resources for your online ventures. Unlike shared hosting or VPS services, where resources are distributed among multiple users, a dedicated server offers you exclusive access to an entire server, providing optimal performance and security. With a dedicated server, you have complete autonomy to customize hardware specifications, install software, and configure applications according to your precise needs. Choose DonHoster as your dedicated server provider, where our specialists will assist you in selecting the ideal server configuration tailored to your specific requirements, ensuring optimal performance and reliability for your projects.</p>
             </div>
             <div className="animatin features__skill">
                 <ul className="list__skill">
