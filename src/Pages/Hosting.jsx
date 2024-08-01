@@ -20,6 +20,7 @@ const Hosting = () => {
         <Helmet>
         <title>Web Hosting Cpanel - DonHoster</title>
         <meta name="description" content="Dedicated servers in Miami | Dedicated servers give you the advantage of having a physical computer for yourself without sharing it with any other user" />
+        <link rel="canonical" href="https://donhoster.com/hosting" />
         </Helmet>
             <div className="about__box">
         <h1 className="about__title">Web Hosting Cpanel</h1>

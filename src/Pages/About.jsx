@@ -14,7 +14,6 @@ const About = () => {
                     <script type="application/ld+json">
                         {`
                         {
-                            "@context": "http://schema.org",
                             "@type": "Organization",
                             "name": "DonHoster LLC",
                             "description": "Telecommunications and IT consulting company in Portland, Oregon",
@@ -22,6 +21,7 @@ const About = () => {
                         }
                         `}
                     </script>
+                    <link rel="canonical" href="https://donhoster.com/" />
                 </Helmet>
 
                 <h1 className="about__title">THE COMPANY</h1>
