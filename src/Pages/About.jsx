@@ -17,7 +17,7 @@ const About = () => {
                             "@type": "Organization",
                             "name": "DonHoster LLC",
                             "description": "Telecommunications and IT consulting company in Portland, Oregon",
-                            "url": "https://www.donhoster.com",
+                            "url": "https://donhoster.com/about-donhoster",
                         }
                         `}
                     </script>
