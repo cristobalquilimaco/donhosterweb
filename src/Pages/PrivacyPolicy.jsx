@@ -8,10 +8,21 @@ const PrivacyPolicy = () => {
   return (
     <HelmetProvider>
           <div className="about__box">
-            <Helmet>
-            <title>Privacy Policy | DonHoster</title>
-              <meta name="description" content="Learn about DonHoster privacy policy, its general practices, procedures (DonHoster dba) to handle your information and more." />
-            </Helmet>
+          <Helmet>
+            <title>Privacy Policy - DonHoster</title>
+            <meta name="description" content="Read DonHoster's Privacy Policy to understand how we collect, use, and protect your personal information. Learn about our practices and procedures to ensure your data is handled responsibly." />
+            <meta name="robots" content="index, follow" />
+            <meta name="keywords" content="privacy policy, data protection, personal information, DonHoster privacy, data handling" />
+            <link rel="canonical" href="https://donhoster.com/privacy-policy" />
+            <meta property="og:title" content="Privacy Policy - DonHoster" />
+            <meta property="og:description" content="Read DonHoster's Privacy Policy to understand how we collect, use, and protect your personal information. Learn about our practices and procedures to ensure your data is handled responsibly." />
+            <meta property="og:url" content="https://donhoster.com/privacy-policy" />
+            <meta property="og:type" content="article" />
+            <meta property="og:image" content="https://donhoster.com/images/privacy-policy-thumbnail.jpg" />
+            <meta property="og:image:alt" content="Privacy Policy" />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+          </Helmet>
       <h1 className="about__title">THE COMPANY</h1>
       <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
       <div className="about__p">

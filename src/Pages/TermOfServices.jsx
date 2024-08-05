@@ -9,11 +9,17 @@ const TermOfServices = () => {
   return (
     <HelmetProvider>
       <div className="about__box">
-                  <Helmet>
-            <title>Term of services | DonHoster</title>
-            <meta name="description" content="What every customer should know before purchasing our products. Terms of Service of DonHoster, the general use of its products, its rules and more." />
-            <link rel="canonical" href="https://donhoster.com/terms-of-services" />
-            </Helmet>
+        <Helmet>
+            <title>Terms of Service - DonHoster</title>
+            <meta name="description" content="Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services. Ensure you understand the terms before making a purchase." />
+            <meta name="robots" content="index, follow" />
+            <link rel="canonical" href="https://donhoster.com/terms-of-service" />
+            <meta property="og:title" content="Terms of Service - DonHoster" />
+            <meta property="og:description" content="Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services. Ensure you understand the terms before making a purchase." />
+            <meta property="og:url" content="https://donhoster.com/terms-of-service" />
+            <meta property="og:type" content="article" />
+            <meta property="og:image" content="https://donhoster.com/images/terms-of-service-thumbnail.jpg" />
+        </Helmet>
       <h1 className="about__title">THE COMPANY</h1>
       <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
       <div className="about__p">
