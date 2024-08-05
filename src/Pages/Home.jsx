@@ -11,14 +11,24 @@ const Home = () => {
   return (
     <HelmetProvider>
       <div className="container__home">
-        <Helmet>
-          <title>DonHoster - Dedicated Server in Miami - Server Hosting</title>
-          <meta
-            name="description"
-            content="Discover the best dedicated servers in Miami for your web project with DonHoster. Reliable performance and expert support for your hosting needs."
-          />
-          <link rel="canonical" href="https://donhoster.com/" />
-        </Helmet>
+      <Helmet>
+        <title>Dedicated Servers in Miami - DonHoster</title>
+        <meta
+    name="description"
+    content="Explore DonHoster's top-tier dedicated servers in Miami. Enjoy exceptional performance, reliability, and 24/7 expert support tailored for your web hosting needs."
+  />
+        <meta name="keywords" content="dedicated servers, Miami dedicated servers, server hosting, reliable servers, DonHoster hosting, web hosting Miami" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://donhoster.com/dedicated-servers-miami" />
+        <meta property="og:title" content="Dedicated Servers in Miami - DonHoster" />
+        <meta property="og:description" content="Explore DonHoster's top-tier dedicated servers in Miami. Enjoy exceptional performance, reliability, and 24/7 expert support tailored for your web hosting needs." />
+        <meta property="og:url" content="https://donhoster.com/dedicated-servers-miami" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://donhoster.com/images/dedicated-servers-miami-thumbnail.jpg" />
+        <meta property="og:image:alt" content="Dedicated Servers in Miami" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+      </Helmet>
         <Banner />
         <ChooseUs />
         <Services />

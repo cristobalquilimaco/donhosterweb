@@ -17,11 +17,22 @@ const Hosting = () => {
     <>
     <HelmetProvider>
     <div className="principal__hosting__infor">
-        <Helmet>
-        <title>Web Hosting Cpanel - DonHoster</title>
-        <meta name="description" content="Dedicated servers in Miami | Dedicated servers give you the advantage of having a physical computer for yourself without sharing it with any other user" />
-        <link rel="canonical" href="https://donhoster.com/hosting" />
-        </Helmet>
+    <Helmet>
+      <title>Web Hosting with cPanel - DonHoster</title>
+      <meta name="description" content="Explore DonHoster's web hosting solutions with cPanel. Enjoy easy management of your websites with our reliable and scalable hosting plans. Perfect for personal and business use." />
+      <meta name="keywords" content="web hosting, cPanel hosting, hosting with cPanel, reliable web hosting, scalable hosting plans, DonHoster hosting" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://donhoster.com/hosting" />
+      <meta property="og:title" content="Web Hosting with cPanel - DonHoster" />
+      <meta property="og:description" content="Explore DonHoster's web hosting solutions with cPanel. Enjoy easy management of your websites with our reliable and scalable hosting plans. Perfect for personal and business use." />
+      <meta property="og:url" content="https://donhoster.com/hosting" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="https://donhoster.com/images/web-hosting-cpanel-thumbnail.jpg" />
+      <meta property="og:image:alt" content="Web Hosting with cPanel" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
+    </Helmet>
+
             <div className="about__box">
         <h1 className="about__title">Web Hosting Cpanel</h1>
             <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>
