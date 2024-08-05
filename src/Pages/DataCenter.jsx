@@ -8,11 +8,23 @@ const DataCenter = () => {
     <HelmetProvider>
         <div>
         <Helmet>
-                  <title>Datacenter in Miami, FL. Infrastructure</title>
-                    <meta name="description" content="Data Centers. 24/7 monitoring of all critical infrastructure assets. The maximum of technology; Disaster recovery solutions; Miami FL connectivity." />
-                    <meta name="keywords" content="data center, infrastructure, Miami data center, disaster recovery, connectivity" />
-                    <link rel="canonical" href="https://donhoster.com/data-center" />
-                </Helmet>
+  <title>Miami Data Center - State-of-the-Art Infrastructure | DonHoster</title>
+  <meta
+    name="description"
+    content="Explore DonHoster's Miami data center offering cutting-edge infrastructure with 24/7 monitoring, disaster recovery solutions, and reliable connectivity. Ensure maximum uptime and security for your critical assets."
+  />
+  <meta name="keywords" content="Miami data center, data center infrastructure, disaster recovery, 24/7 monitoring, reliable connectivity, DonHoster data center" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://donhoster.com/data-center" />
+  <meta property="og:title" content="Miami Data Center - State-of-the-Art Infrastructure | DonHoster" />
+  <meta property="og:description" content="Explore DonHoster's Miami data center offering cutting-edge infrastructure with 24/7 monitoring, disaster recovery solutions, and reliable connectivity. Ensure maximum uptime and security for your critical assets." />
+  <meta property="og:url" content="https://donhoster.com/data-center" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://donhoster.com/images/miami-data-center-thumbnail.jpg" />
+  <meta property="og:image:alt" content="Miami Data Center Infrastructure" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+</Helmet>
 <div className="about__box">
         <h1 className="about__title">DATA CENTERS</h1>
             <h3 className="about__subtitle">Always available, also during disasters.</h3>

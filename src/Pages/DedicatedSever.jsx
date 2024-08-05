@@ -12,12 +12,24 @@ const DedicatedSever = () => {
   return (
     <HelmetProvider>
     <div>
-        <Helmet>
-        <title>Hosted Dedicated Servers - Bare Metal Servers</title>
-        <meta name="description" content="Dedicated servers in Miami | Dedicated servers give you the advantage of having a physical computer for yourself without sharing it with any other user" />
-        <meta name="keywords" content="dedicated servers, cheap dedicated server, Miami data center, disaster recovery, connectivity" />
-        <link rel="canonical" href="https://donhoster.com/dedicated-servers"/>
-        </Helmet>
+    <Helmet>
+  <title>Hosted Dedicated Servers - Bare Metal Servers | DonHoster</title>
+  <meta 
+    name="description" 
+    content="Discover high-performance hosted dedicated servers and bare metal servers in Miami with DonHoster. Enjoy the benefits of exclusive physical servers, enhanced security, and reliable connectivity tailored for your business needs." 
+  />
+  <meta name="keywords" content="dedicated servers, bare metal servers, hosted dedicated servers, Miami data center, high-performance servers, secure servers, business hosting solutions" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://donhoster.com/dedicated-servers" />
+  <meta property="og:title" content="Hosted Dedicated Servers - Bare Metal Servers | DonHoster" />
+  <meta property="og:description" content="Discover high-performance hosted dedicated servers and bare metal servers in Miami with DonHoster. Enjoy the benefits of exclusive physical servers, enhanced security, and reliable connectivity tailored for your business needs." />
+  <meta property="og:url" content="https://donhoster.com/dedicated-servers" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://donhoster.com/images/dedicated-servers-thumbnail.jpg" />
+  <meta property="og:image:alt" content="Hosted Dedicated Servers" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+</Helmet>
             <div className="about__box">
         <h1 className="about__title">Dedicated servers</h1>
             <h3 className="about__subtitle">Listed below our awesome hosting packages. You can select any dedicated server services below!</h3>

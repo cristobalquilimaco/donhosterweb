@@ -10,11 +10,23 @@ const Cloud = () => {
     <HelmetProvider>
           <div>
           <Helmet>
-                    <title>Cloud Hosting - KVM Based Cloud Server in Miami</title>
-                    <meta name="description" content="Experience the flexibility of Cloud technology with KVM Based Cloud Server in Miami. Our cloud hosting includes Proxmox Control Panel, 99.9% Availability Guarantee, and support for Windows & Linux." />
-                    <meta name="keywords" content="Cloud hosting, KVM, Proxmox, Miami, Windows, Linux, VPS, Server Control Panel" />
-                    <link rel="canonical" href="https://donhoster.com/cloud" />
-                </Helmet>
+  <title>Cloud Hosting - KVM Cloud Servers in Miami | DonHoster</title>
+  <meta 
+    name="description" 
+    content="Discover flexible and scalable KVM-based cloud hosting solutions in Miami with DonHoster. Our cloud servers come with Proxmox control panel, 99.9% uptime guarantee, and full support for both Windows and Linux operating systems." 
+  />
+  <meta name="keywords" content="cloud hosting, KVM cloud servers, Proxmox control panel, Miami cloud hosting, Windows cloud server, Linux cloud server, VPS hosting" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://donhoster.com/cloud" />
+  <meta property="og:title" content="Cloud Hosting - KVM Cloud Servers in Miami | DonHoster" />
+  <meta property="og:description" content="Discover flexible and scalable KVM-based cloud hosting solutions in Miami with DonHoster. Our cloud servers come with Proxmox control panel, 99.9% uptime guarantee, and full support for both Windows and Linux operating systems." />
+  <meta property="og:url" content="https://donhoster.com/cloud" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://donhoster.com/images/cloud-hosting-thumbnail.jpg" />
+  <meta property="og:image:alt" content="KVM Cloud Servers in Miami" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+</Helmet>
             <div className="about__box">
         <h1 className="about__title">Cloud hosting</h1>
             <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
