@@ -7,23 +7,27 @@ const About = () => {
     return (
         <HelmetProvider>
             <div className="about__box">
-                <Helmet>
-                    <title>Discover the Story of DonHoster | About Us - DonHoster LLC</title>
-                    <meta name="description" content="Learn more about DonHoster LLC, a telecommunications and IT consulting company based in Portland, Oregon. Explore our values, mission, and objectives." />
-                    <meta name="keywords" content="DonHoster, telecommunications, IT consulting, Data Center services, Portland, Oregon, cloud services, colocation services" />
-                    <script type="application/ld+json">
-                        {`
-                        {
-                            "@type": "Organization",
-                            "name": "DonHoster LLC",
-                            "description": "Telecommunications and IT consulting company in Portland, Oregon",
-                            "url": "https://donhoster.com/about-donhoster",
-                        }
-                        `}
-                    </script>
-                    <link rel="canonical" href="https://donhoster.com/" />
-                </Helmet>
-
+            <Helmet>
+  <title>About Us - DonHoster LLC | Learn Our Story and Values</title>
+  <meta
+    name="description"
+    content="Discover the story behind DonHoster LLC, a leading telecommunications and IT consulting company based in Portland, Oregon. Learn about our values, mission, and the services we offer, including data center, cloud, and colocation solutions."
+  />
+  <meta
+    name="keywords"
+    content="DonHoster, telecommunications, IT consulting, data center services, Portland, Oregon, cloud services, colocation services, company values, mission"
+  />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://donhoster.com/about-us" />
+  <meta property="og:title" content="About Us - DonHoster LLC | Learn Our Story and Values" />
+  <meta property="og:description" content="Discover the story behind DonHoster LLC, a leading telecommunications and IT consulting company based in Portland, Oregon. Learn about our values, mission, and the services we offer, including data center, cloud, and colocation solutions." />
+  <meta property="og:url" content="https://donhoster.com/about-us" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://donhoster.com/images/about-us-thumbnail.jpg" />
+  <meta property="og:image:alt" content="DonHoster LLC - About Us" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+</Helmet>
                 <h1 className="about__title">THE COMPANY</h1>
                 <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
                 <div className="about__p">
