@@ -13,6 +13,7 @@ const Cloud = () => {
                     <title>Cloud Hosting - KVM Based Cloud Server in Miami</title>
                     <meta name="description" content="Experience the flexibility of Cloud technology with KVM Based Cloud Server in Miami. Our cloud hosting includes Proxmox Control Panel, 99.9% Availability Guarantee, and support for Windows & Linux." />
                     <meta name="keywords" content="Cloud hosting, KVM, Proxmox, Miami, Windows, Linux, VPS, Server Control Panel" />
+                    <link rel="canonical" href="https://donhoster.com/cloud" />
                 </Helmet>
             <div className="about__box">
         <h1 className="about__title">Cloud hosting</h1>
