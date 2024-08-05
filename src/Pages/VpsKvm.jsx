@@ -11,6 +11,7 @@ const VpsKvm = () => {
           <Helmet>
         <title>Cheap KVM Linux VPS & Windows VPS</title>
         <meta name="description" content="VPS KVM. Fast and stable KVM VPS servers with Proxmox control panel. 99.9% availability guarantee. Support for Windows and Linux operating systems."/>
+        <link rel="canonical" href="https://donhoster.com/vps" />
         </Helmet>
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>

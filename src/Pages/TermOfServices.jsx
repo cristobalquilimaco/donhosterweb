@@ -11,7 +11,8 @@ const TermOfServices = () => {
       <div className="about__box">
                   <Helmet>
             <title>Term of services | DonHoster</title>
-              <meta name="description" content="What every customer should know before purchasing our products. Terms of Service of DonHoster, the general use of its products, its rules and more." />
+            <meta name="description" content="What every customer should know before purchasing our products. Terms of Service of DonHoster, the general use of its products, its rules and more." />
+            <link rel="canonical" href="https://donhoster.com/terms-of-services" />
             </Helmet>
       <h1 className="about__title">THE COMPANY</h1>
       <h3 className="about__subtitle">Values stem from our focus on customer well-being</h3>
