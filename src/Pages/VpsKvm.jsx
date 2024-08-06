@@ -9,10 +9,17 @@ const VpsKvm = () => {
     <HelmetProvider>
           <div className="principal__vps">
           <Helmet>
-        <title>Cheap KVM Linux VPS & Windows VPS</title>
-        <meta name="description" content="VPS KVM. Fast and stable KVM VPS servers with Proxmox control panel. 99.9% availability guarantee. Support for Windows and Linux operating systems."/>
-        <link rel="canonical" href="https://donhoster.com/vps" />
-        </Helmet>
+  <title>Cheap KVM Linux VPS & Windows VPS - DonHoster</title>
+  <meta name="description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
+  <meta name="keywords" content="cheap KVM VPS, Linux VPS, Windows VPS, fast VPS, stable VPS, Proxmox VPS, VPS hosting, 99.9% uptime" />
+  <meta property="og:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
+  <meta property="og:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
+  <meta property="og:url" content="https://donhoster.com/vps" />
+  <meta property="og:image" content="https://donhoster.com/images/vps-thumbnail.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://donhoster.com/vps" />
+  <meta name="robots" content="index, follow" />
+</Helmet>
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>
             <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
