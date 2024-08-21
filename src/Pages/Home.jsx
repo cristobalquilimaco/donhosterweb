@@ -29,6 +29,7 @@ const Home = () => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Helmet>
+      <h1 className="sr-only">Dedicated Servers and VPS Hosting in Miami | DonHoster</h1> {/* Encabezado oculto */}
         <Banner />
         <ChooseUs />
         <Services />
