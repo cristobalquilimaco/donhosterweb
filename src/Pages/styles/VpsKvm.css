@@ -70,3 +70,7 @@
 .skill__icon:hover{
     color: var(--color-btn);
 }
+
+.section-title{
+    color: white;
+}
