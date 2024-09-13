@@ -78,7 +78,7 @@ const DataCenter = () => {
             <div className="section__info__data">
               <p className="title__info__miami">Miami FL, USA</p>
               <p className="text__info__data__center">
-                Our Miami data centers are at the heart of one of the world's largest Internet exchanges interconnecting Latin America, the Northeast US, and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple data centers.
+                Our Miami data centers are at the heart of one of the world´s largest Internet exchanges interconnecting Latin America, the Northeast US, and Europe. Provides exceptional hosting solutions offering a high level of infrastructure and connectivity from Miami with innovative and automated technology for small and large businesses offering cloud-based services and guaranteed quality and availability of hosting services and best available hardware distributed in multiple data centers.
                 <br />
                 DonHoster is committed to meeting the demand of IT. You will have fast and secure connections with 24/7 availability.
                 <br />
