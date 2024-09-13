@@ -12,8 +12,8 @@ const VpsKvm = () => {
   <title>Cheap KVM Linux VPS & Windows VPS - DonHoster</title>
   <meta name="description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
   <meta name="keywords" content="cheap KVM VPS, Linux VPS, Windows VPS, fast VPS, stable VPS, Proxmox VPS, VPS hosting, 99.9% uptime" />
-  <meta name="google-site-verification" content="your-google-verification-code" />
-  <meta name="ahrefs-site-verification" content="your-ahrefs-verification-code" />
+  <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
+  <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
   <meta property="og:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
   <meta property="og:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
   <meta property="og:url" content="https://donhoster.com/vps" />
@@ -42,7 +42,18 @@ const VpsKvm = () => {
     }
   `}
   </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8HRCWRKGG"></script>
+  <script>
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E8HRCWRKGG');
+  `}
+  </script>
 </Helmet>
+
 
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>
