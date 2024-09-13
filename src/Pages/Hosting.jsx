@@ -111,7 +111,7 @@ const Hosting = () => {
                       </ul>
                       <a href={server.url}>
                         <button className="choice_plan-btn">
-                          Choose the {server.name} Hosting Plan
+                          Choose Plan
                         </button>
                       </a>
                     </div>
