@@ -72,7 +72,7 @@ const VpsKvm = () => {
   </div>
 </div>
 
-<section className="pricing-section pt-120 pb-120">
+<section className="pricing-section pt-110 pb-120">
   <div className="container">
     <h2 className="section-title">Our VPS KVM Plans</h2> 
     {/* Mejora en la semántica y jerarquía del título */}

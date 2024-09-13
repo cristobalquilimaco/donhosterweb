@@ -22,39 +22,63 @@ const Cloud = () => {
           <meta property="og:image:alt" content="KVM Cloud Servers in Miami" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
+
+          {/* Verificación de Google y Ahrefs */}
+          <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
+          <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
+
+          {/* Scripts de Google Tag Manager */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8HRCWRKGG"></script>
+          <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-E8HRCWRKGG');
+          `}
+          </script>
+
+          {/* JSON-LD para datos estructurados */}
+          <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "DonHoster",
+              "url": "https://donhoster.com",
+              "sameAs": [
+                "https://www.facebook.com/DonHoster",
+                "https://twitter.com/DonHoster"
+              ]
+            }
+          `}
+          </script>
         </Helmet>
 
         <div className="about__box">
           <h1 className="about__title">Cloud Hosting</h1> 
-          {/* Título principal para SEO */}
-          
-          <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3> 
-          {/* Subtítulo manteniendo h3 */}
+          <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
           
           <div className="about__p">
             <i className="bx bx-check" /> VPS Proxmox Control Panel &nbsp;
             <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
-            <i className="bx bx-check" /> Windows & Linux OS Support {/* Claridad en el contenido */}
+            <i className="bx bx-check" /> Windows & Linux OS Support
           </div>
 
           <div className="about__banner">
-            <img src={images.bannerabout} alt="Cloud Hosting Banner" /> 
-            {/* Texto alternativo para SEO */}
+            <img src={images.bannerabout} alt="Cloud Hosting Banner" />
           </div>
         </div>
 
         <section className="pricing-section pt-120 pb-120">
           <div className="container">
-            <h2 className="section-title">Our Cloud Hosting Plans</h2> 
-            {/* Mejora semántica */}
-            
+            <h2 className="section-title">Our Cloud Hosting Plans</h2>
             <div className="row g-4 justify-content-center card_clud">
               {cloudServer.map(cloud => (
                 <div key={cloud.id} className="col-xl-3 card_clud">
                   <div className="pricing-items">
                     <div className="pricing-header">
                       <h5 className="title_plan">{cloud.name} - Cloud Plan</h5>
-                      {/* Título más claro para SEO */}
                     </div>
                     <div className="price">
                       <h3 className="plan_price">{cloud.price} <span>/mo</span></h3>
@@ -63,7 +87,7 @@ const Cloud = () => {
                       {cloud.features.map((feature, index) => (
                         <li key={index}>
                           <img className="iconcheck" src={icons.check} alt="Check icon indicating feature" />
-                          {feature} 
+                          {feature}
                         </li>
                       ))}
                     </ul>
@@ -78,9 +102,7 @@ const Cloud = () => {
             </div>
 
             <section className="section__skill">
-              <h2 className="features">The Best Features At The Best Price!</h2> 
-              {/* Cambié a h2 para mayor jerarquía */}
-              
+              <h2 className="features">The Best Features At The Best Price!</h2>
               <div className="description_feat">
                 <p className="title_feat">Start quickly and easily</p>
                 <p>We guarantee security and stability with 99.9% uptime. Cloud hosting presents an ideal solution, bridging the gap between traditional shared hosting and dedicated servers.</p>
@@ -109,7 +131,7 @@ const Cloud = () => {
         </section>
       </div>
     </HelmetProvider>
-  );
+  )
 }
 
 export default Cloud;
