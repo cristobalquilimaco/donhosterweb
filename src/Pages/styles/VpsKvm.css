@@ -51,6 +51,7 @@
     justify-content: center;
     gap: 2em;
     margin-top: 3em;
+    
 }
 
 .list__skill{
@@ -58,6 +59,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    max-width: 400px;
 }
 
 .skill__icon{

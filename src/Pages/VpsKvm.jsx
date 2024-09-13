@@ -53,76 +53,93 @@ const VpsKvm = () => {
   `}
   </script>
 </Helmet>
+<div className="about__box">
+  <h1 className="about__title">VPS - KVM</h1> 
+  {/* Título principal, adecuado para SEO */}
+  
+  <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3> 
+  {/* Subtítulo manteniendo h3 para no romper el CSS */}
 
+  <div className="about__p">
+    <i className="bx bx-check" /> VPS Proxmox Control Panel &nbsp;
+    <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
+    <i className="bx bx-check" /> Windows & Linux OS Support {/* Mejora en la claridad del texto */}
+  </div>
 
-            <div className="about__box">
-        <h1 className="about__title">VPS - KVM</h1>
-            <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
-    <div className="about__p">
-        <i className="bx bx-check" /> VPS Proxmox Control Panel  &nbsp;
-        <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
-        <i className="bx bx-check" /> S.O Windows & Linux
+  <div className="about__banner">
+    <img src={images.bannerabout} alt="Banner showing VPS hosting services with Proxmox control panel" /> 
+    {/* Texto alternativo agregado para SEO y accesibilidad */}
+  </div>
+</div>
+
+<section className="pricing-section pt-120 pb-120">
+  <div className="container">
+    <h2 className="section-title">Our VPS KVM Plans</h2> 
+    {/* Mejora en la semántica y jerarquía del título */}
+
+    <div className="row g-4 justify-content-center">
+      {vpsKvm.map(vps => (
+        <div key={vps.id} className="col-xl-3">
+          <div className="pricing-items">
+            <div className="pricing-header">
+              <h5 className="title_plan">
+                {vps.name} - VPS Plan {/* Título más claro para SEO */}
+              </h5>
+            </div>
+            <div className="price">
+              <h3 className="plan_price">{vps.price} <span>/mo</span></h3>
+            </div>
+            <ul className="pricing-list">
+              {vps.features.map((feature, index) => (
+                <li key={index}>
+                  <img className="iconcheck" src={icons.check} alt="Check icon indicating feature" /> 
+                  {feature} {/* Descripción de la imagen para accesibilidad */}
+                </li>
+              ))}
+            </ul>
+            <a href={vps.url} className="cmn--btn">
+              <button className="choice_plan-btn" aria-label={`Choose ${vps.name} Plan`}>
+                Choose Plan {/* Agregado aria-label para accesibilidad */}
+              </button>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <section className="section__skill">
+      <h2 className="features">The Best Features At The Best Price!</h2> 
+      {/* Cambié a h2 para una jerarquía semántica correcta */}
+      
+      <div className="description_feat">
+        <p className="title_feat">Start Quickly and Easily</p>
+        <p>We guarantee security and stability with 99.9% uptime. VPS hosting offers a reliable solution between shared hosting and dedicated servers, providing you with a dedicated portion of server resources.</p>
+        <p>With VPS, you gain full control over your virtual environment. DonHoster ensures high performance and reliability for your online projects with expert guidance in selecting the optimal configuration tailored to your needs.</p> 
+        {/* Mejora del contenido para mayor claridad y optimización SEO */}
       </div>
 
-    <div className="about__banner">
-        <img src={images.bannerabout} alt="" />
-    </div>
-    </div>
-        <section className="pricing-section pt-120 pb-120">
-      <div className="container">
-        <div className="row g-4 justify-content-center">
-          {vpsKvm.map(vps => (
-            <div key={vps.id} className="col-xl-3">
-              <div className="pricing-items">
-                <div className="pricing-header">
-                  <h5 className="title_plan">
-                    {vps.name}
-                  </h5>
-                </div>
-                <div className="price">
-                  <h3 className='plan_price'>{vps.price} <span>/mo</span></h3>
-                </div>
-                <ul className="pricing-list">
-                  {vps.features.map((feature, index) => (
-                    <li key={index}>
-                      <img className="iconcheck" src={icons.check} alt="pricing-img" /> {feature}
-                    </li>
-                  ))}
-                </ul>
-                <a href={vps.url} className="cmn--btn">
-                  <button className='choice_plan-btn'>Choice Plan</button>
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-        <section className="section__skill">
-            <p className="features">The Best Features At The Best Price!</p>
-            <div className="description_feat">
-                <p className="title_feat">Start quickly and easily</p>
-                <p>Security and Stability We guarantee stability and security in our servers with 99.9% uptime.</p>
-                <p>VPS hosting offers a balanced solution between shared hosting and dedicated servers, providing users with a dedicated portion of server resources. With a VPS, you gain full control over your virtual environment, allowing you to install and configure software and applications to suit your specific needs. Choose DonHoster as your VPS hosting provider. Our team of experts will guide you in selecting the optimal configuration tailored to your requirements, ensuring high performance and reliability for your online projects.</p>
-            </div>
-            <div className="features__skill">
-                <ul className="list__skill">
-                    <li><i className='skill__icon bx bxs-rocket' ></i></li>
-                    <li>Power full and Reliable</li>
-                    <li>Our VPS are equipped with enterprise-grade hardware.</li>
-                </ul>
-                <ul className="list__skill">
-                <li><i className='skill__icon bx bx-shuffle'></i></li>
-                <li>Flexibility</li>
-                <li>Ability to adapt easily to various circumstances.</li>
-                </ul>
-                <ul className="list__skill">
-                <li><i className='skill__icon bx bxs-server'></i></li>
-                <li>Fast Service</li>
-                <li>High speed local bandwidth flat rate.</li>
-                </ul>
-            </div>
-        </section>
+      <div className="features__skill">
+        <ul className="list__skill">
+          <li><i className="skill__icon bx bxs-rocket"></i></li>
+          <li>Powerful and Reliable</li>
+          <li>Our VPS servers are equipped with enterprise-grade hardware to ensure smooth performance.</li> 
+          {/* Claridad en la descripción */}
+        </ul>
+        <ul className="list__skill">
+          <li><i className="skill__icon bx bx-shuffle"></i></li>
+          <li>Flexibility</li>
+          <li>Our VPS adapts easily to various requirements and offers scalability.</li>
+        </ul>
+        <ul className="list__skill">
+          <li><i className="skill__icon bx bxs-server"></i></li>
+          <li>Fast Service</li>
+          <li>High-speed local bandwidth with a flat rate structure for consistent performance.</li>
+        </ul>
       </div>
     </section>
+  </div>
+</section>
+
     </div>
     </HelmetProvider>
 
