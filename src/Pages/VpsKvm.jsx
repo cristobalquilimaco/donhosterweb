@@ -12,14 +12,38 @@ const VpsKvm = () => {
   <title>Cheap KVM Linux VPS & Windows VPS - DonHoster</title>
   <meta name="description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
   <meta name="keywords" content="cheap KVM VPS, Linux VPS, Windows VPS, fast VPS, stable VPS, Proxmox VPS, VPS hosting, 99.9% uptime" />
+  <meta name="google-site-verification" content="your-google-verification-code" />
+  <meta name="ahrefs-site-verification" content="your-ahrefs-verification-code" />
   <meta property="og:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
   <meta property="og:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
   <meta property="og:url" content="https://donhoster.com/vps" />
   <meta property="og:image" content="https://donhoster.com/images/vps-thumbnail.jpg" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="DonHoster" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@your_twitter_account" />
+  <meta name="twitter:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
+  <meta name="twitter:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee." />
+  <meta name="twitter:image" content="https://donhoster.com/images/vps-thumbnail.jpg" />
   <link rel="canonical" href="https://donhoster.com/vps" />
   <meta name="robots" content="index, follow" />
+  <script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "DonHoster",
+      "url": "https://donhoster.com",
+      "sameAs": [
+        "https://www.facebook.com/DonHoster",
+        "https://twitter.com/DonHoster"
+      ]
+    }
+  `}
+  </script>
 </Helmet>
+
             <div className="about__box">
         <h1 className="about__title">VPS - KVM</h1>
             <h3 className="about__subtitle">Designed to meet and exceed your performance expectations.</h3>
