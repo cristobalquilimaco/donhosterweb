@@ -19,19 +19,33 @@ const TermOfServices = () => {
           <meta property="og:url" content="https://donhoster.com/terms-of-service" />
           <meta property="og:type" content="article" />
           <meta property="og:image" content="https://donhoster.com/images/terms-of-service-thumbnail.jpg" />
+          <meta property="og:image:alt" content="Terms of Service Thumbnail" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Terms of Service - DonHoster" />
           <meta name="twitter:description" content="Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services. Ensure you understand the terms before making a purchase." />
           <meta name="twitter:image" content="https://donhoster.com/images/terms-of-service-thumbnail.jpg" />
           <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
           <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <script type="application/ld+json">
             {`
               {
                 "@context": "https://schema.org",
                 "@type": "WebPage",
                 "name": "Terms of Service - DonHoster",
-                "url": "https://donhoster.com/terms-of-service"
+                "url": "https://donhoster.com/terms-of-service",
+                "description": "Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services.",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "DonHoster",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://donhoster.com/images/donhoster-logo.png",
+                    "width": 600,
+                    "height": 60
+                  }
+                }
               }
             `}
           </script>
@@ -53,7 +67,7 @@ const TermOfServices = () => {
           <i className="bx bx-check"></i> Respect
         </div>
         <div className="about__banner">
-          <img src={images.bannerabout} alt="Banner About" />
+          <img src={images.bannerabout} alt="Banner About DonHoster" />
         </div>
         <div className="term__of__services">
           <strong>Terms of Service DonHoster</strong>
