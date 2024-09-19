@@ -26,7 +26,7 @@ const VpsKvm = () => {
   <meta name="twitter:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
   <meta name="twitter:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee." />
   <meta name="twitter:image" content="https://donhoster.com/images/vps-thumbnail.jpg" />
-  <link rel="canonical" href="https://donhoster.com/vps" />
+  <link rel="canonical" href="https://www.donhoster.com/vps" />
   <meta name="robots" content="index, follow" />
   <script type="application/ld+json">
   {`
