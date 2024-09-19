@@ -71,10 +71,6 @@ const Home = () => {
             `}
           </script>
         </Helmet>
-
-        {/* SEO-hidden heading for screen readers */}
-        <h1 className="text-center">Top Dedicated Servers and VPS Hosting in Miami</h1>
-
         <Banner />
         <ChooseUs />
         <Services />

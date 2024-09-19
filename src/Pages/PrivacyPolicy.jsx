@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
           <meta name="description" content="Read DonHoster's Privacy Policy to understand how we collect, use, and protect your personal information. Learn about our practices and procedures to ensure your data is handled responsibly." />
           <meta name="keywords" content="privacy policy, data protection, personal information, DonHoster privacy, data handling" />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/privacy-policy" />
+          <link rel="canonical" href="https://www.donhoster.com/privacy-policy" />
           <meta property="og:title" content="Privacy Policy - DonHoster" />
           <meta property="og:description" content="Read DonHoster's Privacy Policy to understand how we collect, use, and protect your personal information. Learn about our practices and procedures to ensure your data is handled responsibly." />
           <meta property="og:url" content="https://donhoster.com/privacy-policy" />
