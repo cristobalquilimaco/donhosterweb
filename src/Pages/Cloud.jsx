@@ -13,7 +13,7 @@ const Cloud = () => {
           <meta name="description" content="Discover flexible and scalable KVM-based cloud hosting solutions in Miami with DonHoster. Our cloud servers come with Proxmox control panel, 99.9% uptime guarantee, and full support for both Windows and Linux operating systems." />
           <meta name="keywords" content="cloud hosting, KVM cloud servers, Proxmox control panel, Miami cloud hosting, Windows cloud server, Linux cloud server, VPS hosting" />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/cloud" />
+          <link rel="canonical" href="https://www.donhoster.com/cloud" />
           <meta property="og:title" content="Cloud Hosting - KVM Cloud Servers in Miami | DonHoster" />
           <meta property="og:description" content="Discover flexible and scalable KVM-based cloud hosting solutions in Miami with DonHoster. Our cloud servers come with Proxmox control panel, 99.9% uptime guarantee, and full support for both Windows and Linux operating systems." />
           <meta property="og:url" content="https://donhoster.com/cloud" />
