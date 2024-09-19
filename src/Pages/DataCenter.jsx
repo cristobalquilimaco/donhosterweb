@@ -15,7 +15,7 @@ const DataCenter = () => {
           />
           <meta name="keywords" content="Miami data center, data center infrastructure, disaster recovery, 24/7 monitoring, reliable connectivity, DonHoster data center" />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/data-center" />
+          <link rel="canonical" href="https://www.donhoster.com/data-center" />
           <meta property="og:title" content="Miami Data Center - State-of-the-Art Infrastructure | DonHoster" />
           <meta property="og:description" content="Explore DonHoster's Miami data center offering cutting-edge infrastructure with 24/7 monitoring, disaster recovery solutions, and reliable connectivity. Ensure maximum uptime and security for your critical assets." />
           <meta property="og:url" content="https://donhoster.com/data-center" />
