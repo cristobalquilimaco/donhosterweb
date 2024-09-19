@@ -13,7 +13,7 @@ const TermOfServices = () => {
           <title>Terms of Service - DonHoster</title>
           <meta name="description" content="Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services. Ensure you understand the terms before making a purchase." />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/terms-of-service" />
+          <link rel="canonical" href="https://www.donhoster.com/terms-of-service" />
           <meta property="og:title" content="Terms of Service - DonHoster" />
           <meta property="og:description" content="Read the Terms of Service for DonHoster. Learn about the rules, policies, and conditions for using our products and services. Ensure you understand the terms before making a purchase." />
           <meta property="og:url" content="https://donhoster.com/terms-of-service" />
