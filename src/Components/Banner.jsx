@@ -9,9 +9,9 @@ const Banner = () => {
       <div className="row align-items-center">
         <div className="col-xl-6 col-lg-6 wow fadeInDown" data-wow-delay="0.1s" style={{ visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInDown' }}>
           <div className="banner-content">
-            <h1 className="principal_title">Dedicated <span className="text-base">Server </span> &amp; <span className="text-base-2">VPS Hosting </span>in Our
+            <h2 className="principal_title">Dedicated <span className="text-base">Server </span> &amp; <span className="text-base-2">VPS Hosting </span>in Our
               Platform
-            </h1>
+            </h2>
             <p className="principal_description">
             Our network of data centers in , USA, Miami.
 Connectivity at 99% uptimice, Integrated DDoS protection
