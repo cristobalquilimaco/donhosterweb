@@ -18,7 +18,7 @@ const About = () => {
     content="DonHoster, telecommunications, IT consulting, data center services, Portland, Oregon, cloud services, colocation services, company values, mission"
   />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://donhoster.com/about-us" />
+  <link rel="canonical" href="https://www.donhoster.com/about-us" />
   <meta property="og:title" content="About Us - DonHoster LLC | Learn Our Story and Values" />
   <meta property="og:description" content="Discover the story behind DonHoster LLC, a leading telecommunications and IT consulting company based in Portland, Oregon. Learn about our values, mission, and the services we offer, including data center, cloud, and colocation solutions." />
   <meta property="og:url" content="https://donhoster.com/about-us" />
