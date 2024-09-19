@@ -19,7 +19,7 @@ const DedicatedSever = () => {
           />
           <meta name="keywords" content="dedicated servers, bare metal servers, hosted dedicated servers, Miami data center, high-performance servers, secure servers, business hosting solutions" />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/dedicated-servers" />
+          <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
           <meta property="og:title" content="Hosted Dedicated Servers - Bare Metal Servers | DonHoster" />
           <meta property="og:description" content="Discover high-performance hosted dedicated servers and bare metal servers in Miami with DonHoster. Enjoy the benefits of exclusive physical servers, enhanced security, and reliable connectivity tailored for your business needs." />
           <meta property="og:url" content="https://donhoster.com/dedicated-servers" />

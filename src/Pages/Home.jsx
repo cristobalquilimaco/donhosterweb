@@ -22,7 +22,7 @@ const Home = () => {
             content="dedicated servers Miami, VPS hosting Miami, best dedicated servers, reliable VPS, DonHoster, high-performance hosting"
           />
           <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://donhoster.com/dedicated-servers-miami" />
+          <link rel="canonical" href="https://donhoster.com/" />
           <meta property="og:title" content="Top Dedicated Servers and VPS Hosting in Miami | DonHoster" />
           <meta property="og:description" content="Discover the best dedicated servers and VPS hosting services in Miami with DonHoster. Enjoy superior performance, reliability, and 24/7 support tailored to your needs." />
           <meta property="og:url" content="https://donhoster.com/dedicated-servers-miami" />
