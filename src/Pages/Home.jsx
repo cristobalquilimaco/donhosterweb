@@ -73,7 +73,7 @@ const Home = () => {
         </Helmet>
 
         {/* SEO-hidden heading for screen readers */}
-        <h1 className="sr-only">Top Dedicated Servers and VPS Hosting in Miami | DonHoster</h1>
+        <h1 className="text-center">Top Dedicated Servers and VPS Hosting in Miami</h1>
 
         <Banner />
         <ChooseUs />
