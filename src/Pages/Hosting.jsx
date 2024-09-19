@@ -26,7 +26,7 @@ const Hosting = () => {
           <meta name="robots" content="index, follow" />
           <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
           <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
-          <link rel="canonical" href="https://donhoster.com/hosting" />
+          <link rel="canonical" href="https://www.donhoster.com/hosting" />
           <meta
             property="og:title"
             content="Web Hosting with cPanel - DonHoster"
