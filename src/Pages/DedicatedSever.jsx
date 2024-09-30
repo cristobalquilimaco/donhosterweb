@@ -4,6 +4,7 @@ import images from "../Utils/images";
 import "../Pages/styles/about.css";
 import useScrollEffect from "../hooks/useScrollEffect";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import "../Pages/styles/vpsKvm.css"
 
 const DedicatedServer = () => {
   useScrollEffect(['.animatin'], 0.95);
@@ -114,15 +115,18 @@ const DedicatedServer = () => {
 
               <div className="animatin features__skill">
                 <ul className="list__skill">
-                  <li><i className="skill__icon bx bxs-rocket"></i> Powerful and Reliable</li>
+                  <li><i className="skill__icon bx bxs-rocket"></i></li>
+                  <li>Powerful and Reliable</li>
                   <li>Our servers are equipped with enterprise-grade hardware.</li>
                 </ul>
                 <ul className="list__skill">
-                  <li><i className="skill__icon bx bx-shuffle"></i> Flexibility</li>
+                  <li><i className="skill__icon bx bx-shuffle"></i></li>
+                  <li>Flexibility</li>
                   <li>Ability to adapt easily to various circumstances.</li>
                 </ul>
                 <ul className="list__skill">
-                  <li><i className="skill__icon bx bxs-server"></i> Fast Service</li>
+                  <li><i className="skill__icon bx bxs-server"></i></li>
+                  <li>Fast Service</li>
                   <li>Flat-rate high-speed local bandwidth.</li>
                 </ul>
               </div>

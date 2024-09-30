@@ -63,8 +63,6 @@
 }
 
 
-
-
 .about__span{
     font-weight:bold
 }
@@ -85,4 +83,6 @@
     .about__txt{
         width: 400px;
 }
+
+
 }
