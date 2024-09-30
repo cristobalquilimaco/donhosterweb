@@ -5,6 +5,7 @@ import "../Pages/styles/about.css";
 import useScrollEffect from "../hooks/useScrollEffect";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "../Pages/styles/vpsKvm.css"
+import FAQSection from "./components/dedicatedservers/FAQSection";
 
 const DedicatedServer = () => {
   useScrollEffect(['.animatin'], 0.95);
@@ -130,6 +131,7 @@ const DedicatedServer = () => {
                   <li>Flat-rate high-speed local bandwidth.</li>
                 </ul>
               </div>
+              <FAQSection/>
             </section>
           </div>
         </section>
