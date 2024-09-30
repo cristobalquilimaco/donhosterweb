@@ -131,11 +131,14 @@ const DedicatedServer = () => {
                   <li>Flat-rate high-speed local bandwidth.</li>
                 </ul>
               </div>
-              <FAQSection/>
             </section>
+            
           </div>
+          
         </section>
+        
       </div>
+      <FAQSection/>
     </HelmetProvider>
   );
 };
