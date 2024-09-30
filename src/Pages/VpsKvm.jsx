@@ -16,7 +16,7 @@ const VpsKvm = () => {
   <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
   <meta property="og:title" content="Cheap KVM Linux VPS & Windows VPS - DonHoster" />
   <meta property="og:description" content="Get affordable KVM VPS with both Linux and Windows support. Enjoy fast, stable servers with Proxmox control panel and 99.9% uptime guarantee. Explore our range of VPS solutions at DonHoster." />
-  <meta property="og:url" content="https://donhoster.com/vps" />
+  <meta property="og:url" content="https://www.donhoster.com/vps" />
   <meta property="og:image" content="https://donhoster.com/images/vps-thumbnail.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="DonHoster" />
