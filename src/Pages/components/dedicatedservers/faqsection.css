@@ -26,7 +26,8 @@
   }
   
   .faq-item h4 {
-    font-weight: bold;
+    font-weight:400;
+    border-radius: 1px solid red;
   }
   
  

@@ -4,7 +4,7 @@ import images from "../Utils/images";
 import "../Pages/styles/about.css";
 import useScrollEffect from "../hooks/useScrollEffect";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import "../Pages/styles/vpsKvm.css"
+import "../Pages/styles/vpsKvm.css";
 import FAQSection from "./components/dedicatedservers/FAQSection";
 
 const DedicatedServer = () => {
@@ -17,17 +17,17 @@ const DedicatedServer = () => {
           <title>Miami Dedicated Server - Bare Metal Servers | DonHoster</title>
           <meta 
             name="description" 
-            content="Discover high-performance dedicated servers in Miami with DonHoster. Enjoy exclusive physical servers, enhanced security, and reliable connectivity tailored for your business needs." 
+            content="Discover high-performance dedicated servers in Miami with DonHoster. Enjoy exclusive physical servers and reliable connectivity." 
           />
           <meta name="keywords" content="dedicated servers, bare metal servers, dedicated hosting, Miami data center, high-performance servers, secure servers, business hosting solutions" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
           
           <meta property="og:title" content="Miami Dedicated Server - Bare Metal Servers | DonHoster" />
-          <meta property="og:description" content="Discover high-performance dedicated servers in Miami with DonHoster. Enjoy exclusive physical servers, enhanced security, and reliable connectivity." />
+          <meta property="og:description" content="High-performance dedicated servers in Miami tailored for your business needs." />
           <meta property="og:url" content="https://www.donhoster.com/dedicated-servers" />
           <meta property="og:image" content="https://donhoster.com/images/dedicated-servers-thumbnail.jpg" />
-          <meta property="og:image:alt" content="Dedicated Servers in Miami" />
+          <meta property="og:image:alt" content="High-Performance Dedicated Servers in Miami" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
@@ -63,7 +63,7 @@ const DedicatedServer = () => {
         <main className="about__box">
           <h1 className="about__title">Dedicated Servers</h1>
           <h3 className="about__subtitle">
-            Below are our amazing hosting packages. Select any of our dedicated server services!
+            Explore our exceptional hosting packages. Choose from our dedicated server services!
           </h3>
           <div className="about__p">
             <i className="bx bx-check" /> Total Control &nbsp;
@@ -72,7 +72,7 @@ const DedicatedServer = () => {
           </div>
 
           <div className="about__banner">
-            <img src={images.bannerabout} alt="Dedicated Server Banner" />
+            <img src={images.bannerabout} alt="High-Performance Dedicated Server Banner" />
           </div>
         </main>
 
@@ -108,9 +108,9 @@ const DedicatedServer = () => {
               <h2 className="features">The Best Features at the Best Price!</h2>
               <div className="description_feat">
                 <p className="title_feat">Get Started Quickly and Easily</p>
-                <p>Security and Stability. We guarantee stability and security in our servers with a 99.9% uptime.</p>
+                <p>We guarantee security and stability with a 99.9% uptime.</p>
                 <p>
-                  Dedicated server hosting provides unparalleled control and resources for your online ventures. Unlike shared hosting or VPS services, a dedicated server offers you exclusive access to an entire server, ensuring optimal performance and security. With a dedicated server, you have complete autonomy to customize hardware specifications, install software, and configure applications according to your specific needs. Choose DonHoster for optimal performance and reliability.
+                  Dedicated server hosting provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
                 </p>
               </div>
 
@@ -118,12 +118,12 @@ const DedicatedServer = () => {
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bxs-rocket"></i></li>
                   <li>Powerful and Reliable</li>
-                  <li>Our servers are equipped with enterprise-grade hardware.</li>
+                  <li>Equipped with enterprise-grade hardware.</li>
                 </ul>
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bx-shuffle"></i></li>
                   <li>Flexibility</li>
-                  <li>Ability to adapt easily to various circumstances.</li>
+                  <li>Adapt easily to various circumstances.</li>
                 </ul>
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bxs-server"></i></li>

@@ -11,7 +11,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "What is a dedicated server?",
-      answer: "A dedicated server is a physical server that is entirely dedicated to one customer. This means you have full control over the server resources and configurations."
+      answer: "A dedicated server is a physical server dedicated to one customer, providing full control over resources and configurations."
     },
     {
       question: "Can I upgrade my plan later?",
@@ -19,11 +19,11 @@ const FAQSection = () => {
     },
     {
       question: "What kind of support do you offer?",
-      answer: "We provide 24/7 customer support via chat, phone, and email to help you with any issues or questions."
+      answer: "We provide 24/7 customer support via chat, phone, and email."
     },
     {
       question: "Is my data secure on a dedicated server?",
-      answer: "Yes, our dedicated servers come with robust security features to protect your data, including firewalls and DDoS protection."
+      answer: "Yes, our dedicated servers feature robust security, including firewalls and DDoS protection."
     },
     {
       question: "How long does it take to set up a dedicated server?",
@@ -31,11 +31,11 @@ const FAQSection = () => {
     },
     {
       question: "What operating systems can I install on my dedicated server?",
-      answer: "You can install various operating systems, including Windows and Linux distributions, depending on your preference."
+      answer: "You can install various operating systems, including Windows and Linux."
     },
     {
       question: "Do you offer backups for dedicated servers?",
-      answer: "Yes, we recommend and offer backup solutions to ensure your data is always safe and recoverable."
+      answer: "Yes, we offer backup solutions to ensure your data is safe."
     }
   ];
 
