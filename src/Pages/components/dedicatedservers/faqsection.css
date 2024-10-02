@@ -10,9 +10,9 @@
   .containerfaq{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1em;
-    max-width: 900px;
+    align-items: center;
+    
+    width: 95%;
 
   }
   .faq-item {
@@ -21,19 +21,27 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    width: 100%;
     
-
   }
   
-  .faq-item h4 {
-    font-weight:400;
-    border-radius: 1px solid red;
+  .faq-item .question {
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    font-weight: 10px;
+    padding: 0.3em 0em 0.3em 1.2em;
+  }
+
+  .question{
+    font-size: 16px;
   }
   
  
   .faq-item p {
+    background-color: rgb(123, 3, 170);
     margin-top: 10px;
-    color: #666;
+    width: 100%;
+    color: #ffffff;
     max-height: 0; /* Inicialmente colapsado */
     overflow: hidden; /* Ocultar contenido */
     transition: max-height 0.3s ease-out; /* Transición suave */

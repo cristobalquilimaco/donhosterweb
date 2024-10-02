@@ -113,7 +113,7 @@ const DedicatedServer = () => {
                   Dedicated server hosting provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
                 </p>
               </div>
-
+              <FAQSection/>
               <div className="animatin features__skill">
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bxs-rocket"></i></li>
@@ -138,7 +138,7 @@ const DedicatedServer = () => {
         </section>
         
       </div>
-      <FAQSection/>
+      
     </HelmetProvider>
   );
 };
