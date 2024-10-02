@@ -25,6 +25,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     width: 100%;
+
   }
 
   .faq-item:hover {
@@ -42,10 +43,12 @@
     display: flex;
     align-items: self-start;
     width: 100%;
+
   }
 
   .question{
     font-size: 16px;
+    background-color: rgba(175, 60, 169, 0.055);
   }
   .sig{
     color: red;
