@@ -44,12 +44,17 @@ const FAQSection = () => {
       <div className="containerfaq">
         <h2 className="section-title">Frequently Asked Questions</h2>
         {faqs.map((faq, index) => (
-          
           <div 
             className={`faq-item ${openIndex === index ? 'active' : ''}`} 
             key={index}
           >
-            <h4 className='question' onClick={() => toggleFAQ(index)}>{faq.question}</h4>
+            <div className="question_and_sig" onClick={() => toggleFAQ(index)}>
+              <div className='question_principal'>
+              <h4 className='question'>{faq.question}</h4>
+              <div className="toggle-sign">{openIndex === index ? '-' : '+'}</div>
+              </div>
+              
+            </div>
             <p>{faq.answer}</p>
           </div>
         ))}
