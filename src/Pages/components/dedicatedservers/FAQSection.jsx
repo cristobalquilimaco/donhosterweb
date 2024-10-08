@@ -53,9 +53,8 @@ const FAQSection = () => {
               <h4 className='question'>{faq.question}</h4>
               <div className="toggle-sign">{openIndex === index ? '-' : '+'}</div>
               </div>
-              
             </div>
-            <p>{faq.answer}</p>
+            <p className='faq_answer'>{faq.answer}</p>
           </div>
         ))}
       </div>

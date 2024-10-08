@@ -5,13 +5,14 @@
   width: 100%;
   color: aliceblue;
   margin-top: 3em;
+  border-radius: 14px;
 }
 
 .containerfaq {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 100%;
 }
 
 .section-title {
@@ -38,9 +39,8 @@
 
 .question_principal {
 
-  background-color: rgba(175, 60, 169, 0.055);
+  background-color: rgba(156, 54, 151, 0.123);
   width: 100%;
-  border: 1px solid rgb(226, 226, 226);
   display: flex;
 }
 
@@ -48,28 +48,38 @@
   width: 100%;
   font-size: 16px;
   padding: 0.3em 1.2em ;
+  margin: 0;
 }
 
-.
-
-.toggle-sign {
-  margin-left: 10px; /* Espaciado entre la pregunta y el signo */
-  font-size: 20px; /* Tamaño del signo */
-  transition: transform 0.3s; /* Transición para el cambio */
+.toggle-sign{
+  margin-right: 0.5em;
+  font-size: 20px; 
+  transition: transform 1s; 
 }
 
-.faq-item p {
+
+
+.question_principal{
+  margin: 0.2em;
+}
+
+
+.faq_answer{
   background-color: purple;
-  margin-bottom: 10px;
   width: 100%;
   color: #ffffff;
   max-height: 0; /* Inicialmente colapsado */
   overflow: hidden; /* Ocultar contenido */
-  transition: max-height 0.5s ease-out; /* Transición suave */
-
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out; /* Transiciones suaves */
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-left: 2em;
+  opacity: 0; /* Inicialmente invisible */
 }
 
 .faq-item.active p {
+  opacity: 1;
+  padding-left: 2em;
   max-height: 100px; /* Ajusta este valor según la altura de tu contenido */
-
 }
+
