@@ -5,7 +5,7 @@ import images from "../Utils/images";
 const Banner = () => {
   return (
     <div className="container container__banner1">
-      <img className="img__banner__data" src={images.bannerdata} alt="" />
+      <img className="img__banner__data" src={images.bannerdata} alt="data center" width="100%" height="400" />
       <div className="row align-items-center">
         <div className="col-xl-6 col-lg-6 wow fadeInDown" data-wow-delay="0.1s" style={{ visibility: 'visible', animationDelay: '0.1s', animationName: 'fadeInDown' }}>
           <div className="banner-content">
@@ -21,7 +21,7 @@ Connectivity at 99% uptimice, Integrated DDoS protection
         </div>
         <div className="col-xl-6 col-lg-6">
           <div className="banner-thumb wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
-            <img className="img_banner" src={images.server1} alt="vpmkvm miami" />
+          <img className="img_banner" src={images.server1} alt="vpmkvm miami" width="600" height="400" />
           </div>
         </div>
       </div>
