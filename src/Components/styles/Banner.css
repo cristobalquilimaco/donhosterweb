@@ -4,6 +4,17 @@
     width: 100%;
 }
 
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-delay: 0.1s;
+    visibility: visible;
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+    visibility: visible;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
