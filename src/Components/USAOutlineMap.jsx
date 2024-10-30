@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import usaOutline from "../assets/img/USA-Map-PNG.png"; // Importa la imagen del contorno de Estados Unidos
+import usaOutline from "../assets/img/USA-Map-PNG.webp"; // Importa la imagen del contorno de Estados Unidos
 import "../Components/styles/USAOutlineMap.css"
 import useScrollEffect from "../hooks/useScrollEffect";
 import "../Components/styles/Services.css"
