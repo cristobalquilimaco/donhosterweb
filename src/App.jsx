@@ -16,7 +16,10 @@ import Error500 from './Pages/Error500';
 import Error503 from './Pages/Error503';
 import DataCenter from './Pages/DataCenter';
 import Hosting from './Pages/Hosting';
+import LoadingPage from './Components/loading/LoadingPage';
 
+
+const LazyLoading = lazy(()=> import("./componente"))
 
 function NotFound() {
   return <ErrorMessage />;
