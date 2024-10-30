@@ -5,13 +5,14 @@ import images from "../Utils/images";
 const Banner = () => {
   return (
     <div className="container container__banner1" style={{ width: '100%' }}>
-      <img 
-        className="img__banner__data" 
-        src={images.bannerdata} 
-        alt="Banner with data" 
-        width="100%" 
-        height="400" 
-      />
+<img 
+  className="img__banner__data" 
+  src={images.bannerdata} 
+  alt="Banner with data" 
+  width="100%" 
+  height="400" 
+  loading="lazy" 
+/>
       <div className="row align-items-center">
         <div 
           className="col-xl-6 col-lg-6 wow fadeInDown" 

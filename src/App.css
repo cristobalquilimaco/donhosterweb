@@ -10,4 +10,8 @@ body{
 }
 
 
-
+@font-face {
+  font-family: 'DM Sans';
+  src: url('path/to/font.woff2') format('woff2');
+  font-display: swap;
+}

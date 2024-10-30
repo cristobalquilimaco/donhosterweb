@@ -9,9 +9,8 @@ import Error403 from './Pages/Error403';
 import Error500 from './Pages/Error500';
 import Error503 from './Pages/Error503';
 
-// Usamos lazy loading para componentes de carga pesada
-const LazyLoading = lazy(() => import('./Components/loading/LoadingPage'));
-const Home = lazy(() => import('./Pages/Home'));
+// Usamos lazy loading solo para el componente Home
+const LazyHome = lazy(() => import('./Pages/Home'));
 const DedicatedSever = lazy(() => import('./Pages/DedicatedSever'));
 const About = lazy(() => import('./Pages/About'));
 const VpsKvm = lazy(() => import('./Pages/VpsKvm'));
@@ -55,9 +54,9 @@ function App() {
   return (
     <div className='app'>
       <Navbar />
-      <Suspense fallback={<LazyLoading />}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/' element={<LazyHome />} />
           <Route path='/dedicated-servers' element={<DedicatedSever />} />
           <Route path='/about-donhoster' element={<About />} />
           <Route path='/vps' element={<VpsKvm />} />

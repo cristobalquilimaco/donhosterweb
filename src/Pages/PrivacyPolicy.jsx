@@ -1,5 +1,5 @@
 import "../Pages/styles/about.css";
-import "../assets/img/banner-about.jpg";
+import "../assets/img/banner-about.webp";
 import images from "../Utils/images";
 import "../Pages/styles/TermOfServices.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
