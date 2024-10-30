@@ -1,3 +1,4 @@
+import "../loading/loadingPage.css"
 
 const LoadingPage = () => {
   return (

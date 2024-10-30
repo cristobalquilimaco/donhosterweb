@@ -1,24 +1,25 @@
 import { Routes, useNavigate, Route } from 'react-router-dom';
 import './App.css';
-import Home from './Pages/Home';
 import Navbar from './Shared/Navbar';
 import Footer from './Shared/Footer';
-import DedicatedSever from './Pages/DedicatedSever';
-import About from './Pages/About';
-import VpsKvm from './Pages/VpsKvm';
 import IconsSkill from './Shared/IconsSkill';
-import Cloud from './Pages/Cloud';
-import PrivacyPolicy from './Pages/PrivacyPolicy';
-import TermOfServices from './Pages/TermOfServices';
+import { lazy, Suspense } from 'react';
 import ErrorMessage from './Components/ErrorMessage';
 import Error403 from './Pages/Error403';
 import Error500 from './Pages/Error500';
 import Error503 from './Pages/Error503';
-import DataCenter from './Pages/DataCenter';
-import Hosting from './Pages/Hosting';
-import { lazy, Suspense } from 'react';
 
+// Usamos lazy loading para componentes de carga pesada
 const LazyLoading = lazy(() => import('./Components/loading/LoadingPage'));
+const Home = lazy(() => import('./Pages/Home'));
+const DedicatedSever = lazy(() => import('./Pages/DedicatedSever'));
+const About = lazy(() => import('./Pages/About'));
+const VpsKvm = lazy(() => import('./Pages/VpsKvm'));
+const Cloud = lazy(() => import('./Pages/Cloud'));
+const PrivacyPolicy = lazy(() => import('./Pages/PrivacyPolicy'));
+const TermOfServices = lazy(() => import('./Pages/TermOfServices'));
+const DataCenter = lazy(() => import('./Pages/DataCenter'));
+const Hosting = lazy(() => import('./Pages/Hosting'));
 
 function NotFound() {
   return <ErrorMessage />;
@@ -27,7 +28,6 @@ function NotFound() {
 function App() {
   const navigate = useNavigate();
 
-  // Lógica de manejo de errores
   const handleError = (error) => {
     switch (error) {
       case 404:
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className='app'>
       <Navbar />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<LazyLoading />}>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/dedicated-servers' element={<DedicatedSever />} />
