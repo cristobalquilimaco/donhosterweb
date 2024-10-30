@@ -1,7 +1,7 @@
 
 const LoadingPage = () => {
   return (
-    /* From Uiverse.io by Praashoo7 */ 
+  
 <div className="main">
   <div className="up">
     <div className="loaders">
