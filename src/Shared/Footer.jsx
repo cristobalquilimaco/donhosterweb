@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="widget-items">
                 <div className="footer-head">
                   <Link to="/" className="footer-logo">
-                    <img className="logo" src={images.logo} alt="dedicated server donhoster" />
+                    <img className="logo" src={images.logo} alt="Logo de DonHoster - Servidores Dedicados" />
                   </Link>
                 </div>
                 <div className="content-area">
@@ -92,18 +92,21 @@ const Footer = () => {
                 <div className="content-area">
                   <ul className="footer-social">
                     <li>
-                      <Link to="https://www.facebook.com/Datacenter.Donhoster">
-                        <i className='bx bxl-facebook-square'></i>
+                      <Link className="logo__media" to="https://www.facebook.com/Datacenter.Donhoster" aria-label="Visita nuestra página de Facebook">
+                        <i className='bx bxl-facebook-square' aria-hidden="true"></i>
+                        <span className="social__title">Facebook</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="https://www.instagram.com/Don_hoster/">
-                        <i className='bx bxl-instagram-alt'></i>
+                      <Link className="logo__media" to="https://www.instagram.com/Don_hoster/" aria-label="Visita nuestra cuenta de Instagram">
+                        <i className='bx bxl-instagram-alt' aria-hidden="true"></i>
+                        <span className="social__title">Instagram</span>
                       </Link>
                     </li>
                     <li>
-                      <Link to="https://twitter.com/Donhoster">
-                        <i className='bx bxl-twitter'></i>
+                      <Link className="logo__media" to="https://twitter.com/Donhoster" aria-label="Visita nuestra cuenta de Twitter">
+                        <i className='bx bxl-twitter' aria-hidden="true"></i>
+                        <span className="social__title">Twitter</span>
                       </Link>
                     </li>
                   </ul>

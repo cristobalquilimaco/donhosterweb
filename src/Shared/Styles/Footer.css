@@ -23,6 +23,16 @@
     
 }
 
+.logo__media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social__title{
+    font-size: 10px;
+}
+
 .footer-social{
     display: flex;
     gap: 1rem;
