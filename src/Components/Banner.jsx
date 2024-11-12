@@ -4,15 +4,17 @@ import images from "../Utils/images";
 
 const Banner = () => {
   return (
-    <div className="container container__banner1" style={{ width: '100%' }}>
-<img 
-  className="img__banner__data" 
-  src={images.bannerdata} 
-  alt="Banner with data" 
-  width="100%" 
-  height="400" 
-  loading="lazy" 
-/>
+    <div className="container container__banner1">
+      {/* Pre-cargar la imagen clave */}
+      <img
+        className="img__banner__data"
+        src={images.bannerdata}
+        alt="Banner with data"
+        width="100%"
+        height="400"
+        loading="lazy"
+        style={{ objectFit: 'cover' }}  // Asegura que la imagen no se distorsione
+      />
       <div className="row align-items-center">
         <div 
           className="col-xl-6 col-lg-6 wow fadeInDown" 
@@ -40,8 +42,9 @@ const Banner = () => {
               className="img_banner" 
               src={images.server1} 
               alt="Server in Miami" 
-              width="100%" 
-              height="400" 
+              width="100%"
+              height="400"
+              loading="lazy"  // Lazy loading para la segunda imagen
             />
           </div>
         </div>
