@@ -23,7 +23,7 @@ const Banner = () => {
         >
           <div className="banner-content">
             <h1 className="principal_title">
-              Dedicated <span className="text-base">Server </span> &amp; <span className="text-base-2">VPS Hosting </span>in Our Platform
+            Miami dedicated servers
             </h1>
             <p className="principal_description">
               Our network of data centers in Miami, USA. Connectivity at 99% uptime, Integrated DDoS protection.

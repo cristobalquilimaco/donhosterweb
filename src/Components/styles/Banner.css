@@ -60,7 +60,7 @@
     color: var(--color-letter-btn);
     font-size: 50px;
     line-height: 1.2;
-    max-width: 90%; /* Limitar el tamaño máximo */
+    max-width: 100%; /* Limitar el tamaño máximo */
     margin: 0;
   }
   
