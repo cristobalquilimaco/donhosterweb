@@ -5,6 +5,7 @@ import SectionDescription from "../Components/SectionDescription";
 import Services from "../Components/Services";
 import USAOutlineMap from "../Components/USAOutlineMap";
 import WhyDonhoster from "../Components/WhyDonhoster";
+import "../Shared/Styles/Navbar.css"
 import "../App.css";
 
 const Home = () => {
@@ -38,8 +39,6 @@ const Home = () => {
           <meta name="twitter:title" content="Top Dedicated Servers and VPS Hosting in Miami | DonHoster" />
           <meta name="twitter:description" content="Discover the best dedicated servers and VPS hosting services in Miami with DonHoster. Enjoy superior performance, reliability, and 24/7 support tailored to your needs." />
           <meta name="twitter:image" content="https://donhoster.com/images/dedicated-servers-miami-thumbnail.jpg" />
-          <meta name="google-site-verification" content="your_google_verification_token" />
-          <meta name="ahrefs-site-verification" content="your_ahrefs_verification_token" />
           <script type="application/ld+json">
             {`
               {

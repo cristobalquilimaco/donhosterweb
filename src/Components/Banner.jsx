@@ -4,7 +4,7 @@ import images from "../Utils/images";
 
 const Banner = () => {
   return (
-    <div className="container container__banner1">
+    <div className="container__banner1">
       {/* Pre-cargar la imagen clave */}
       <img
         className="img__banner__data"
@@ -43,7 +43,7 @@ const Banner = () => {
               src={images.server1} 
               alt="Server in Miami" 
               width="100%"
-              height="400"
+              height="500"
               loading="lazy"  // Lazy loading para la segunda imagen
             />
           </div>

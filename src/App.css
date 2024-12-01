@@ -4,6 +4,14 @@
   font-display: swap;
 }
 
+:root{
+  --color-btn: purple;
+  --color-letter-btn: white;
+  --color-blur-icon: rgba(255, 255, 255, 0.849);
+  --color-line: rgba(128, 128, 128, 0.445);
+  --color-hosting: rgba(128, 128, 128, 0.219);
+}
+
 body{
   background: rgb(26,7,40);
   background: linear-gradient(90deg, rgba(26,7,40,1) 0%, rgba(40,8,31,1) 35%, rgba(37,2,37,1) 100%);

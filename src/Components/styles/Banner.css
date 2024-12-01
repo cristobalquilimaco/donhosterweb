@@ -4,12 +4,15 @@
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
     font-display: swap; /* Optimiza el rendimiento cargando las fuentes lo más rápido posible */
   }
+
+
   
   /* Contenedor principal */
   .container__banner1 {
     position: relative;
+    height: 500px;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 50px;
     overflow: hidden; /* Para evitar cambios inesperados de layout */
   }
   
@@ -17,7 +20,7 @@
   .img__banner__data {
     position: absolute;
     z-index: 1;
-    height: 400px; /* Altura fija para evitar el Layout Shift */
+    height: 600px; /* Altura fija para evitar el Layout Shift */
     width: 100%; /* Se asegura de ocupar todo el ancho disponible */
     opacity: 0.1; /* Para mantener la imagen tenue en el fondo */
     object-fit: cover; /* Mantiene la imagen proporcionada y cubriendo el área */
@@ -160,6 +163,7 @@
     }
   
     .btn__to__server {
+      background-color: var();
       font-size: 18px; /* Ajuste del tamaño de los botones en pantallas pequeñas */
       padding: 8px 18px;
     }
