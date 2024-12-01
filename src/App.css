@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('path/to/font.woff2') format('woff2');
+  font-display: swap;
+}
+
 body{
   background: rgb(26,7,40);
   background: linear-gradient(90deg, rgba(26,7,40,1) 0%, rgba(40,8,31,1) 35%, rgba(37,2,37,1) 100%);
@@ -10,8 +16,3 @@ body{
 }
 
 
-@font-face {
-  font-family: 'DM Sans';
-  src: url('path/to/font.woff2') format('woff2');
-  font-display: swap;
-}

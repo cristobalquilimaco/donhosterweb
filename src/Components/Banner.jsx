@@ -26,10 +26,10 @@ const Banner = () => {
             Miami dedicated servers
             </h1>
             <p className="principal_description">
-              Our network of data centers in Miami, USA. Connectivity at 99% uptime, Integrated DDoS protection.
+            Miami dedicated servers with 99% uptime reliability.
             </p>
             <Link to="/dedicated-servers">
-              <button className="btn__to__server">See Characteristics of Our Plans</button>
+              <button className="btn__to__server">Dedicated servers plans</button>
             </Link>
           </div>
         </div>
