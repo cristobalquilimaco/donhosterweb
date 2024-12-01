@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Fuente personalizada con precarga */
 @font-face {
     font-family: 'DM Sans';
@@ -29,6 +30,15 @@
   
   /* Animaciones de entrada */
   .fadeInDown, .fadeInRight {
+=======
+.container{
+    margin-top: 120px;
+    display: flex;
+    width: 100%;
+}
+
+.fadeInDown {
+>>>>>>> parent of e9251a2 (se ajusta seo de imagen banner)
     animation-name: fadeInDown;
     animation-delay: 0.1s;
     visibility: visible;
@@ -45,10 +55,23 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+<<<<<<< HEAD
   }
   
   /* Contenedor de contenido del banner */
   .banner-content {
+=======
+  }  
+
+.img__banner__data{
+    position: absolute;
+    z-index: 1;
+    height: 500px;
+    opacity: 0.1;
+}
+
+.banner-content{
+>>>>>>> parent of e9251a2 (se ajusta seo de imagen banner)
     position: relative;
     z-index: 2;
     max-width: 80%; /* Evita que el contenido se expanda demasiado */
