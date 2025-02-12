@@ -28,7 +28,7 @@ const Navbar = () => {
           aria-expanded="false" 
           aria-label="Toggle navigation" onClick={()=>setCollapsed(!collapsed)}>
         {
-          collapsed ? (<i className='icon_nav bx bx-menu'></i>) : (<i className='bx bx-x'></i>)
+          collapsed ? (<i className='icon_nav bx bx-menu'></i>) : (<i className='icon_nav bx bx-x'></i>)
         }
           
         </button>

@@ -30,9 +30,13 @@
     position: relative;
     display: inline-block; 
     text-decoration: none; 
-  }
-  
-  .nav-link::after {
+}
+
+.icon_nav{
+    
+}
+
+.nav-link::after {
     content: '';
     display: block;
     width: 0;
@@ -42,11 +46,11 @@
     position: absolute;
     bottom: -5px; /* Ajusta la distancia desde la parte inferior del enlace */
     left: 0;
-  }
-  
-  .nav-link:hover::after {
+}
+
+.nav-link:hover::after {
     width: 100%; /* La línea se expandirá de izquierda a derecha */
-  }
+}
 
 .logo{
     width: 200px;
