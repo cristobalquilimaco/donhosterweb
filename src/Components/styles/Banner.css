@@ -16,10 +16,13 @@
 
   .container__banner1 {
     position: relative;
-    height: 700px;
+    height: 450px;
     width: 100%;
     margin-top: 50px;
-    overflow: hidden; /* Para evitar cambios inesperados de layout */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Imagen de fondo del banner con ajuste */
@@ -67,11 +70,11 @@
 .banner-content{
     position: relative;
     z-index: 2;
-    max-width: 80%; /* Evita que el contenido se expanda demasiado */
     padding-left: 1rem;
     padding-right: 1rem;
     animation: moveBanner 1s ease-in; /* Animación de deslizamiento */
-    max-width: 80%; /* Limitar el tamaño máximo */
+    max-width: 100%; /* Limitar el tamaño máximo */
+    margin-bottom: 10px;
   }
   
   /* Estilos para el texto principal */
@@ -105,6 +108,7 @@
   
   .principal_description {
     margin-top: 1rem;
+    margin-bottom: 1em;
     color: var(--color-letter-btn);
     font-size: 18px;
     line-height: 1.6;
@@ -113,8 +117,8 @@
   
   /* Imagen del servidor */
   .img_banner {
-    width: 100%; /* Asegura que la imagen cubra el ancho */
-    height: 400px;
+    width: 400px; /* Asegura que la imagen cubra el ancho */
+    height: 300px;
     object-fit: cover;
     animation: scaleBanner 1s ease-in-out;
   }
@@ -160,8 +164,8 @@
   
     /* Ajustes de imagen para dispositivos móviles */
     .img__banner__data {
-    width: 100%;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: cover; 
     }
   
@@ -178,11 +182,10 @@
     .banner-content {
       padding-left: 1rem;
       padding-right: 1rem;
-      max-width: 90%;
+      max-width: 100%;
     }
   
     .btn__to__server {
-      background-color: var();
       font-size: 18px; /* Ajuste del tamaño de los botones en pantallas pequeñas */
       padding: 8px 18px;
     }

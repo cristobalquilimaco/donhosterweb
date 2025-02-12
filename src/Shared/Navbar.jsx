@@ -16,7 +16,8 @@ const Navbar = () => {
             src={images.logo} 
             alt="DonHoster logo" 
             width="200" 
-            height="50" 
+            height="50"
+            loading="lazy"
           />
         </Link>
         <button 

@@ -7,7 +7,7 @@ const ChooseUs = () => {
 
 
   return (
-    <section className="choose-section pt-120 pb-120">
+    <section className="choose-section pt-0 pb-120">
       <div className="container">
         <div className="section-header section-center wow fadeInUp" data-wow-delay="0.2s">
           <h2 className="section-title">

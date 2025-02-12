@@ -16,11 +16,11 @@ const Banner = () => {
         <img
           className="img__banner__data"
           alt="Banner with data"
-          width="100%"
+          width="400"
           height="500"
           loading="lazy"  // Prioriza la carga de esta imagen
           srcSet={images.bannerdata}
-          sizes="(max-width: 480px) 480px, (max-width: 1024px) 1024px, 1920px"
+          sizes="(max-width: 400px) 400px, (max-width: 1024px) 1024px, 1920px"
           style={{ objectFit: 'cover' }}  // Asegura que la imagen no se distorsione
         />
 
@@ -50,8 +50,8 @@ const Banner = () => {
                 className="img_banner"
                 src={images.server1}
                 alt="Server in Miami"
-                width="100%"
-                height="500"
+                width="400"
+                height="300"
                 loading="lazy"  // Lazy loading para la segunda imagen
               />
             </div>
