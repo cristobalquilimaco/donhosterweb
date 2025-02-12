@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-/* Fuente personalizada con precarga */
+
 @font-face {
     font-family: 'DM Sans';
     src: url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
@@ -7,8 +6,14 @@
   }
 
 
-  
-  /* Contenedor principal */
+  :root{
+    --color-btn: purple;
+    --color-letter-btn: white;
+    --color-blur-icon: rgba(255, 255, 255, 0.849);
+    --color-line: rgba(128, 128, 128, 0.445);
+    --color-hosting: rgba(128, 128, 128, 0.219);
+  }
+
   .container__banner1 {
     position: relative;
     height: 500px;
@@ -18,7 +23,7 @@
   }
   
   /* Imagen de fondo del banner con ajuste */
-  .img__banner__data {
+.img__banner__data {
     position: absolute;
     z-index: 1;
     height: 600px; /* Altura fija para evitar el Layout Shift */
@@ -29,8 +34,7 @@
   }
   
   /* Animaciones de entrada */
-  .fadeInDown, .fadeInRight {
-=======
+  .fadeInDown, .fadeInRight 
 .container{
     margin-top: 120px;
     display: flex;
@@ -38,7 +42,7 @@
 }
 
 .fadeInDown {
->>>>>>> parent of e9251a2 (se ajusta seo de imagen banner)
+
     animation-name: fadeInDown;
     animation-delay: 0.1s;
     visibility: visible;
@@ -55,23 +59,12 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-<<<<<<< HEAD
+
   }
   
-  /* Contenedor de contenido del banner */
-  .banner-content {
-=======
-  }  
 
-.img__banner__data{
-    position: absolute;
-    z-index: 1;
-    height: 500px;
-    opacity: 0.1;
-}
 
 .banner-content{
->>>>>>> parent of e9251a2 (se ajusta seo de imagen banner)
     position: relative;
     z-index: 2;
     max-width: 80%; /* Evita que el contenido se expanda demasiado */
@@ -163,14 +156,13 @@
   
     /* Ajustes de imagen para dispositivos móviles */
     .img__banner__data {
-      height: 60vw; /* Altura ajustable en función del ancho */
-      object-fit: cover; /* Mantiene la proporción de la imagen */
+    width: 100%;
+    height: 400px;
+    object-fit: cover; 
     }
   
     .img_banner {
-      width: 100%;
-      height: auto;
-      margin-top: 3rem;
+      display: none;
     }
   
     .principal_title {
@@ -197,12 +189,6 @@
     line-height: 1.6;
   }
   
-  /* Definir los colores en variables */
-  :root {
-    --color-btn: #007bff;
-    --color-btn-hover: #0056b3;
-    --color-letter-btn: #ffffff;
-  }
   
   /* Pre-carga de fuentes críticas */
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
