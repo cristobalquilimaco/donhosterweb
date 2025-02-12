@@ -12,7 +12,10 @@ const Footer = () => {
               <div className="widget-items">
                 <div className="footer-head">
                   <Link to="/" className="footer-logo">
-                    <img className="logo" src={images.logo} alt="Logo de DonHoster - Servidores Dedicados" />
+                    <img className="logo" src={images.logo} alt="Logo de DonHoster - Servidores Dedicados" 
+                    width="200" 
+                    height="50"
+                    />
                   </Link>
                 </div>
                 <div className="content-area">

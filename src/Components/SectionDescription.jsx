@@ -16,7 +16,10 @@ const SectionDescription = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="hosting-thumb">
-              <img className="img_host_big" src={images.hostbig} alt="dedicated server in miami" />
+              <img className="img_host_big" src={images.hostbig} alt="dedicated server in miami" 
+              width="400" 
+              height="300"
+              />
               <div className="small-host">
                 <img className="img_host_small" src={images.hostsmall} alt="dedicated servers" />
               </div>
