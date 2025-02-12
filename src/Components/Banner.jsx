@@ -31,7 +31,7 @@ const Banner = () => {
 >
   <div className="banner-content">
     <h1 className="principal_title">
-      Miami dedicated servers
+      Miami Dedicated Servers
     </h1>
     <p className="principal_description">
       Miami dedicated servers with 99% uptime reliability.

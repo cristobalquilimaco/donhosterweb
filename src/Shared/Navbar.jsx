@@ -33,7 +33,7 @@ const Navbar = () => {
           
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+          <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
