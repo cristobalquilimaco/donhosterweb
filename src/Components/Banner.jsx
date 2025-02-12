@@ -18,8 +18,7 @@ const Banner = () => {
           alt="Banner with data"
           width="100%"
           height="400"
-          loading="lazy"
-          fetchpriority="high"  // Prioriza la carga de esta imagen
+          loading="lazy"  // Prioriza la carga de esta imagen
           srcSet={`${images.bannerdataSmall} 480w, ${images.bannerdataMedium} 1024w, ${images.bannerdataLarge} 1920w`}
           sizes="(max-width: 480px) 480px, (max-width: 1024px) 1024px, 1920px"
           style={{ objectFit: 'cover' }}  // Asegura que la imagen no se distorsione

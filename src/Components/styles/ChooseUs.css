@@ -54,4 +54,5 @@
 
 .title, .description_p{
     color: var(--color-letter-btn);
+    text-align: center;
 }

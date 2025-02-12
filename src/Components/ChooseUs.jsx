@@ -11,7 +11,7 @@ const ChooseUs = () => {
       <div className="container">
         <div className="section-header section-center wow fadeInUp" data-wow-delay="0.2s">
           <h2 className="section-title">
-            Why Choose Us
+          Why Choose Donhoster for Dedicated Server Hosting
           </h2>
           <p>
             Listed below our awesome hosting packages. You can select any web hosting services below!
@@ -24,10 +24,10 @@ const ChooseUs = () => {
                 <img className="i-img" src={icons.i1} alt="i-img" />
               </div>
               <h4 className="title">
-                10x Faster Features
+              Blazing-Fast Performance
               </h4>
               <p className='description_p'>
-                Our free web hosting is powered by top...
+              Experience 10x faster speeds with our top-tier dedicated servers.
               </p>
             </div>
           </div>
@@ -37,10 +37,10 @@ const ChooseUs = () => {
       <img className="i-img" src={icons.i2} alt="i-img" />
     </div>
     <h4 className="title">
-      Feed & High-Security
+    Unbeatable Security
     </h4>
     <p className='description_p'>
-      Our free web hosting is powered by top...
+    Protect your data with our high-level security protocols, powered by the latest technology.
     </p>
   </div>
 </div>
@@ -50,10 +50,10 @@ const ChooseUs = () => {
       <img className="i-img" src={icons.i3} alt="i-img" />
     </div>
     <h4 className="title">
-      Worldwide Connection
+    Global Connectivity
     </h4>
     <p className='description_p'>
-      Our free web hosting is powered by top...
+    Enjoy seamless, high-speed connections anywhere in the world with our robust hosting infrastructure.
     </p>
   </div>
 </div>
@@ -66,7 +66,7 @@ const ChooseUs = () => {
       24/7 Daily Backup
     </h4>
     <p className='description_p'>
-      Our free web hosting is powered by top...
+    Rest assured with daily backups to keep your data safe and secure, anytime.
     </p>
   </div>
 </div>
