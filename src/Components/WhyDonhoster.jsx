@@ -10,7 +10,10 @@ const WhyDonhoster = () => {
 
   return (
     <div className="principal__whydonhoster">
-        <img className="icon__whydondonhoster" src={icons.iconbanner} alt="" />
+        <img className="icon__whydondonhoster" src={icons.iconbanner} alt="donhoster data center" 
+        width="300"
+        height="100"
+        />
         <h2 className="title__why"><span className="color__why">¿Why</span> DonHoster?</h2>
         <section className="principal__info_why">
         <div className="first__section__info">
