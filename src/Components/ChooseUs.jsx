@@ -21,7 +21,8 @@ const ChooseUs = () => {
           <div className="choose-item">
             <div className="choose-inner">
               <div className="choose-thumb">
-                <img className="i-img" src={icons.i1} alt="i-img" />
+                <img className="i-img" src={icons.i1} alt="i-img" width="70"
+        height="65"/>
               </div>
               <h4 className="title">
               Blazing-Fast Performance
@@ -34,7 +35,8 @@ const ChooseUs = () => {
           <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i2} alt="i-img" />
+      <img className="i-img" src={icons.i2} alt="i-img" width="70"
+        height="65"/>
     </div>
     <h4 className="title">
     Unbeatable Security
@@ -47,7 +49,8 @@ const ChooseUs = () => {
 <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i3} alt="i-img" />
+      <img className="i-img" src={icons.i3} alt="i-img" width="70"
+        height="65"/>
     </div>
     <h4 className="title">
     Global Connectivity
@@ -60,7 +63,8 @@ const ChooseUs = () => {
 <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i4} alt="i-img" />
+      <img className="i-img" src={icons.i4} alt="i-img" width="70"
+        height="65"/>
     </div>
     <h4 className="title">
       24/7 Daily Backup

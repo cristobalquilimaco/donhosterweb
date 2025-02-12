@@ -5,14 +5,22 @@ const IconsSkill = () => {
   return (
     <div className="shared_icons">
 <ul className="principal_icons">
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_1} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_2} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_3} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_4} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_5} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_6} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_7} alt="" /></li>
-    <li className="client_i"><img className="client_icon" src={iconsClient.client_8} alt="" /></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_1} alt="client donhoster1" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_2} alt="client donhoster 2" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_3} alt="client donhoster 3" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_4} alt="client donhoster 4" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_5} alt="client donhoster 5" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_6} alt="client donhoster 6" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_7} alt="client donhoster 7" width="250"
+        height="70"/></li>
+    <li className="client_i"><img className="client_icon" src={iconsClient.client_8} alt="client donhoster 8" width="250"
+        height="70"/></li>
 </ul>
     </div>
   )

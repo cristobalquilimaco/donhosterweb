@@ -35,7 +35,8 @@ useScrollEffect(['.animatin'], 0.75)
                 <ul className="pricing-list">
                   {plan.features.map((feature, index) => (
                     <li key={index}>
-                      <img className="iconcheck" src={icons.check} alt="pricing-img" /> {feature}
+                      <img className="iconcheck" src={icons.check} alt="pricing-img" width="20"
+        height="20"/> {feature}
                     </li>
                   ))}
                 </ul>

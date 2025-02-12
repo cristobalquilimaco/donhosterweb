@@ -29,8 +29,8 @@
  
   @media (max-width: 768px) {
     .client_icon {
-      max-width: 250px;
-      width: 250px; 
+      width: 250px;
+      height: 70px; 
     }
   }
   

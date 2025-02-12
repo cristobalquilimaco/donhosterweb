@@ -19,7 +19,8 @@ const WhyDonhoster = () => {
         <div className="first__section__info">
   <article className="info__why__donhoster animatin">
     <div className="icon__border__info line__border1">
-      <img className="icon__info_why" src={icons.internetglobal} alt="" />
+      <img className="icon__info_why" src={icons.internetglobal} alt="" width="80"
+        height="80"/>
     </div>
     <div className="article__info_description">
       <h3 className="info__description">Infrastructure That Matters</h3>
@@ -31,7 +32,8 @@ const WhyDonhoster = () => {
 
   <article className="info__why__donhoster animatin_reverse">
     <div className="icon__border__info line__border2">
-      <img className="icon__info_why" src={icons.automation} alt="" />
+      <img className="icon__info_why" src={icons.automation} alt="donhoster automation datacenter miami" width="80"
+        height="80"/>
     </div>
     <div className="article__info_description">
       <h3 className="info__description">Automation On Your Terms</h3>
@@ -49,7 +51,8 @@ const WhyDonhoster = () => {
 <div className="first__section__info">
   <article className="info__why__donhoster info__why__reverse animatin">
     <div className="icon__border__info line__border3">
-      <img className="icon__info_why" src={icons.customized} alt="" />
+      <img className="icon__info_why" src={icons.customized} alt="donhoster security datacenter miami" width="80"
+        height="80"/>
     </div>
     <div className="article__info_description2">
       <h3 className="info__description text__info__reverse">Security You Can Trust</h3>
@@ -61,7 +64,8 @@ const WhyDonhoster = () => {
 
   <article className="info__why__donhoster info__why__reverse animatin_reverse">
     <div className="icon__border__info line__border4">
-      <img className="icon__info_why" src={icons.worldSuport} alt="" />
+      <img className="icon__info_why" src={icons.worldSuport} alt="donhoster expert suport miami" width="80"
+        height="80"/>
     </div>
     <div className="article__info_description2">
       <h3 className="info__description text__info__reverse">24/7 Expert Support</h3>
