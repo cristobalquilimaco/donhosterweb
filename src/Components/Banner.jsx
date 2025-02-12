@@ -17,9 +17,9 @@ const Banner = () => {
           className="img__banner__data"
           alt="Banner with data"
           width="100%"
-          height="400"
+          height="500"
           loading="lazy"  // Prioriza la carga de esta imagen
-          srcSet={`${images.bannerdataSmall} 480w, ${images.bannerdataMedium} 1024w, ${images.bannerdataLarge} 1920w`}
+          srcSet={images.bannerdata}
           sizes="(max-width: 480px) 480px, (max-width: 1024px) 1024px, 1920px"
           style={{ objectFit: 'cover' }}  // Asegura que la imagen no se distorsione
         />
@@ -41,8 +41,6 @@ const Banner = () => {
     </Link>
   </div>
 </div>
-
-
           <div className="col-xl-6 col-lg-6">
             <div
               className="banner-thumb wow fadeInRight"

@@ -11,14 +11,12 @@ useScrollEffect(['.animatin'], 0.75)
   return (
     <section className="pricing-section pt-120 pb-120">
       <div className="container">
-        <div className="section-header section-center">
-          <h1 className="section-title">
-            Our Plans
-          </h1>
-          <p>
-            Listed below our awesome hosting packages. You can select any dedicated server services below!
-          </p>
-        </div>
+      <div className="section-header section-center">
+  <h2 className="section-title">Miami Dedicated Server Plans</h2>
+    <p>
+      Explore our high-performance dedicated server hosting plans Miami. Choose the perfect solution for your business needs.
+    </p>
+</div>
         <div className="animatin row g-4 justify-content-center">
           {plans.map(plan => (
             <div key={plan.id} className="col-xl-3">

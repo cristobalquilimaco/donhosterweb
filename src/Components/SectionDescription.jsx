@@ -25,11 +25,13 @@ const SectionDescription = () => {
           <div className="col-lg-6">
             <div className="animate__1 hosting-content">
               <div className="section-header">
-                <h1 className="section-title">
-                  We Provide Dedicated server
-                </h1>
+                <h2 className="section-title">
+                Reliable Dedicated Servers for Business
+                </h2>
                 <p>
-                Whether you are in search of a dedicated server for your personal projects or you require a robust solution for your business needs, our dedicated server services are the perfect choice. We offer powerful and exclusively assigned servers that will not only boost the performance and efficiency of your web applications but will also give you the peace of mind of having a secure and high-performing infrastructure. With our dedicated servers, you ll gain complete control, security, and the capacity your business needs to expand without limitations
+                Whether you need a dedicated server for personal projects or a reliable solution for your business, we’ve got you covered.  
+  Our high-performance servers are designed to maximize efficiency, security, and scalability, ensuring seamless operation for your web applications.  
+  With exclusive resources, full control, and unmatched reliability, you can focus on growing your business without limitations.
                 </p>
                 <Link to="https://donhoster.com/dedicated-servers" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
   <button className="btn_learn_more">

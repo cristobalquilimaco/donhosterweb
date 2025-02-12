@@ -13,10 +13,10 @@ const Home = () => {
     <HelmetProvider>
       <div className="container__home">
         <Helmet>
-          <title>Top Dedicated Servers and VPS Hosting in Miami | DonHoster</title>
+          <title>Premium Dedicated Servers Miami | DonHoster</title>
           <meta
             name="description"
-            content="Discover the best dedicated servers and VPS hosting services in Miami with DonHoster. Enjoy superior performance, reliability, and 24/7 support tailored to your needs."
+            content="DonHoster provides high-performance dedicated server hosting Miami with reliable, scalable solutions tailored to your business."
           />
           <meta
             name="keywords"

@@ -68,6 +68,8 @@
 
 .btn_double{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -93,6 +95,13 @@
         top: 0;
         font-family: 'Rubik', sans-serif;
     }
-
-
+    .sidebar{
+        background-color: rgb(255, 255, 255);
+        backdrop-filter: blur(1px);
+      }
+      .navbar-toggler-icon{
+        color: red;
+      }
   }
+
+

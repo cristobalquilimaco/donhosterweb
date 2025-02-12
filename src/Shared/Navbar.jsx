@@ -1,11 +1,15 @@
 import "./Styles/Navbar.css";
 import images from "../Utils/images";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [collapsed, setCollapsed] = useState(true)
+
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-white m-0 p-0">
+      <div className="container-fluid sidebar p-2">
         <Link className="nav-link active" aria-current="page" to="/">
           <img 
             className="logo" 
@@ -16,18 +20,20 @@ const Navbar = () => {
           />
         </Link>
         <button 
-          className="navbar-toggler" 
+          className="navbar-toggler shadow-none border-0" 
           type="button" 
           data-bs-toggle="collapse" 
           data-bs-target="#navbarTogglerDemo02" 
           aria-controls="navbarTogglerDemo02" 
           aria-expanded="false" 
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
+          aria-label="Toggle navigation" onClick={()=>setCollapsed(!collapsed)}>
+        {
+          collapsed ? (<i className='icon_nav bx bx-menu'></i>) : (<i className='bx bx-x'></i>)
+        }
+          
         </button>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/">Home</Link>
             </li>
