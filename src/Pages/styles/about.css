@@ -79,7 +79,6 @@
         align-items: center;
         text-align: center;
         font-size: 23px;
-;
     }
 
     .about__p{
@@ -90,6 +89,4 @@
     .about__txt{
         width: 400px;
 }
-
-
 }

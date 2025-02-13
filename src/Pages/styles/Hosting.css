@@ -33,6 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .hosting__title__info{
@@ -48,6 +49,7 @@
 }
 
 .desc__hosting__text{
+    color: var(--color-letter-btn);
     width: 320px;
 }
 .img__project_hosting{
@@ -63,7 +65,9 @@
 .title__tool__host{
     font-size: 18px;
     font-weight: bold;
-    color: var(--color-btn);
+    color: var(--color-letter-btn);
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .pp__text__footer{
@@ -137,9 +141,9 @@
     }
 
     .img__project_hosting{
-        width: 400px;
+        width: 350px;
     }
-    .desc__tools{
+        .desc__tools{
         display: flex;
         flex-direction: column;
         gap: 1rem;

@@ -133,10 +133,10 @@ const Hosting = () => {
               ))}
             </div>
 
-            <section className="tools__hosting__description choose-section pt-120 pb-120">
-              <p className="hosting__title__info">
-                Tools for your projects
-              </p>
+            <section className="tools__hosting__description choose-section pt-120 pb-120 mt-5">
+              <h2 className="hosting__title__info">
+              cPanel Hosting Tools for Websites and Online Stores
+              </h2>
               <section className="section__hosting__info">
                 <div className="images__wp__hosting">
                   <img
@@ -153,16 +153,12 @@ const Hosting = () => {
                       alt="WordPress Logo"
                     />
                     <div className="desc__hosting__text">
-                      <p className="title__tool__host">
+                      <h3 className="title__tool__host">
                         WordPress, online store and more
-                      </p>
+                      </h3>
                       <p>
-                        Install a wide variety of applications such as
-                        Wordpress, Joomla, or Prestashop in 1 click so you can
-                        create your website or online store easily. In a few
-                        minutes, you can have your new project configured and
-                        ready to use.
-                      </p>
+            Install popular CMSs like WordPress, Joomla, or PrestaShop with a single click. Easily create your website or online store and get it up and running in minutes.
+          </p>
                     </div>
                   </div>
                   <div className="logo__hosting__des">
@@ -172,23 +168,18 @@ const Hosting = () => {
                       alt="Email Logo"
                     />
                     <div className="desc__hosting__text">
-                      <p className="title__tool__host">
-                        Professional email
-                      </p>
+                      <h3 className="title__tool__host">
+                      Professional Email Accounts
+                      </h3>
                       <p>
-                        Create personalized email accounts @yourname.com that
-                        you can configure in any email application. We also
-                        include a powerful web application that you can access
-                        from any browser.
-                      </p>
+            Set up custom email accounts with your domain (e.g., @yourcompany.com) and manage them through any email client. Access your email with our powerful web application from any browser.
+          </p>
                     </div>
                   </div>
                 </div>
               </section>
             </section>
-
             <ManagedHosting />
-
             <section className="section__skill">
               <p className="features">The Best Features At The Best Price!</p>
               <div className="description_feat">
