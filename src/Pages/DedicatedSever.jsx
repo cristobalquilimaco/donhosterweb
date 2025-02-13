@@ -14,11 +14,11 @@ const DedicatedServer = () => {
     <HelmetProvider>
       <div>
         <Helmet>
-          <title>Miami Dedicated Server - Bare Metal Servers | DonHoster</title>
+          <title>Dedicated Server Hosting | DonHoster</title>
           <meta
-            name="description"
-            content="Discover high-performance dedicated servers in Miami with DonHoster. Enjoy exclusive physical servers and reliable connectivity."
-          />
+  name="description"
+  content="Get high-performance dedicated server hosting in Miami with DonHoster. Secure, scalable, and ultra-reliable connectivity."
+/>
           <meta name="keywords" content="dedicated servers, bare metal servers, dedicated hosting, Miami data center, high-performance servers, secure servers, business hosting solutions" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
