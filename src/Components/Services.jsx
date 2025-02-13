@@ -17,9 +17,9 @@ useScrollEffect(['.animatin'], 0.75)
       Explore our high-performance dedicated server hosting plans Miami. Choose the perfect solution for your business needs.
     </p>
 </div>
-        <div className=" animatin services-container">
+        <div className="animatin row g-4 justify-content-center">
           {plans.map(plan => (
-            <div key={plan.id} className="">
+            <div key={plan.id} className="col-xl-3">
               <div className="pricing-items">
                 <div className="pricing-header">
                   <h5 className="title_plan">

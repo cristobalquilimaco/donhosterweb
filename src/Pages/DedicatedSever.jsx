@@ -57,7 +57,7 @@ const DedicatedServer = () => {
           </script>
         </Helmet>
         <main className="about__box">
-          <h1 className="about__title">Dedicated Servers</h1>
+          <h1 className="about__title">Dedicated Server Hosting</h1>
           <h3 className="about__subtitle">
             Explore our exceptional hosting packages. Choose from our dedicated server services!
           </h3>
@@ -72,7 +72,8 @@ const DedicatedServer = () => {
         </main>
         <section className="pricing-section pt-120 pb-120">
           <div className="container">
-            <h2 className="section-title">Our Dedicated Server Plans</h2>
+          <h2 className="section-title">Miami Dedicated Server Hosting Plans</h2>
+<p>Choose a dedicated server plan that fits your needs. Enjoy top performance, security, and reliability with DonHoster.</p>
             <div className="row g-4 justify-content-center">
               {dedicatedServer.map(server => (
                 <article key={server.id} className="col-xl-3">
