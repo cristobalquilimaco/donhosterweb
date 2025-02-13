@@ -4,28 +4,38 @@ import "./styles/ChooseUs.css"
 
 const ManagedHosting = () => {
   return (
-    <div className="principal__managed__hosting">
-        <div className="title__managed__hosting">
-            <p className="p__tt title__text__hosting">Servers managed by our technicians</p>
-            <p className="p__tt description__hosting__skill">Our team of system administrators is in charge of monitoring and updating the servers located in Spain so that your website and email are always available. Forget about technical details and focus on your project.</p>
-        </div>
-        <div className="cards__monitorings">
-            <div className="card__monitoring">
-                <div className="monitorin__img">
-                <img className="img__monitoring" src={images.monitoring} alt="" />
-                </div>
-                <p className="info__tt">24/7 monitoring</p>
-                <p className="desc__pp__tt">We have professionals who are in charge of monitoring all web servers, databases and email servers 24 hours a day, 7 days a week to prevent any incident and ensure the availability of your hosting service, one less thing. to worry.</p>
-            </div>
-            <div className="card__monitoring">
-            <div className="monitorin__img">
-                <img className="img__monitoring" src={images.backup} alt="" />
-                </div>
-                <p className="info__tt">Data protection and daily backups</p>
-                <p className="desc__pp__tt">All of our hard drives are mirrored. In the event of a physical problem in one of them, your website will continue to function normally. We also make daily and weekly backups external to the server where your website is hosted. Thanks to this we will be able to recover your information in case you make a data loss error..</p>
-            </div>
-        </div>
+<div className="principal__managed__hosting">
+  <div className="title__managed__hosting">
+    <p className="p__tt title__text__hosting">
+      Managed Servers by Expert Technicians
+    </p>
+    <p className="p__tt description__hosting__skill">
+      Our team of system administrators ensures your hosting is always secure and running smoothly. With our <a href="https://www.donhoster.com/hosting" target="_blank" rel="noopener noreferrer"><strong>Managed cPanel Hosting</strong></a>, your website and email will stay available, so you can focus on your business.
+    </p>
+  </div>
+  <div className="cards__monitorings">
+    <div className="card__monitoring">
+      <div className="monitorin__img">
+        <img className="img__monitoring" src={images.monitoring} alt="24/7 server monitoring" />
+      </div>
+      <p className="info__tt">24/7 Server Monitoring</p>
+      <p className="desc__pp__tt">
+        Our experts monitor your hosting, databases, and email services around the clock to prevent any incidents and ensure the availability of your service. Rest easy knowing your hosting is always in good hands.
+      </p>
     </div>
+    <div className="card__monitoring">
+      <div className="monitorin__img">
+        <img className="img__monitoring" src={images.backup} alt="Backup and data protection" />
+      </div>
+      <p className="info__tt">Data Protection & Daily Backups</p>
+      <p className="desc__pp__tt">
+        With mirrored hard drives and external daily and weekly backups, your website is protected from data loss. In case of issues, we can quickly restore your information. Trust us to keep your data safe.
+      </p>
+    </div>
+  </div>
+</div>
+
+
   )
 }
 
