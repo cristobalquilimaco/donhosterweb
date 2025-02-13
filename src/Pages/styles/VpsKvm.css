@@ -74,6 +74,10 @@
     max-width: 400px;
 }
 
+.desc-page-hosting{
+    margin-top: 8px;
+}
+
 .skill__icon{
     font-size:60px;
 }
@@ -95,7 +99,7 @@
 
 .about-vps-kvm-hosting{
     position: absolute;
-    top: 280px;
+    top: 290px;
     z-index: 2;
     font-size: 10px;
     font-weight: bold;
