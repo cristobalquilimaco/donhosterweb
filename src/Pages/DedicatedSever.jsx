@@ -23,8 +23,8 @@ const DedicatedServer = () => {
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
 
-          <meta property="og:title" content="Miami Dedicated Server - Bare Metal Servers | DonHoster" />
-          <meta property="og:description" content="High-performance dedicated servers in Miami tailored for your business needs." />
+          <meta property="og:title" content="Dedicated Server Hosting | DonHoster" />
+          <meta property="og:description" content="Get high-performance dedicated server hosting in Miami with DonHoster. Secure, scalable, and ultra-reliable connectivity." />
           <meta property="og:url" content="https://www.donhoster.com/dedicated-servers" />
           <meta property="og:image" content="https://donhoster.com/images/dedicated-servers-thumbnail.jpg" />
           <meta property="og:image:alt" content="High-Performance Dedicated Servers in Miami" />
@@ -72,8 +72,10 @@ const DedicatedServer = () => {
         </main>
         <section className="pricing-section pt-120 pb-120">
           <div className="container">
-          <h2 className="section-title">Miami Dedicated Server Hosting Plans</h2>
-<p>Choose a dedicated server plan that fits your needs. Enjoy top performance, security, and reliability with DonHoster.</p>
+            <div className="header-section-dedicated">
+            <h2 className="section-title">Miami Dedicated Server Hosting Plans</h2>
+<p>Explore our high-performance dedicated server plans in Miami. Secure, scalable, and built for ultimate reliability.</p>
+            </div>
             <div className="row g-4 justify-content-center">
               {dedicatedServer.map(server => (
                 <article key={server.id} className="col-xl-3">

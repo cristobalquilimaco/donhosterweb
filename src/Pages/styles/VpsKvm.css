@@ -5,6 +5,17 @@
     
 }
 
+
+.header-section-dedicated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: var(--color-letter-btn);
+}
+
 .section__skill{
     font-family: 'Rubik', sans-serif;
     color: var(--color-letter-btn);
@@ -72,5 +83,12 @@
 }
 
 .section-title{
-    color: white;
+    color: white; 
+    text-align: center;
 }
+
+.section-title, p{
+    color: white; 
+    text-align: center;
+}
+
