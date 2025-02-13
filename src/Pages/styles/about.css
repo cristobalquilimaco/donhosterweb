@@ -13,9 +13,10 @@
     top: 100px;
     z-index: 2;
 }
+
 .about__subtitle {
     position: absolute;
-    top: 150px;
+    top: 160px;
     z-index: 2;
     font-size: 10;
     line-height: 1.2;
@@ -38,9 +39,12 @@
 /**** img banner*****/
 .about__banner{
     width: 100%;
+    height: auto;
 }
+
+
 .about__banner img{
-    opacity: 0.4;
+    opacity: 0.2;
     height: 300px;
 }
 
@@ -74,6 +78,8 @@
         display: flex;
         align-items: center;
         text-align: center;
+        font-size: 23px;
+;
     }
 
     .about__p{

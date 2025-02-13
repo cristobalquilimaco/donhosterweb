@@ -12,89 +12,93 @@ const Hosting = () => {
 
   return (
     <HelmetProvider>
-      <div className="principal__hosting__infor">
-        <Helmet>
-          <title>Web Hosting with cPanel - DonHoster</title>
-          <meta
-            name="description"
-            content="Explore DonHoster's web hosting solutions with cPanel. Enjoy easy management of your websites with our reliable and scalable hosting plans. Perfect for personal and business use."
-          />
-          <meta
-            name="keywords"
-            content="web hosting, cPanel hosting, hosting with cPanel, reliable web hosting, scalable hosting plans, DonHoster hosting"
-          />
-          <meta name="robots" content="index, follow" />
-          <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
-          <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
-          <link rel="canonical" href="https://www.donhoster.com/hosting" />
-          <meta
-            property="og:title"
-            content="Web Hosting with cPanel - DonHoster"
-          />
-          <meta
-            property="og:description"
-            content="Explore DonHoster's web hosting solutions with cPanel. Enjoy easy management of your websites with our reliable and scalable hosting plans. Perfect for personal and business use."
-          />
-          <meta property="og:url" content="https://donhoster.com/hosting" />
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:image"
-            content="https://donhoster.com/images/web-hosting-cpanel-thumbnail.jpg"
-          />
-          <meta property="og:image:alt" content="Web Hosting with cPanel" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
-          {/* Schema Markup for SEO */}
-          <script type="application/ld+json">
-            {`
-              {
-                "@context": "https://schema.org",
-                "@type": "Product",
-                "name": "DonHoster Web Hosting",
-                "description": "Reliable and scalable web hosting with cPanel.",
-                "offers": {
-                  "@type": "Offer",
-                  "url": "https://donhoster.com/hosting",
-                  "priceCurrency": "USD",
-                  "price": "19.99",
-                  "availability": "https://schema.org/InStock"
-                }
-              }
-            `}
-          </script>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8HRCWRKGG"></script>
-          <script>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-E8HRCWRKGG');
-            `}
-          </script>
-        </Helmet>
+<Helmet> 
+  <title>Managed cPanel Hosting - DonHoster</title>
+  <meta
+    name="description"
+    content="Get secure and reliable Managed cPanel Hosting with DonHoster. Enjoy easy website management, high performance, and expert support."
+  />
+  <meta
+    name="keywords"
+    content="Managed cPanel Hosting, reliable hosting in Miami, cPanel hosting, scalable hosting, business web hosting"
+  />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
+  <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
+  <link rel="canonical" href="https://www.donhoster.com/hosting" />
+  
+  <meta property="og:title" content="Managed cPanel Hosting - DonHoster" />
+  <meta
+    property="og:description"
+    content="Get secure and reliable Managed cPanel Hosting with DonHoster. Enjoy easy website management, high performance, and expert support."
+  />
+  <meta property="og:url" content="https://donhoster.com/hosting" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content="https://donhoster.com/images/managed-cpanel-hosting.jpg"
+  />
+  <meta property="og:image:alt" content="Managed cPanel Hosting with DonHoster" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
+  {/* Schema Markup for SEO */}
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Managed cPanel Hosting - DonHoster",
+        "description": "Secure and reliable Managed cPanel Hosting for businesses and individuals. Enjoy high performance, 24/7 support, and easy website management.",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://donhoster.com/hosting",
+          "priceCurrency": "USD",
+          "price": "19.99",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    `}
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8HRCWRKGG"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-E8HRCWRKGG');
+    `}
+  </script>
+</Helmet>
+        <div className="principal__hosting__infor">
         <div className="about__box">
-          <h1 className="about__title">Web Hosting Cpanel</h1>
+          <h1 className="about__title">Managed cPanel Hosting</h1>
           <h2 className="about__subtitle">
-            Listed below are our awesome hosting packages. Select any
-            dedicated server services below!
+            Reliable, scalable, and easy to manage hosting with cPanel.
           </h2>
-          <div className="about__p">
+          <p className="desc-page-hosting">
+          Our <strong>Managed cPanel Hosting</strong> ensures high performance, security, and effortless website management, making it ideal for businesses and individuals alike.
+          </p>
+          <div className="about__p__hosting">
             <i className="bx bx-check" /> Cutting-edge hosting &nbsp;
             <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
             <i className="bx bx-check" /> Money back guarantee
           </div>
 
           <div className="about__banner">
-            <img
+            <img className="img-banner-hosting"
               src={images.bannerabout}
               alt="DonHoster Hosting Banner"
             />
           </div>
         </div>
-
-        <section className="pricing-section pt-120 pb-120">
-          <div className="container_hosting_plan">
+        <section className="pricing-section  mt-3">
+        <h2 className="section-title">Managed cPanel Hosting Plans</h2>
+        <p className="section-description">
+  Get reliable <strong>Managed cPanel Hosting</strong> with top performance. Choose your plan and manage everything easily with cPanel.
+</p>
+          <div className="container_hosting_plan mt-4">
             <div className="row g-4 justify-content-center">
               {hosting.map((server) => (
                 <div key={server.id} className="col__hosting">

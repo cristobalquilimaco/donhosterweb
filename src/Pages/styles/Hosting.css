@@ -14,11 +14,6 @@
     width: 100%;
 }
 
-.justify-content-center1{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
 
 .pricing-items{
     display: flex;
@@ -27,10 +22,11 @@
 .col__hosting{
     width: 350px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
 
 
 .section__hosting__info{
@@ -77,6 +73,38 @@
     padding-right:0.5rem ;
 }
 
+
+.desc-page-hosting{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    z-index: 2;
+    top: 220px;
+    line-height: 1.2;
+}
+
+.about__p__hosting{
+    position: absolute;
+    top: 320px;
+    z-index: 2;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-banner-hosting{
+    object-fit: cover;
+}
+
+.container_hosting_plan{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (width >= 700px) {
 
     .section__hosting__info{
@@ -89,8 +117,10 @@
     .col__hosting{
         width: 350px;
         display: flex;
-        margin-top: 4em;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 4em;
+
     }
 
     .hosting__title__info{
@@ -117,5 +147,22 @@
     .desc__hosting__text{
         width: 650px;
     }
+
+    .about__p__hosting{
+        position: absolute;
+        top: 250px;
+        z-index: 2;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .desc-page-hosting{
+        top: 200px;
+    }
+    
+
 }
 
