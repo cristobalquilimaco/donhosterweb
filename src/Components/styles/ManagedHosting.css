@@ -10,6 +10,9 @@
 
 .title__text__hosting{
     font-size: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 2px;
 }
 
 .p__tt{

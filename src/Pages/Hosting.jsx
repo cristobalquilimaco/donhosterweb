@@ -181,29 +181,16 @@ const Hosting = () => {
             </section>
             <ManagedHosting />
             <section className="section__skill">
-              <p className="features">The Best Features At The Best Price!</p>
-              <div className="description_feat">
-                <p className="title_feat">Start quickly and easily</p>
-                <p className="pp__text__footer">
-                  Security and Stability We guarantee stability and security
-                  in our servers with 99.9% uptime.
-                </p>
-                <p className="pp__text__footer">
-                  VPS hosting stands as a versatile solution nestled between
-                  traditional shared hosting and dedicated servers, offering a
-                  tailored balance of control and affordability. With a VPS,
-                  you command a dedicated portion of server resources,
-                  granting you the autonomy to install and configure software
-                  and applications to match your unique requirements. Entrust
-                  your web hosting needs to DonHoster. As your semi-dedicated
-                  service provider, our adept specialists will collaborate
-                  closely with you to identify the optimal hosting
-                  configuration, ensuring it aligns seamlessly with your
-                  website’s demands for performance, security, and
-                  scalability.
-                </p>
-              </div>
-
+            <h2 className="features">The Best Features at the Best Price</h2>
+<div className="description_feat">
+  <h3 className="title_feat">Get Started with Managed cPanel Hosting</h3>
+  <p className="pp__text__footer">
+  Managed cPanel Hosting with 99.9% uptime and top security.
+</p>
+  <p className="pp__text__footer">
+  With Managed cPanel Hosting, you get full control of your website while our experts manage the technical side. Perfect for blogs or growing businesses, our solutions provide flexibility, reliability, and security, letting you focus on your business without worrying about server maintenance.
+</p>
+</div>
               <div className="animatin features__skill">
                 <ul className="list__skill">
                   <li>

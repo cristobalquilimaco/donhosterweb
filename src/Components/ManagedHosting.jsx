@@ -6,9 +6,9 @@ const ManagedHosting = () => {
   return (
 <div className="principal__managed__hosting">
   <div className="title__managed__hosting">
-    <p className="p__tt title__text__hosting">
-      Managed Servers by Expert Technicians
-    </p>
+    <h2 className="p__tt title__text__hosting">
+    Reliable cPanel Hosting with Expert Support
+    </h2>
     <p className="p__tt description__hosting__skill">
       Our team of system administrators ensures your hosting is always secure and running smoothly. With our <a href="https://www.donhoster.com/hosting" target="_blank" rel="noopener noreferrer"><strong>Managed cPanel Hosting</strong></a>, your website and email will stay available, so you can focus on your business.
     </p>
