@@ -64,10 +64,10 @@ const DedicatedServer = () => {
         </Helmet>
         <main className="about__box">
           <h1 className="about__title">Dedicated Server Hosting</h1>
-          <h2 className="about__subtitle">
+          <p className="about__subtitle">
             Explore our exceptional hosting packages. Choose from our dedicated server services!
-          </h2>
-          <div className="about__p">
+          </p>
+          <div className="about__p_dedicated">
             <i className="bx bx-check" /> Total Control &nbsp;
             <i className="bx bx-check" /> 99.9% Uptime Guarantee &nbsp;
             <i className="bx bx-check" /> Support for Windows & Linux
