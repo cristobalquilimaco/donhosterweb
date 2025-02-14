@@ -55,7 +55,8 @@
 
 .logo{
     width: 200px;
-    height: auto;
+    height: 40px;
+    object-fit: contain;
 }
 
 

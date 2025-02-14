@@ -23,10 +23,9 @@ const DedicatedServer = () => {
           <meta name="keywords" content="dedicated servers, bare metal servers, dedicated hosting, Miami data center, high-performance servers, secure servers, business hosting solutions" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
-
           <meta property="og:title" content="Dedicated Server Hosting | DonHoster" />
           <meta property="og:description" content="Get high-performance dedicated server hosting in Miami with DonHoster. Secure, scalable, and ultra-reliable connectivity." />
-          <meta property="og:url" content="https://www.donhoster.com/dedicated-servers" />
+          <meta property="og:url" content="https://www.donhoster.com/dedicated-servers"/>
           <meta property="og:image" content="https://donhoster.com/images/dedicated-servers-thumbnail.jpg" />
           <meta property="og:image:alt" content="High-Performance Dedicated Servers in Miami" />
           <meta property="og:image:width" content="1200" />
@@ -48,7 +47,7 @@ const DedicatedServer = () => {
                 "@context": "https://schema.org",
                 "@type": "WebSite",
                 "name": "DonHoster",
-                "url": "https://www.donhoster.com",
+                "url": "https://www.donhoster.com/dedicated-servers",
                 "sameAs": [
                   "https://www.facebook.com/DonHoster",
                   "https://twitter.com/DonHoster"
@@ -59,9 +58,9 @@ const DedicatedServer = () => {
         </Helmet>
         <main className="about__box">
           <h1 className="about__title">Dedicated Server Hosting</h1>
-          <h3 className="about__subtitle">
+          <h2 className="about__subtitle">
             Explore our exceptional hosting packages. Choose from our dedicated server services!
-          </h3>
+          </h2>
           <div className="about__p">
             <i className="bx bx-check" /> Total Control &nbsp;
             <i className="bx bx-check" /> 99.9% Uptime Guarantee &nbsp;
@@ -75,7 +74,7 @@ const DedicatedServer = () => {
           <div className="container">
             <div className="header-section-dedicated">
             <h2 className="section-title">Miami Dedicated Server Hosting Plans</h2>
-<p>Explore our high-performance dedicated server plans in Miami. Secure, scalable, and built for ultimate reliability.</p>
+              <p>Explore our high-performance dedicated server plans in Miami. Secure, scalable, and built for ultimate reliability.</p>
             </div>
             <div className="row g-4 justify-content-center">
               {dedicatedServer.map(server => (

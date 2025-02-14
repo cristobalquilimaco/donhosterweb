@@ -21,12 +21,11 @@ const ChooseUs = () => {
           <div className="choose-item">
             <div className="choose-inner">
               <div className="choose-thumb">
-                <img className="i-img" src={icons.i1} alt="i-img" width="70"
-        height="65"/>
+                <img className="i-img" src={icons.i1} alt="i-img" width="68" height="68"/>
               </div>
-              <h4 className="title">
+              <h3 className="title">
               Blazing-Fast Performance
-              </h4>
+              </h3>
               <p className='description_p'>
               Experience 10x faster speeds with our top-tier dedicated servers.
               </p>
@@ -35,12 +34,11 @@ const ChooseUs = () => {
           <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i2} alt="i-img" width="70"
-        height="65"/>
+      <img className="i-img" src={icons.i2} alt="i-img" width="68" height="68"/>
     </div>
-    <h4 className="title">
+    <h3 className="title">
     Unbeatable Security
-    </h4>
+    </h3>
     <p className='description_p'>
     Protect your data with our high-level security protocols, powered by the latest technology.
     </p>
@@ -49,12 +47,11 @@ const ChooseUs = () => {
 <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i3} alt="i-img" width="70"
-        height="65"/>
+      <img className="i-img" src={icons.i3} alt="i-img" width="68" height="68"/>
     </div>
-    <h4 className="title">
+    <h3 className="title">
     Global Connectivity
-    </h4>
+    </h3>
     <p className='description_p'>
     Enjoy seamless, high-speed connections anywhere in the world with our robust hosting infrastructure.
     </p>
@@ -63,12 +60,11 @@ const ChooseUs = () => {
 <div className="choose-item">
   <div className="choose-inner">
     <div className="choose-thumb">
-      <img className="i-img" src={icons.i4} alt="i-img" width="70"
-        height="65"/>
+      <img className="i-img" src={icons.i4} alt="i-img" width="68" height="68"/>
     </div>
-    <h4 className="title">
+    <h3 className="title">
       24/7 Daily Backup
-    </h4>
+    </h3>
     <p className='description_p'>
     Rest assured with daily backups to keep your data safe and secure, anytime.
     </p>

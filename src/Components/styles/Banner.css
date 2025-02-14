@@ -16,25 +16,42 @@
 
   .container__banner1 {
     position: relative;
-    height: 450px;
+    margin-top: 100px;
+    height: 300px;
     width: 100%;
-    margin-top: 50px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  /* Imagen de fondo del banner con ajuste */
-.img__banner__data {
-    position: absolute;
-    z-index: 1;
-    height: 600px; /* Altura fija para evitar el Layout Shift */
-    width: 100%; /* Se asegura de ocupar todo el ancho disponible */
-    opacity: 0.1; /* Para mantener la imagen tenue en el fondo */
-    object-fit: cover; /* Mantiene la imagen proporcionada y cubriendo el área */
-    top: 0; /* Asegura que la imagen esté en la parte superior */
+  .banner-home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
   }
+
+  /* Imagen de fondo del banner con ajuste */
+  .img__banner__data {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%; /* Usa 100% para que ocupe el 100% del contenedor */
+    object-fit: cover;
+    opacity: 0.1;
+    top: 0; 
+    left: 0; /* Asegúrate de que se alinee al lado izquierdo */
+    bottom: 0; /* Para que ocupe el 100% de altura */
+    right: 0; /* Asegúrate de que se alinee al lado derecho */
+    margin: auto; /* Para centrar la imagen */
+    display: block; /* Cambia a block para quitar espacios innecesarios */
+  }
+  
   
   /* Animaciones de entrada */
   .fadeInDown, .fadeInRight 
@@ -65,8 +82,6 @@
 
   }
   
-
-
 .banner-content{
     position: relative;
     z-index: 2;
@@ -113,6 +128,7 @@
     font-size: 18px;
     line-height: 1.6;
     max-width: 600px;
+    text-align: left;
   }
   
   /* Imagen del servidor */
@@ -155,20 +171,21 @@
   /* Media Queries para dispositivos móviles */
   @media (max-width: 767px) {
     .container__banner1 {
+    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: auto;
     padding: 0;
     }
   
     /* Ajustes de imagen para dispositivos móviles */
     .img__banner__data {
-    width: 400px;
-    height: 400px;
-    object-fit: cover; 
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
     }
-  
+
     .img_banner {
       display: none;
     }

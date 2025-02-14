@@ -15,8 +15,8 @@ const Navbar = () => {
             className="logo" 
             src={images.logo} 
             alt="DonHoster logo" 
-            width="200" 
-            height="50"
+            width="200"
+            height="40"
             loading="lazy"
           />
         </Link>

@@ -22,9 +22,9 @@ useScrollEffect(['.animatin'], 0.75)
             <div key={plan.id} className="col-xl-3">
               <div className="pricing-items">
                 <div className="pricing-header">
-                  <h5 className="title_plan">
+                  <h3 className="title_plan">
                     {plan.name}
-                  </h5>
+                  </h3>
                   <p className='plan_description'>
                     {plan.description}
                   </p>
@@ -41,7 +41,7 @@ useScrollEffect(['.animatin'], 0.75)
                   ))}
                 </ul>
                 <a href={plan.url} className="cmn--btn">
-                  <button className='choice_plan-btn'>Choice Plan</button>
+                  <button className='btn__to__server'>Choice Plan</button>
                 </a>
               </div>
             </div>

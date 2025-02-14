@@ -17,7 +17,7 @@ const USAOutlineMap = () => {
         <img src={usaOutline} alt="USA Outline" className="usa-outline" />
     </div>
     <Link to="/data-center" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
-  <button className="btn_learn_more">
+  <button className="btn__to__server">
     Our Data Center 
   </button>
 </Link>

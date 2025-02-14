@@ -16,10 +16,15 @@ const SectionDescription = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="hosting-thumb">
-              <img className="img_host_big" src={images.hostbig} alt="dedicated server in miami" 
-              width="400" 
-              height="300"
-              />
+            <div className="img-container-host-big">
+  <img className="img_host_big" 
+       src={images.hostbig} 
+       alt="dedicated server in miami" 
+       width="400"   
+       height="300"  
+       loading="lazy" 
+  />
+</div>
               <div className="small-host">
                 <img className="img_host_small" src={images.hostsmall} alt="dedicated servers" />
               </div>
@@ -36,8 +41,8 @@ const SectionDescription = () => {
   Our high-performance servers are designed to maximize efficiency, security, and scalability, ensuring seamless operation for your web applications.  
   With exclusive resources, full control, and unmatched reliability, you can focus on growing your business without limitations.
                 </p>
-                <Link to="https://donhoster.com/dedicated-servers" className="cmn--btn" aria-label="Learn More about Dedicated Servers in Miami">
-  <button className="btn_learn_more">
+                <Link to="https://donhoster.com/dedicated-servers">
+  <button className="btn__to__server">
     Dedicated Server 
   </button>
 </Link>

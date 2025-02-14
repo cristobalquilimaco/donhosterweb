@@ -21,9 +21,9 @@
 }
 
 .i-img{
-    width: 70px;
-    height: 65px;
-    margin-bottom: 10px;
+    width: 68px;
+    height: 68px;
+    object-fit: contain;
 }
 
 .choose-inner{

@@ -13,6 +13,7 @@ import mapdatacenter from "../assets/img/map-dark.svg"
 import usamap from "../assets/img/USA-Map-PNG.webp"
 import managed from "../assets/img/managed.webp"
 import bannerdata from "../assets/img/bannerdata.webp"
+import bannerdataSmall from "../assets/img/bannerdataSmall.webp"
 import server1 from "../assets/img/server1.webp"
 import wordpresshosting from "../assets/img/worpresshosting.webp"
 import monitoring from "../assets/img/monitoring.webp"
@@ -40,7 +41,7 @@ const images = {
     wordpresshosting,
     monitoring,
     backup,
-
+    bannerdataSmall
 };
 
 export default images
