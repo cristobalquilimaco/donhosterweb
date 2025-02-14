@@ -55,6 +55,12 @@ const DedicatedServer = () => {
               }
             `}
           </script>
+          <link
+    rel="preload"
+    href={images.bannerabout}
+    as="image"
+    fetchpriority="high"
+  />
         </Helmet>
         <main className="about__box">
           <h1 className="about__title">Dedicated Server Hosting</h1>
@@ -67,7 +73,13 @@ const DedicatedServer = () => {
             <i className="bx bx-check" /> Support for Windows & Linux
           </div>
           <div className="about__banner">
-            <img src={images.bannerabout} alt="High-Performance Dedicated Server Banner" width="100%" height="auto" />
+          <img
+      src={images.bannerabout}
+      alt="High-Performance Dedicated Server Banner"
+      width={1200}  // Especifica el ancho exacto
+      height={630}  // Especifica el alto exacto
+      loading="eager"  // Carga la imagen inmediatamente
+    />
           </div>
         </main>
         <section className="pricing-section pt-120 pb-120">
