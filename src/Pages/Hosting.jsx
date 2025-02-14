@@ -100,8 +100,8 @@ const Hosting = () => {
         <p className="section-description">
   Get reliable <strong>Managed cPanel Hosting</strong> with top performance. Choose your plan and manage everything easily with cPanel.
 </p>
-          <div className="container_hosting_plan mt-4">
-            <div className="row g-4 justify-content-center">
+          <div className="container_hosting_plan mt-2">
+            <div className="container_plan-section justify-content-center">
               {hosting.map((server) => (
                 <div key={server.id} className="col__hosting">
                   <div className="pricing-items">

@@ -2,15 +2,18 @@ import cloudServer from "../Utils/cloudServer"
 import icons from "../Utils/icons"
 import images from "../Utils/images"
 import "../Pages/styles/Cloud.css"
+import "../Pages/styles/Hosting.css"
 import { Helmet, HelmetProvider } from "react-helmet-async"
+import FAQSection from "./components/dedicatedservers/FAQSection"
+import { cloudFaqs } from "../Utils/faqs/cloudFaqs"
 
 const Cloud = () => {
   return (
     <HelmetProvider>
       <div className="principal__cloud">
         <Helmet>
-          <title>Cloud Hosting - KVM Cloud Servers in Miami | DonHoster</title>
-          <meta name="description" content="Discover flexible and scalable KVM-based cloud hosting solutions in Miami with DonHoster. Our cloud servers come with Proxmox control panel, 99.9% uptime guarantee, and full support for both Windows and Linux operating systems." />
+          <title>Cloud Hosting Miami | DonHoster</title>
+          <meta name="description" content="Experience high-performance Cloud Hosting Miami with DonHoster. Enjoy scalable KVM cloud servers, 99.9% uptime, and full support for Windows & Linux, powered by Proxmox" />
           <meta name="keywords" content="cloud hosting, KVM cloud servers, Proxmox control panel, Miami cloud hosting, Windows cloud server, Linux cloud server, VPS hosting" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/cloud" />
@@ -56,9 +59,9 @@ const Cloud = () => {
         </Helmet>
 
         <div className="about__box">
-          <h1 className="about__title">Cloud Hosting</h1> 
-          <h3 className="about__subtitle">All the flexibility of Cloud technology in 4 simple sizes.</h3>
-          
+          <h1 className="about__title">Cloud Hosting Miami</h1> 
+          <h2 className="about__subtitle">Miami Cloud Hosting with Instant Deployment</h2>
+          <p className="desc-page-hosting">Scale your business with fast and reliable cloud hosting in Miami. Simple, secure, and built for growth</p>
           <div className="about__p">
             <i className="bx bx-check" /> VPS Proxmox Control Panel &nbsp;
             <i className="bx bx-check" /> 99.9% Availability Guarantee &nbsp;
@@ -73,9 +76,10 @@ const Cloud = () => {
         <section className="pricing-section pt-120 pb-120">
           <div className="container">
             <h2 className="section-title">Our Cloud Hosting Plans</h2>
-            <div className="row g-4 justify-content-center card_clud">
+            <p className="description-cloud">Optimize your online presence with fast and secure cloud hosting solutions in Miami.</p>
+            <div className="row g-4 justify-content-center">
               {cloudServer.map(cloud => (
-                <div key={cloud.id} className="col-xl-3 card_clud">
+                <div key={cloud.id} className="col-xl-3 card_cloud">
                   <div className="pricing-items">
                     <div className="pricing-header">
                       <h5 className="title_plan">{cloud.name} - Cloud Plan</h5>
@@ -104,11 +108,11 @@ const Cloud = () => {
             <section className="section__skill">
               <h2 className="features">The Best Features At The Best Price!</h2>
               <div className="description_feat">
-                <p className="title_feat">Start quickly and easily</p>
-                <p>We guarantee security and stability with 99.9% uptime. Cloud hosting presents an ideal solution, bridging the gap between traditional shared hosting and dedicated servers.</p>
-                <p>With cloud hosting, you gain access to scalable and flexible resources, allowing you to adjust capacity as needed. Choose DonHoster for high performance and reliability, with expert guidance in choosing the optimal configuration.</p>
-              </div>
-
+              <h3 className="title_feat">Launch Your Cloud Server with Ease</h3>
+<p>Enjoy secure and stable cloud hosting with a 99.9% uptime guarantee. The perfect balance between shared hosting and dedicated servers.</p>
+<p>Scale your resources as your needs grow. With DonHoster, you get high performance, flexibility, and expert support to help you choose the best setup.</p>
+</div>
+              <FAQSection faqs={cloudFaqs}/>
               <div className="features__skill">
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bxs-rocket"></i></li>

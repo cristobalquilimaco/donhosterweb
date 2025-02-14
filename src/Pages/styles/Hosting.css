@@ -6,12 +6,11 @@
     color: var(--color-letter-btn);
 }
 
-.container__hosting {
+.container_plan-section{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 0;
-    margin: 0;
-    width: 100%;
+    justify-content: center;
 }
 
 

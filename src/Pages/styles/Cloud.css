@@ -1,4 +1,32 @@
-.card_clud{
+.card_cloud{
     width: 400px;
     animation: moveBanner 1s ease-in-out;
+}
+
+.desc-page-hosting{
+    top: 230px;
+}
+
+.about__p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.description-cloud{
+    margin-top: -50px;
+}
+
+@media (width >= 600px) {
+    .desc-page-hosting{
+        top: 210px;
+    }
+    
+    .about__p{
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .description-cloud{
+        margin-top: -50px;
+    }
 }
