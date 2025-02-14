@@ -5,6 +5,12 @@
     
 }
 
+.container_vps_plan{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 .header-section-dedicated{
     display: flex;
@@ -108,7 +114,6 @@
 
 .bx-check{
     font-size: 20px;
-    
 }
 
 @media (width >= 600px) {
@@ -123,4 +128,12 @@
     .bx-check{
         margin-left: 30px;
     }
+
+    .container_vps_plan{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }

@@ -6,6 +6,7 @@ import useScrollEffect from "../hooks/useScrollEffect";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import "../Pages/styles/vpsKvm.css";
 import FAQSection from "./components/dedicatedservers/FAQSection";
+import { dedicatedServerFaqs} from '../Utils/faqs/dedicatedServersFaq';
 
 const DedicatedServer = () => {
   useScrollEffect(['.animatin'], 0.95);
@@ -109,7 +110,7 @@ const DedicatedServer = () => {
                   Dedicated server hosting provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
                 </p>
               </div>
-              <FAQSection />
+              <FAQSection faqs={dedicatedServerFaqs}/>
               <div className="animatin features__skill">
                 <ul className="list__skill">
                   <li><i className="skill__icon bx bxs-rocket"></i></li>

@@ -4,6 +4,8 @@ import images from "../Utils/images"
 import "../Pages/styles/VpsKvm.css"
 import "../Pages/styles/Hosting.css"
 import { Helmet, HelmetProvider } from "react-helmet-async"
+import FAQSection from "./components/dedicatedservers/FAQSection"
+import { vpsKvmFaqs } from "../Utils/faqs/vpsFaqs"
 
 const VpsKvm = () => {
   return (
@@ -73,11 +75,10 @@ const VpsKvm = () => {
 </div>
 
 <section className="pricing-section pt-110 pb-120">
-  <div className="container">
-    <h2 className="section-title">Our VPS KVM Plans</h2> 
-    {/* Mejora en la semántica y jerarquía del título */}
-
-    <div className="row g-4 justify-content-center">
+<h2 className="section-title mt-4">VPS KVM Hosting Plans</h2>
+<p className="section-description">Power up your website with our VPS KVM hosting plans. Speed, security, and flexibility, all in one place.</p> 
+  <div className="container container_vps_plan mt-4">
+    <div className="row g-3 justify-content-center mb-5">
       {vpsKvm.map(vps => (
         <div key={vps.id} className="col-xl-3">
           <div className="pricing-items">
@@ -106,18 +107,14 @@ const VpsKvm = () => {
         </div>
       ))}
     </div>
-
-    <section className="section__skill">
-      <h2 className="features">The Best Features At The Best Price!</h2> 
-      {/* Cambié a h2 para una jerarquía semántica correcta */}
       
-      <div className="description_feat">
-        <p className="title_feat">Start Quickly and Easily</p>
-        <p>We guarantee security and stability with 99.9% uptime. VPS hosting offers a reliable solution between shared hosting and dedicated servers, providing you with a dedicated portion of server resources.</p>
-        <p>With VPS, you gain full control over your virtual environment. DonHoster ensures high performance and reliability for your online projects with expert guidance in selecting the optimal configuration tailored to your needs.</p> 
-        {/* Mejora del contenido para mayor claridad y optimización SEO */}
-      </div>
-
+    <section className="section__skill">
+    <h2 className="features">The Best Features At The Best Price!</h2> 
+<div className="description_feat">
+  <h3 className="title_feat">Powerful, Secure, and Hassle-Free</h3>
+  <p>Enjoy 99.9% uptime with top-tier security and stability. Our VPS KVM hosting gives you dedicated resources, ensuring fast performance and reliability—perfect for growing websites and businesses.</p>
+</div>
+<FAQSection faqs={vpsKvmFaqs}/>
       <div className="features__skill">
         <ul className="list__skill">
           <li><i className="skill__icon bx bxs-rocket"></i></li>
@@ -137,9 +134,9 @@ const VpsKvm = () => {
         </ul>
       </div>
     </section>
+    
   </div>
 </section>
-
     </div>
     </HelmetProvider>
 

@@ -61,7 +61,7 @@
 }
 
 .card__monitoring{
-    max-width: 650px;
+    max-width: 620px;
     display: flex;
     flex-direction: column;
     align-items: center;

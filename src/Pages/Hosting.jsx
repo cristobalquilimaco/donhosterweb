@@ -6,6 +6,8 @@ import "../Components/styles/Services.css";
 import useScrollEffect from "../hooks/useScrollEffect";
 import "../Pages/styles/Hosting.css";
 import ManagedHosting from "../Components/ManagedHosting";
+import FAQSection from "./components/dedicatedservers/FAQSection";
+import { managedHostingFaqs } from "../Utils/faqs/hostingFaqs";
 
 const Hosting = () => {
   useScrollEffect(['.animatin'], 0.95);
@@ -180,7 +182,7 @@ const Hosting = () => {
               </section>
             </section>
             <ManagedHosting />
-            <section className="section__skill">
+            <section className="container section__skill">
             <h2 className="features">The Best Features at the Best Price</h2>
 <div className="description_feat">
   <h3 className="title_feat">Get Started with Managed cPanel Hosting</h3>
@@ -191,6 +193,7 @@ const Hosting = () => {
   With Managed cPanel Hosting, you get full control of your website while our experts manage the technical side. Perfect for blogs or growing businesses, our solutions provide flexibility, reliability, and security, letting you focus on your business without worrying about server maintenance.
 </p>
 </div>
+              <FAQSection faqs={managedHostingFaqs}/>
               <div className="animatin features__skill">
                 <ul className="list__skill">
                   <li>
