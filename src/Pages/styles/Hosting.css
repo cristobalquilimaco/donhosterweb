@@ -108,6 +108,10 @@
     justify-content: center;
 }
 
+.back-link{
+    font-weight: bold;
+}
+
 @media (width >= 700px) {
 
     .section__hosting__info{

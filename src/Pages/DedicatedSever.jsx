@@ -4,7 +4,6 @@ import images from "../Utils/images";
 import "../Pages/styles/about.css";
 import useScrollEffect from "../hooks/useScrollEffect";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import "../Pages/styles/vpsKvm.css";
 import FAQSection from "./components/dedicatedservers/FAQSection";
 import { dedicatedServerFaqs} from '../Utils/faqs/dedicatedServersFaq';
 
@@ -16,10 +15,11 @@ const DedicatedServer = () => {
       <div>
         <Helmet>
           <title>Dedicated Server Hosting | DonHoster</title>
-          <meta
-  name="description"
-  content="Get high-performance dedicated server hosting in Miami with DonHoster. Secure, scalable, and ultra-reliable connectivity."
+          <meta 
+  name="description" 
+  content="Get the best dedicated server hosting in the USA. Affordable, secure, and high-performance hosting servers with 99.9% uptime."
 />
+
           <meta name="keywords" content="dedicated servers, bare metal servers, dedicated hosting, Miami data center, high-performance servers, secure servers, business hosting solutions" />
           <meta name="robots" content="index, follow" />
           <link rel="canonical" href="https://www.donhoster.com/dedicated-servers" />
@@ -63,15 +63,14 @@ const DedicatedServer = () => {
   />
         </Helmet>
         <main className="about__box">
-          <h1 className="about__title">Dedicated Server Hosting</h1>
-          <p className="about__subtitle">
-            Explore our exceptional hosting packages. Choose from our dedicated server services!
+         <h1 className="about__title">Best Dedicated Server Hosting</h1>
+<h2 className="about__subtitle">
+  Secure, fast, and affordable dedicated servers USA.
+</h2>
+          <p className="about__p_dedicated-principal">
+          Get a <strong>cheap dedicated server</strong> with high performance and full control.  
+          Our <strong>dedicated servers USA</strong> offer speed, security, and 99.9% uptime. 
           </p>
-          <div className="about__p_dedicated">
-            <i className="bx bx-check" /> Total Control &nbsp;
-            <i className="bx bx-check" /> 99.9% Uptime Guarantee &nbsp;
-            <i className="bx bx-check" /> Support for Windows & Linux
-          </div>
           <div className="about__banner">
           <img
       src={images.bannerabout}
@@ -85,8 +84,10 @@ const DedicatedServer = () => {
         <section className="pricing-section pt-120 pb-120">
           <div className="container">
             <div className="header-section-dedicated">
-            <h2 className="section-title">Miami Dedicated Server Hosting Plans</h2>
-              <p>Explore our high-performance dedicated server plans in Miami. Secure, scalable, and built for ultimate reliability.</p>
+            <h2 className="section-title">Cheap Dedicated Server hosting Plans</h2>
+            <p>
+              Choose high-performance <strong>dedicated servers USA</strong> with unmatched reliability.  
+            </p>
             </div>
             <div className="row g-4 justify-content-center">
               {dedicatedServer.map(server => (
@@ -118,9 +119,8 @@ const DedicatedServer = () => {
                 <p className="title_feat">Get Started Quickly and Easily</p>
                 <p>We guarantee security and stability with a 99.9% uptime.</p>
                 <p>
-  <a href="https://www.donhoster.com/dedicated-servers">Dedicated server hosting</a> provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
-</p>
-
+                  <a className="back-link" href="https://www.donhoster.com/dedicated-servers">Dedicated server hosting</a> provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
+                </p>
               </div>
               <FAQSection faqs={dedicatedServerFaqs}/>
               <div className="animatin features__skill">
