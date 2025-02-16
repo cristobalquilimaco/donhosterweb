@@ -37,10 +37,10 @@ const SectionDescription = () => {
                 Reliable Dedicated Servers for Business
                 </h2>
                 <p>
-                Whether you need a dedicated server for personal projects or a reliable solution for your business, we’ve got you covered.  
-  Our high-performance servers are designed to maximize efficiency, security, and scalability, ensuring seamless operation for your web applications.  
-  With exclusive resources, full control, and unmatched reliability, you can focus on growing your business without limitations.
-                </p>
+  With <a href="https://www.donhoster.com/">Dedicated Server Miami</a>, you get high-performance hosting with full control, security, and reliability. Our dedicated servers ensure maximum uptime and flexibility, making them ideal for businesses that require stable and powerful infrastructure. Choose DonHoster for seamless hosting solutions tailored to your needs.
+</p>
+
+
                 <Link to="https://donhoster.com/dedicated-servers">
   <button className="btn__to__server">
     Dedicated Server 
