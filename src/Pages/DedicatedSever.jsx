@@ -118,8 +118,9 @@ const DedicatedServer = () => {
                 <p className="title_feat">Get Started Quickly and Easily</p>
                 <p>We guarantee security and stability with a 99.9% uptime.</p>
                 <p>
-                  Dedicated server hosting provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
-                </p>
+  <a href="https://www.donhoster.com/dedicated-servers">Dedicated server hosting</a> provides unparalleled control and resources for your online ventures. With a dedicated server, you have exclusive access to an entire server, ensuring optimal performance. Choose DonHoster for reliability and performance.
+</p>
+
               </div>
               <FAQSection faqs={dedicatedServerFaqs}/>
               <div className="animatin features__skill">
