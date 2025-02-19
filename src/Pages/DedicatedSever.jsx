@@ -106,8 +106,8 @@ const DedicatedServer = () => {
                         </li>
                       ))}
                     </ul>
-                    <a href={server.url} aria-label={`Choose ${server.name} Plan`}>
-                      <button className="choice_plan-btn">Choose Plan</button>
+                    <a className="cmn--btn" href={server.url} aria-label={`Choose ${server.name} Plan`}>
+                      <button className="btn__to__server">Choose Plan</button>
                     </a>
                   </div>
                 </article>

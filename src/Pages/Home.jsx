@@ -87,7 +87,6 @@ const Home = () => {
         `}
         sizes="(max-width: 400px) 400px, (max-width: 1024px) 100vw, 1920px"
         style={{ objectFit: 'cover', width: '100%', height: 'auto' }}
-        fetchpriority="high"
       />
       
       <div className="row align-items-center">
