@@ -125,8 +125,8 @@ const Hosting = () => {
                         </li>
                       ))}
                     </ul>
-                    <a href={server.url}>
-                      <button className="choice_plan-btn">
+                    <a className="cmn--btn" href={server.url}>
+                      <button className="btn__to__server">
                         Choose Plan
                       </button>
                     </a>
