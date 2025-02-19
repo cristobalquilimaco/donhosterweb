@@ -33,6 +33,8 @@ const DedicatedServer = () => {
           <meta name="google-site-verification" content="google94b194ab78fb2b51.html" />
           <meta name="ahrefs-site-verification" content="b1b407b17742f4b1f2511abaa6ef60a204af93779773732963c4500166c3efaa" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-E8HRCWRKGG"></script>
+          <link rel="preload" as="image" href="/src/assets/img/banner-about.webp"/>
+
           <script>
             {`
               window.dataLayer = window.dataLayer || [];
@@ -73,12 +75,13 @@ const DedicatedServer = () => {
           </p>
           <div className="about__banner">
           <img
-      src={images.bannerabout}
-      alt="High-Performance Dedicated Server Banner"
-      width={1200}  // Especifica el ancho exacto
-      height={300}  // Especifica el alto exacto
-      loading="eager"  // Carga la imagen inmediatamente
-    />
+   src={images.bannerabout}
+   alt="High-Performance Dedicated Server Banner"
+   width={1200}
+   height={300}
+   loading="lazy"
+ />
+
           </div>
         </main>
         <section className="pricing-section pt-120 pb-120">
