@@ -20,7 +20,7 @@ const FAQSection = ({ faqs }) => {
           >
             <div className="question_and_sig" onClick={() => toggleFAQ(index)}>
               <div className='question_principal'>
-              <h4 className='question'>{faq.question}</h4>
+              <h3 className='question'>{faq.question}</h3>
               <div className="toggle-sign">{openIndex === index ? '-' : '+'}</div>
               </div>
             </div>
