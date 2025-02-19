@@ -106,7 +106,7 @@ const Hosting = () => {
                 <div key={server.id} className="col__hosting">
                   <div className="pricing-items">
                     <div className="pricing-header">
-                      <h5 className="title_plan">{server.name}</h5>
+                      <h3 className="title_plan">{server.name}</h3>
                     </div>
                     <div className="price">
                       <h3 className="plan_price">

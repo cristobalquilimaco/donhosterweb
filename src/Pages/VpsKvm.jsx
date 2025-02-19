@@ -83,9 +83,9 @@ const VpsKvm = () => {
         <div key={vps.id} className="col-xl-3">
           <div className="pricing-items">
             <div className="pricing-header">
-              <h5 className="title_plan">
+              <h3 className="title_plan">
                 {vps.name} - VPS Plan {/* Título más claro para SEO */}
-              </h5>
+              </h3>
             </div>
             <div className="price">
               <h3 className="plan_price">{vps.price} <span>/mo</span></h3>
@@ -99,7 +99,7 @@ const VpsKvm = () => {
               ))}
             </ul>
             <a href={vps.url} className="cmn--btn">
-              <button className="choice_plan-btn" aria-label={`Choose ${vps.name} Plan`}>
+              <button className="btn__to__server" aria-label={`Choose ${vps.name} Plan`}>
                 Choose Plan {/* Agregado aria-label para accesibilidad */}
               </button>
             </a>
