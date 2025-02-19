@@ -67,6 +67,8 @@
     
 }
 
+
+
 .navbar-nav{
     display: flex;
     gap: 1rem;
@@ -106,11 +108,10 @@
     }
     .sidebar{
         background-color: rgb(255, 255, 255);
-        backdrop-filter: blur(1px);
+        backdrop-filter: blur(10px);
       }
-      .navbar-toggler-icon{
-        color: red;
-      }
+
+  
   }
 
 

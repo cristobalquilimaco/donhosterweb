@@ -17,7 +17,7 @@ const DedicatedServer = () => {
           <title>Dedicated Server Hosting | DonHoster</title>
           <meta 
   name="description" 
-  content="Get the best dedicated server hosting in the USA. Affordable, secure, and high-performance hosting servers with 99.9% uptime."
+  content="Get the best Miami dedicated server hosting. Affordable, secure, and high-performance hosting servers with 99.9% uptime."
 />
 
           <meta name="keywords" content="dedicated servers, bare metal servers, dedicated hosting, Miami data center, high-performance servers, secure servers, business hosting solutions" />
@@ -69,7 +69,7 @@ const DedicatedServer = () => {
 </h2>
           <p className="about__p_dedicated-principal">
           Get a <strong>cheap dedicated server</strong> with high performance and full control.  
-          Our <strong>dedicated servers USA</strong> offer speed, security, and 99.9% uptime. 
+          Our <strong>miami dedicated server</strong> offer speed, security, and 99.9% uptime. 
           </p>
           <div className="about__banner">
           <img
@@ -86,7 +86,7 @@ const DedicatedServer = () => {
             <div className="header-section-dedicated">
             <h2 className="section-title">Cheap Dedicated Server hosting Plans</h2>
             <p>
-              Choose high-performance <strong>dedicated servers USA</strong> with unmatched reliability.  
+              Choose high-performance <strong>miami dedicated server</strong> with unmatched reliability.  
             </p>
             </div>
             <div className="row g-4 justify-content-center">
@@ -94,10 +94,10 @@ const DedicatedServer = () => {
                 <article key={server.id} className="col-xl-3">
                   <div className="pricing-items">
                     <div className="pricing-header">
-                      <h5 className="title_plan">{server.name}</h5>
+                      <h3 className="title_plan">{server.name}</h3>
                     </div>
                     <div className="price">
-                      <h3 className="plan_price">{server.price} <span>/mo</span></h3>
+                      <h4 className="plan_price">{server.price} <span>/mo</span></h4>
                     </div>
                     <ul className="pricing-list">
                       {server.features.map((feature, index) => (

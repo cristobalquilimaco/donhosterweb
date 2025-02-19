@@ -31,19 +31,18 @@ const SectionDescription = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="animate__1 hosting-content">
+            <div className="animate__1">
               <div className="section-header">
-                <h2 className="section-title">
-                Reliable Dedicated Servers for Business
+                <h2 className="title-section-description">
+                Miami Dedicated Server
                 </h2>
                 <p>
-  With <a href="https://www.donhoster.com/">Dedicated Server Miami</a>, you get high-performance hosting with full control, security, and reliability. Our dedicated servers ensure maximum uptime and flexibility, making them ideal for businesses that require stable and powerful infrastructure. Choose DonHoster for seamless hosting solutions tailored to your needs.
+  With <a href="https://www.donhoster.com/">Dedicated Server Miami</a>, you get high-performance hosting with full control, security, and reliability. Our dedicated server ensure maximum uptime and flexibility, making them ideal for businesses that require stable and powerful infrastructure. Choose DonHoster for seamless hosting solutions tailored to your needs.
 </p>
-
 
                 <Link to="https://donhoster.com/dedicated-servers">
   <button className="btn__to__server">
-    Dedicated Server 
+    Miami Dedicated Server 
   </button>
 </Link>
               </div>
