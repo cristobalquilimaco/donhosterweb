@@ -76,7 +76,7 @@ const DedicatedServer = () => {
       src={images.bannerabout}
       alt="High-Performance Dedicated Server Banner"
       width={1200}  // Especifica el ancho exacto
-      height={630}  // Especifica el alto exacto
+      height={300}  // Especifica el alto exacto
       loading="eager"  // Carga la imagen inmediatamente
     />
           </div>
